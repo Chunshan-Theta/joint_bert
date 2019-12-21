@@ -1,0 +1,164 @@
+class00_f1 = 0.6341463414634146
+class00_precision = 0.5652173913043478
+class00_recall = 0.7222222222222222
+
+
+class01_f1 = 0.9444444444444444
+class01_precision = 0.8947368421052632
+class01_recall = 1.0
+
+
+class02_f1 = 0.9600000000000001
+class02_precision = 1.0
+class02_recall = 0.9230769230769231
+
+
+class03_f1 = 0.8408710217755445
+class03_precision = 0.7652439024390244
+class03_recall = 0.9330855018587361
+
+
+class04_f1 = 0.558139534883721
+class04_precision = 0.46153846153846156
+class04_recall = 0.7058823529411765
+
+
+class05_f1 = 0.8717948717948718
+class05_precision = 1.0
+class05_recall = 0.7727272727272727
+
+
+class06_f1 = 0.9885057471264368
+class06_precision = 0.9772727272727273
+class06_recall = 1.0
+
+
+class07_f1 = 0.7499999999999999
+class07_precision = 0.6
+class07_recall = 1.0
+
+
+class08_f1 = 0.972972972972973
+class08_precision = 0.9473684210526315
+class08_recall = 1.0
+
+
+class09_f1 = 0.8
+class09_precision = 0.7714285714285715
+class09_recall = 0.8307692307692308
+
+
+class10_f1 = 0.8536585365853657
+class10_precision = 0.7446808510638298
+class10_recall = 1.0
+
+
+class11_f1 = 0.9824561403508771
+class11_precision = 0.9655172413793104
+class11_recall = 1.0
+
+
+class12_f1 = 0.7999999999999999
+class12_precision = 0.7777777777777778
+class12_recall = 0.8235294117647058
+
+
+class13_f1 = 0.7567567567567567
+class13_precision = 0.7777777777777778
+class13_recall = 0.7368421052631579
+
+
+class14_f1 = 0.9473684210526316
+class14_precision = 1.0
+class14_recall = 0.9
+
+
+class15_f1 = 0.9247311827956989
+class15_precision = 0.8775510204081632
+class15_recall = 0.9772727272727273
+
+
+class16_f1 = 0.8041237113402062
+class16_precision = 0.8297872340425532
+class16_recall = 0.78
+
+
+class17_f1 = 0.9074074074074074
+class17_precision = 0.8305084745762712
+class17_recall = 1.0
+
+
+class18_f1 = 0.8695652173913044
+class18_precision = 1.0
+class18_recall = 0.7692307692307693
+
+
+class19_f1 = 0.909090909090909
+class19_precision = 0.8571428571428571
+class19_recall = 0.967741935483871
+
+
+class20_f1 = 0.9411764705882353
+class20_precision = 0.9411764705882353
+class20_recall = 0.9411764705882353
+
+
+class21_f1 = 1.0
+class21_precision = 1.0
+class21_recall = 1.0
+
+
+class22_f1 = 0.7999999999999999
+class22_precision = 0.75
+class22_recall = 0.8571428571428571
+
+
+class23_f1 = 0.9425287356321839
+class23_precision = 0.9761904761904762
+class23_recall = 0.9111111111111111
+
+
+class24_f1 = 0.825
+class24_precision = 0.717391304347826
+class24_recall = 0.9705882352941176
+
+
+class25_f1 = 0.9400000000000001
+class25_precision = 0.8867924528301887
+class25_recall = 1.0
+
+
+class26_f1 = 0.9690721649484536
+class26_precision = 0.94
+class26_recall = 1.0
+
+
+class27_f1 = 0.7118644067796611
+class27_precision = 0.9130434782608695
+class27_recall = 0.5833333333333334
+
+
+class28_f1 = 0.6542056074766355
+class28_precision = 0.7446808510638298
+class28_recall = 0.5833333333333334
+
+
+class29_f1 = 0.9777777777777777
+class29_precision = 0.9565217391304348
+class29_recall = 1.0
+
+
+class30_f1 = 0.75
+class30_precision = 0.84
+class30_recall = 0.6774193548387096
+
+
+class_intent_f1 = 0.8582755203171458
+class_intent_precision = 0.8316261203585147
+class_intent_recall = 0.8866894197952219
+
+
+slot_accuracy = 0.9749567623659633
+slot_f1 = 0.8981856267166586
+slot_precision = 0.9212813221018604
+slot_recall = 0.8775508948061814

@@ -1,0 +1,764 @@
+frame_O_X	intent OX	intent_label	intent_pred	sentence	slot_pred	slot_label	slot OX
+X	X	email website	app email website	[CLS]替我回复这封邮件。打开网页猫扑	[CLS] O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O	O
+X	X	lottery video	lottery	[CLS]查询大乐透的开奖公告。大耳朵图图二	[CLS] O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O	O
+O	O	chat map	chat map	[CLS]是我说话太直接了么。查询合肥市植物园的位置	[CLS] O O O O O O O O O O O O B-LOC I-LOC I-LOC I-LOC I-LOC I-LOC O O O	[CLS] O O O O O O O O O O O O B-LOC I-LOC I-LOC I-LOC I-LOC I-LOC O O O	O
+X	X	chat poetry	chat music	[CLS]我背一首生查子。。你咋没上幼儿园	[CLS] O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O	O
+X	X	chat cinemas	chat cinemas cookbook	[CLS]晚餐吃点什么呢。哦哦，最新的电影。	[CLS] O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O	O
+O	O	bus novel	bus novel	[CLS]搜一搜三毛的小说。在合肥怎么坐去南京的汽车	[CLS] O O O B-PER I-PER O O O O O B-LOC I-LOC O O O O B-LOC I-LOC O O O	[CLS] O O O B-PER I-PER O O O O O B-LOC I-LOC O O O O B-LOC I-LOC O O O	O
+O	O	epg flight	epg flight	[CLS]明天安徽卫视演什么。后天去大连的航班	[CLS] O O B-ORG I-ORG I-ORG I-ORG O O O O O O O B-LOC I-LOC O O O	[CLS] O O B-ORG I-ORG I-ORG I-ORG O O O O O O O B-LOC I-LOC O O O	O
+O	O	tvchannel video	tvchannel video	[CLS]江苏党校二套。张艺谋的甄嬛传	[CLS] B-ORG I-ORG I-ORG I-ORG O O O B-PER I-PER I-PER O O O O	[CLS] B-ORG I-ORG I-ORG I-ORG O O O B-PER I-PER I-PER O O O O	O
+O	O	flight health	flight health	[CLS]十月四号从广州到北京的飞机票多少钱。暴发性紫癜	[CLS] O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O O O	[CLS] O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O O O	O
+X	O	contacts flight	contacts flight	[CLS]把鱼苗的电话号码发给徐景明。七月三十一日上海虹桥到北京的航班	[CLS] O O O O O O O O O O B-PER I-PER I-PER O O O O O O O B-LOC I-LOC I-LOC I-LOC O B-LOC I-LOC O O O	[CLS] O O O O O O O O O O B-PER I-PER I-PER O O O O O O O B-LOC I-LOC B-LOC I-LOC O B-LOC I-LOC O O O	X
+O	O	music tvchannel	music tvchannel	[CLS]找深圳卫视。来点歌听听	[CLS] O B-ORG I-ORG I-ORG I-ORG O O O O O O	[CLS] O B-ORG I-ORG I-ORG I-ORG O O O O O O	O
+X	X	epg train	chat epg train	[CLS]北京青年频道谁在说。查询广州到北京的火车	[CLS] B-LOC I-LOC O O O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O	[CLS] B-LOC I-LOC O O O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O	O
+O	O	train	train	[CLS]帮我查下上海到合肥的火车。从广州到南昌的火车票时刻表	[CLS] O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O	[CLS] O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O	O
+O	O	chat tvchannel	chat tvchannel	[CLS]跳换到湖南卫视。你觉得我嫁的出去吗	[CLS] O O O B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O	[CLS] O O O B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O	O
+O	O	cookbook news	cookbook news	[CLS]t我要听新闻。。打豆浆剩下的豆渣怎样做，好吃？	[CLS] O O O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O O O O	O
+X	X	chat	chat map	[CLS]我们去爬山怎么样啊。车车美么	[CLS] O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O	O
+O	O	chat epg	chat epg	[CLS]江西卫视三天之后放一站到底么。提示什么	[CLS] B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O O O	[CLS] B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O O O	O
+X	X	music tvchannel	app chat music	[CLS]频道管理。放一首青花瓷哦哦	[CLS] O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O	O
+X	X	telephone video	cinemas telephone video	[CLS]最近新上映的电视剧。。呼叫王希	[CLS] O O O O O O O O O O O O O B-PER I-PER	[CLS] O O O O O O O O O O O O O B-PER I-PER	O
+O	O	chat news	chat news	[CLS]笨笨你爸比和帮主是什么关系。该我读新闻。	[CLS] O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O	O
+X	O	music translation	music translation	[CLS]我叫小沈阳这首歌。笑话用英语怎么说	[CLS] O O B-PER I-PER I-LOC O O O O O O O O O O O O	[CLS] O O O B-PER I-PER O O O O O O O O O O O O	X
+O	O	app music	app music	[CLS]开启qq。随便唱首歌。	[CLS] O O B-ORG I-ORG O O O O O O O	[CLS] O O B-ORG I-ORG O O O O O O O	O
+O	O	chat match	chat match	[CLS]广州恒大比赛比分。。你好能看懂表情吗呲牙	[CLS] B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O O O O	[CLS] B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O O O O	O
+O	O	chat telephone	chat telephone	[CLS]打电话给六六三。是啊你说的那几句话到底啥意思	[CLS] O O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O O O	O
+O	O	chat	chat	[CLS]你不是本人吗。什么曰子啊	[CLS] O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O	O
+O	O	chat lottery	chat lottery	[CLS]任意购买三张大乐透。可以帮买火车票吗	[CLS] O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O	O
+O	O	chat weather	chat weather	[CLS]下面有什么。明天天气怎样啊	[CLS] O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O	O
+X	X	stock video	stock	[CLS]九连股份今天股价。大耳朵图图获	[CLS] B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O	[CLS] B-ORG I-ORG I-ORG I-ORG O O O O O O O O B-PER I-PER O	X
+X	O	chat news	chat news	[CLS]占田你给我放一下最近的新闻。。这么傲娇	[CLS] O O O O O O O O O O O O O O O O O O O	[CLS] B-PER I-PER O O O O O O O O O O O O O O O O O	X
+X	O	chat news	chat news	[CLS]谁最聪明。占田你给我放一下最近的新闻。	[CLS] O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O B-PER I-PER O O O O O O O O O O O O	X
+X	X	chat epg	chat epg video	[CLS]我能把你教坏吗。动漫频道三天之后有开始播吸血鬼日记第四季呢	[CLS] O O O O O O O O O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O O O O O O O O O O	O
+O	O	chat cookbook	chat cookbook	[CLS]你咋知道我是老师?。帮我搜索一下红烧排骨。	[CLS] O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O O	O
+X	X	tvchannel video	news video	[CLS]三女休夫。cctv新闻	[CLS] O O O O O O O O O O O	[CLS] O O B-PER I-PER O B-ORG I-ORG I-ORG I-ORG O O	X
+X	X	datetime poetry	datetime poetry schedule	[CLS]那给我背静夜思。。现在的日期	[CLS] O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O	O
+X	X	cookbook epg	chat cookbook epg	[CLS]清蒸鱼怎么做？吴？。你知道现在广东卫视在演什么吗？	[CLS] O O O O O O O B-PER O O O O O O O B-ORG I-ORG I-ORG I-ORG O O O O O O	[CLS] O O O O O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG O O O O O O	X
+O	O	chat cookbook	chat cookbook	[CLS]酸辣藕丁的做法。。你能给我唱歌吗	[CLS] O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O	O
+O	O	chat news	chat news	[CLS]这么逗我好玩是不。么，哥来一下最新的新闻。	[CLS] O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O O	O
+O	O	chat schedule	chat schedule	[CLS]啊我要订票你怎么吟诗了。早晨8:10叫我。	[CLS] O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O O	O
+O	O	cookbook poetry	cookbook poetry	[CLS]童子鸡的做法。。给我背一首诗。	[CLS] O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O	O
+O	O	flight map	flight map	[CLS]玉照公园怎么走。上海到北京的飞机航班	[CLS] B-LOC I-LOC I-LOC I-LOC O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O	[CLS] B-LOC I-LOC I-LOC I-LOC O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O	O
+X	X	chat translation	cookbook translation weather	[CLS]今天的天气真是好用英语怎么说。喝哪种酒	[CLS] O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O	O
+O	O	epg telephone	epg telephone	[CLS]帮我搜下什么时间有演星跳水立方。拨打幺三七零九五二零八五八	[CLS] O O O O O O O O O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O O O O O O O O O O	O
+O	O	chat	chat	[CLS]车车美么。有答案了吗	[CLS] O O O O O O O O O O	[CLS] O O O O O O O O O O	O
+O	O	cookbook video	cookbook video	[CLS]讯飞语点请你搜索一下番茄炒蛋怎么做？。美国电影破碎之城	[CLS] O O O O O O O O O O O O O O O O O O O B-LOC I-LOC O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O B-LOC I-LOC O O O O O O	O
+O	O	chat music	chat music	[CLS]放一首青花瓷哦哦。笨笨家在哪	[CLS] O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O	O
+O	O	news train	news train	[CLS]查询广州到北京的火车。泰州新闻。	[CLS] O O B-LOC I-LOC O B-LOC I-LOC O O O O B-LOC I-LOC O O O	[CLS] O O B-LOC I-LOC O B-LOC I-LOC O O O O B-LOC I-LOC O O O	O
+X	X	epg radio	epg news radio	[CLS]调频fm九十七点七。回放昨晚的焦点访谈	[CLS] O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O	O
+O	O	chat flight	chat flight	[CLS]后天去大连的航班。怎么这么热受不了了	[CLS] O O O B-LOC I-LOC O O O O O O O O O O O O O	[CLS] O O O B-LOC I-LOC O O O O O O O O O O O O O	O
+X	X	chat stock	chat	[CLS]创元。我是不是好没用	[CLS] O O O O O O O O O O	[CLS] B-ORG I-ORG O O O O O O O O	X
+X	X	chat epg	chat video	[CLS]你是宇宙飞船吗。哪个频道有刘德华出演的电视剧	[CLS] O O O O O O O O O O O O O B-PER I-PER I-PER O O O O O O	[CLS] O O O O O O O O O O O O O B-PER I-PER I-PER O O O O O O	O
+X	X	calc map	app calc lottery map	[CLS]帮我查一下到狼牙山怎么走。0乘7	[CLS] O O O O O O B-LOC I-LOC I-LOC O O O O O O O	[CLS] O O O O O O B-LOC I-LOC I-LOC O O O O O O O	O
+X	O	cookbook telephone	cookbook telephone	[CLS]五梆瓜鸡蛋汤怎么做？。呼叫浦蒲	[CLS] O O O O O O O O O O O O O B-PER I-PER	[CLS] O O O O O O O O O O O O O B-ORG I-ORG	X
+X	X	weather	chat weather	[CLS]海南天气怎么样。龙岩市天气	[CLS] B-LOC I-LOC O O O O O O B-LOC I-LOC I-LOC O O	[CLS] B-LOC I-LOC O O O O O O B-LOC I-LOC I-LOC O O	O
+X	X	chat music	chat music poetry	[CLS]随便唱首歌。。你还会什么古诗	[CLS] O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O	O
+O	O	cookbook epg	cookbook epg	[CLS]湖南卫视现在演什么节目。打豆浆剩下的豆渣怎样做，好吃？	[CLS] B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O O O O O O O O O O O	[CLS] B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O O O O O O O O O O O	O
+O	O	lottery weather	lottery weather	[CLS]我想看一下温州的天气。查询大乐透的开奖公告	[CLS] O O O O O B-LOC I-LOC O O O O O O O O O O O O O O	[CLS] O O O O O B-LOC I-LOC O O O O O O O O O O O O O O	O
+O	O	chat	chat	[CLS]可以帮买火车票吗。谁告诉你的	[CLS] O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O	O
+X	O	cookbook music	cookbook music	[CLS]播放音乐月亮之上的。。周黑鸭怎么做？	[CLS] O O O O B-LOC I-LOC O O O O O O O O O O O O	[CLS] O O O O B-LOC I-LOC O O O O O B-PER I-PER I-PER O O O O	X
+O	O	cookbook poetry	cookbook poetry	[CLS]面包怎么做。唐代诗人李白。	[CLS] O O O O O O O O O O B-PER I-PER O	[CLS] O O O O O O O O O O B-PER I-PER O	O
+O	O	cookbook epg	cookbook epg	[CLS]查下最近1周有转播x女特工。用菜籽油做面包	[CLS] O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O O	O
+O	O	chat cinemas	chat cinemas	[CLS]你知道小黄鸡吗。离我最近的电影院。	[CLS] O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O	O
+O	O	stock translation	stock translation	[CLS]查寻三星股价。翻译光大银行	[CLS] O O B-ORG I-ORG O O O O O B-ORG I-ORG I-ORG I-ORG	[CLS] O O B-ORG I-ORG O O O O O B-ORG I-ORG I-ORG I-ORG	O
+O	O	chat poetry	chat poetry	[CLS]那草为啥会绿。来首纳兰性德的词。	[CLS] O O O O O O O O O B-PER I-PER I-PER I-PER O O O	[CLS] O O O O O O O O O B-PER I-PER I-PER I-PER O O O	O
+X	X	chat map	map	[CLS]从科大讯飞到天鹅湖怎么走能不走高速。聊这么	[CLS] O O O O O O B-LOC I-LOC I-LOC O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O O	X
+X	X	chat match	match	[CLS]中超比赛。。推荐几部呗	[CLS] B-ORG O O O O O O O O O O	[CLS] O O O O O O O O O O O	X
+O	O	chat	chat	[CLS]你是哪里的人啊。你能做点什么	[CLS] O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O	O
+O	O	translation weather	translation weather	[CLS]星期六的天气。小老虎用英语怎么讲	[CLS] O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O	O
+X	X	app video	message video	[CLS]开微信。第二梦	[CLS] O O O O O O O	[CLS] O O O O O O O	O
+X	X	cookbook video	cinemas cookbook news	[CLS]帮我看一下最近哪些电影是新上映的。。木瓜汤怎么做	[CLS] O O O O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O O O O O	O
+O	O	flight message	flight message	[CLS]发短信给王二白叫她明天过来玩。武汉到北京的飞机票	[CLS] O O O O B-PER I-PER I-PER O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O	[CLS] O O O O B-PER I-PER I-PER O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O	O
+X	X	contacts cookbook	contacts cookbook message telephone	[CLS]蛋黄焗薯条怎么做。把鱼苗的电话号码发给徐景明	[CLS] O O O O O O O O O O O O O O O O O O O B-PER I-PER I-PER	[CLS] O O O O O O O O O O O O O O O O O O O B-PER I-PER I-PER	O
+O	O	chat train	chat train	[CLS]对呀+你咋这么笨呢。连云港到徐州的火车票	[CLS] O O O O O O O O O O B-LOC I-LOC I-LOC O B-LOC I-LOC O O O O	[CLS] O O O O O O O O O O B-LOC I-LOC I-LOC O B-LOC I-LOC O O O O	O
+X	X	telephone video	app telephone video	[CLS]小c我想看北京青年。请拨幺幺零	[CLS] O O O O O B-LOC I-LOC O O O O O B-ORG I-ORG I-ORG	[CLS] B-PER I-PER O O O B-ORG I-ORG O O O O O O O O	X
+X	O	chat cookbook	chat cookbook	[CLS]这有什么厉害的。周黑鸭怎么做？	[CLS] O O O O O O O O O O O O O O O	[CLS] O O O O O O O O B-PER I-PER I-PER O O O O	X
+O	O	health radio	health radio	[CLS]调频幺零三点二。暴发性紫癜	[CLS] O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O	O
+O	O	chat news	chat news	[CLS]今日头条新闻。。哪里牛逼了	[CLS] O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O	O
+X	X	chat schedule	schedule	[CLS]设置明天8:10闹钟。。喝啥子哩	[CLS] O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O	O
+X	X	datetime tvchannel	datetime radio tvchannel	[CLS]查询距离12点25分还有多少分钟。北京二台高清	[CLS] O O O O O O O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG O O	[CLS] O O O O O O O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG O O	O
+X	X	datetime schedule	chat datetime schedule	[CLS]下午的日程是什么。日期植树节	[CLS] O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O	O
+X	O	app message	app message	[CLS]发短信给林晓云说我爱你。开启qq	[CLS] O O O O B-PER I-PER I-PER O O O O O O O B-ORG O	[CLS] O O O O B-PER I-PER I-PER O O O O O O O B-ORG I-ORG	X
+O	O	chat poetry	chat poetry	[CLS]这是哪年的事。朗诵一首李白的诗词。	[CLS] O O O O O O O O O O O B-PER I-PER O O O O	[CLS] O O O O O O O O O O O B-PER I-PER O O O O	O
+O	O	datetime poetry	datetime poetry	[CLS]念首唐诗吧！。明天是农历几号	[CLS] O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O	O
+X	X	poetry video	poetry	[CLS]我想看电影台北飘雪。背首杜甫的诗啊？	[CLS] O O O O O B-LOC I-LOC O O O O O B-PER I-PER O O O O	[CLS] O O O O O B-LOC I-LOC O O O O O B-PER I-PER O O O O	O
+O	O	chat tvchannel	chat tvchannel	[CLS]我要看云南二台。你咋知道我是老师?	[CLS] O O O B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O	[CLS] O O O B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O	O
+X	O	chat match	chat match	[CLS]宏大俱乐部赛程。。你的性格是什么	[CLS] B-ORG I-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O	X
+X	X	chat tvchannel	chat video	[CLS]卡酷少儿频道。你下蛋吗	[CLS] O O O O O O O O O O O	[CLS] O O O O O O O O O O O	O
+O	O	cookbook health	cookbook health	[CLS]内分泌失调了怎么调理？。蒜茄子怎么做？	[CLS] O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O	O
+O	O	chat cookbook	chat cookbook	[CLS]芒果西米露怎么做啊。干啥呢	[CLS] O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O	O
+X	O	app news	app news	[CLS]打开qq同步助手。现在有什么热点新闻？	[CLS] O O B-ORG O O O O O O O O O O O O O O O O	[CLS] O O B-ORG I-ORG O O O O O O O O O O O O O O O	X
+O	O	chat video	chat video	[CLS]可以教教吗?。电影十二生肖	[CLS] O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O	O
+X	O	chat message	chat message	[CLS]推荐几部呗。发送短信给老婆我在三号楼三零幺刚才那个教室关门了	[CLS] O O O O O O O O O O O O O O O B-LOC I-LOC I-LOC O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O B-LOC I-LOC I-LOC I-LOC I-LOC I-LOC O O O O O O O O O	X
+O	O	chat schedule	chat schedule	[CLS]设置闹钟。。你是白痴吗	[CLS] O O O O O O O O O O O	[CLS] O O O O O O O O O O O	O
+O	O	cookbook schedule	cookbook schedule	[CLS]红烧肉怎么煮啊。设置明天8:10闹钟。	[CLS] O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O	O
+X	X	email website	chat email	[CLS]帮我发邮件给婷婷。打开百度哇	[CLS] O O O O O O B-PER I-PER O O O O O O	[CLS] O O O O O O B-PER I-PER O O O O O O	O
+O	O	datetime translation	datetime translation	[CLS]日期植树节。虾的英文怎么说	[CLS] O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O	O
+X	X	chat schedule	schedule	[CLS]一分钟后叫我起床。。有房有车吗微笑	[CLS] O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O	O
+X	X	contacts message	contacts flight message	[CLS]给栾佳佳发短信说回到济南了。张培的电话号码是多少	[CLS] O B-PER I-PER I-PER O O O O O O B-LOC I-LOC O O B-PER I-PER O O O O O O O O	[CLS] O B-PER I-PER I-PER O O O O O O B-LOC I-LOC O O B-PER I-PER O O O O O O O O	O
+X	O	music	music	[CLS]来首出师表。播放音乐月亮之上的。	[CLS] O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O B-LOC I-LOC O O O O	X
+X	X	cookbook tvchannel	cookbook epg	[CLS]cctv-12套的节目单。鸡爪怎么炒？	[CLS] O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O	O
+O	O	chat translation	chat translation	[CLS]你曾爱过我吗用英语怎么说。你知道怎么拍照么	[CLS] O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O O	O
+O	O	schedule	schedule	[CLS]十五分钟之后叫我。。明天叫我8:10起床。	[CLS] O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O O	O
+X	X	news tvchannel	news video	[CLS]测试信号2。现在有什么热点新闻？	[CLS] O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O	O
+O	O	chat riddle	chat riddle	[CLS]说个谜语给我猜猜。。会lol吗	[CLS] O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O	O
+O	O	chat novel	chat novel	[CLS]我想看现在很流行的小说。怎么写	[CLS] O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O	O
+X	X	chat map	chat	[CLS]你在说啥啊。怎么去农业银行	[CLS] O O O O O O O O O B-ORG I-ORG I-ORG I-ORG	[CLS] O O O O O O O O O B-ORG I-ORG I-ORG I-ORG	O
+X	X	app chat	app chat website	[CLS]打开淘宝购物。我们去爬山怎么样啊	[CLS] O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O	O
+O	O	news poetry	news poetry	[CLS]哦，听新闻。。读首唐诗	[CLS] O O O O O O O O O O O	[CLS] O O O O O O O O O O O	O
+O	O	telephone video	telephone video	[CLS]给曹广义打电话。汽车总动员	[CLS] O B-PER I-PER I-PER O O O O O O O O O	[CLS] O B-PER I-PER I-PER O O O O O O O O O	O
+X	X	chat	chat news	[CLS]天才中有什么重大新闻。这么笨啊怪不得叫笨笨	[CLS] O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O O	O
+X	X	tvchannel video	cinemas epg video	[CLS]我想看中央十三频道。最近最热的电视剧	[CLS] O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O	O
+X	O	chat video	chat video	[CLS]你怎么变笨了。小c帮我搜一下断剑视频	[CLS] O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O I-PER O O O O O O O O O	X
+X	X	calc novel	calc	[CLS]9的2次方根的3次方。搜索极品天王	[CLS] O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O	O
+O	O	stock telephone	stock telephone	[CLS]查找科大讯飞股票的股价。拨打幺三七零九五二零八五八	[CLS] O O O O O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O O O O O O	O
+O	O	chat poetry	chat poetry	[CLS]说个李白的诗来听听。。摸啥	[CLS] O O B-PER I-PER O O O O O O O O O	[CLS] O O B-PER I-PER O O O O O O O O O	O
+O	O	chat cookbook	chat cookbook	[CLS]木瓜汤怎么做。怎么	[CLS] O O O O O O O O O	[CLS] O O O O O O O O O	O
+O	O	flight message	flight message	[CLS]明天去纽约的航班。。发条短信给杨桑	[CLS] O O O B-LOC I-LOC O O O O O O O O O O B-PER I-PER	[CLS] O O O B-LOC I-LOC O O O O O O O O O O B-PER I-PER	O
+X	X	cookbook health	chat cookbook health	[CLS]得了皮肤病怎么办？。素鸡	[CLS] O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O	O
+X	X	news schedule	news	[CLS]泰州新闻。。说到上海了提醒我一下	[CLS] B-LOC I-LOC O O O O O O B-LOC I-LOC O O O O O O	[CLS] B-LOC I-LOC O O O O O O B-LOC I-LOC O O O O O O	O
+O	O	news train	news train	[CLS]杭州到北京的火车班次。帮我查一查今天的新闻。	[CLS] B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O O O O O O O	[CLS] B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O O O O O O O	O
+O	O	epg video	epg video	[CLS]魔幻电影。湖北卫视今天下午六点以后开始播男生女生向前冲	[CLS] O O O O O B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O O O O O O	[CLS] O O O O O B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O O O O O O	O
+O	O	cookbook email	cookbook email	[CLS]萝卜炖排骨汤怎么做？。我要回复这个邮件	[CLS] O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O	O
+X	O	video	video	[CLS]美国电影敢死队二。电影十二生肖	[CLS] B-LOC I-LOC O O O O O O O O O O O O O	[CLS] B-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG O O O O O O O	X
+O	O	chat	chat	[CLS]哪里牛逼了。我是不是好没用	[CLS] O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O	O
+X	X	chat	chat poetry	[CLS]会lol吗。啊我要订票你怎么吟诗了	[CLS] O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O	O
+O	O	chat cookbook	chat cookbook	[CLS]怎么走爽了呢。土豆粉怎么做好吃？	[CLS] O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O	O
+X	X	video website	chat website	[CLS]打开江苏移动网上营业厅网页。蝎子王蝎子王	[CLS] O O B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O O	[CLS] O O B-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG O O O O O O O O O	X
+O	O	chat stock	chat stock	[CLS]你爱玩什么英雄。九连股份今天股价	[CLS] O O O O O O O O B-ORG I-ORG I-ORG I-ORG O O O O	[CLS] O O O O O O O O B-ORG I-ORG I-ORG I-ORG O O O O	O
+O	O	chat epg	chat epg	[CLS]什么鬼玩意。北京青年频道谁在说	[CLS] O O O O O O B-LOC I-LOC O O O O O O O	[CLS] O O O O O O B-LOC I-LOC O O O O O O O	O
+X	X	message video	chat message video	[CLS]智慧树我。写短信给颖村	[CLS] O O O O O O O O O B-PER I-PER	[CLS] O O O O O O O O O B-PER I-PER	O
+X	O	map	map	[CLS]怎么去农业银行。从济源市到河南省电信分公司怎么走	[CLS] O O O B-ORG I-ORG I-ORG I-ORG O O B-LOC I-LOC I-LOC O B-LOC I-LOC I-LOC I-LOC I-LOC I-LOC I-LOC I-LOC O O O	[CLS] O O O B-ORG I-ORG I-ORG I-ORG O O B-LOC I-LOC I-LOC O B-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG O O O	X
+O	O	stock train	stock train	[CLS]查寻轻舞风股票。查一下明天下午南通到南京的火车票	[CLS] O O O O O O O O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O	[CLS] O O O O O O O O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O	O
+X	X	chat epg	chat epg news	[CLS]回放昨晚的焦点访谈。最近有啥新鲜事阿	[CLS] O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O	O
+O	O	match poetry	match poetry	[CLS]唐代诗人李白。。中超赛事预告，你。	[CLS] O O O O B-PER I-PER O O B-ORG O O O O O O O O	[CLS] O O O O B-PER I-PER O O B-ORG O O O O O O O O	O
+O	O	news riddle	news riddle	[CLS]出一个谜语给我猜猜吧！。么，哥来一下最新的新闻。	[CLS] O O O O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O O O O O	O
+O	O	cookbook health	cookbook health	[CLS]嗯咯鸡爪怎么做的。。更年期综合症。	[CLS] O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O	O
+X	O	stock video	stock video	[CLS]查询下北京首创的股票。文艺片	[CLS] O O O B-LOC I-LOC I-ORG O O O O O O O O	[CLS] O O O B-LOC I-LOC O O O O O O O O O	X
+O	O	cookbook video	cookbook video	[CLS]不，做个红烧肉怎么做？。家有儿女第二部	[CLS] O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O	O
+O	O	chat tvchannel	chat tvchannel	[CLS]满意吗。我要看云南二台	[CLS] O O O O O O O B-ORG I-ORG I-ORG I-ORG	[CLS] O O O O O O O B-ORG I-ORG I-ORG I-ORG	O
+O	O	cookbook poetry	cookbook poetry	[CLS]素鸡。若相惜不弃下一句是什么？	[CLS] O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O	O
+O	O	chat message	chat message	[CLS]给李慧发个短信说我要回家。能发点其他的吗	[CLS] O B-PER I-PER O O O O O O O O O O O O O O O O O	[CLS] O B-PER I-PER O O O O O O O O O O O O O O O O O	O
+O	O	app flight	app flight	[CLS]百度浏览器打开。查下上海到太原的机票	[CLS] O O O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O	[CLS] O O O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O	O
+O	O	chat riddle	chat riddle	[CLS]你说谜语给我猜。。聊这么	[CLS] O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O	O
+O	O	map train	map train	[CLS]北京西站在哪。有没有徐州到洛阳的火车票	[CLS] B-LOC I-LOC I-LOC I-LOC O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O	[CLS] B-LOC I-LOC I-LOC I-LOC O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O	O
+X	X	chat music	chat video	[CLS]我想听星月神话。哪有小猫	[CLS] O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O	O
+O	O	message riddle	message riddle	[CLS]不辣，猜谜语。。发消息给周磊	[CLS] O O O O O O O O O O O O B-PER I-PER	[CLS] O O O O O O O O O O O O B-PER I-PER	O
+O	O	flight map	flight map	[CLS]阜阳到温州的航班。查查科大讯飞在哪儿	[CLS] B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O O O	[CLS] B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O O O	O
+O	O	cookbook train	cookbook train	[CLS]查一下从杭州到上海高铁时刻表。帮我搜索一下红烧排骨。	[CLS] O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O O O O O O O	[CLS] O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O O O O O O O	O
+O	O	chat health	chat health	[CLS]过敏性鼻炎怎么治疗。好有爱?	[CLS] O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O	O
+O	O	cookbook email	cookbook email	[CLS]酸菜鱼，怎么烧？。给我看新邮件	[CLS] O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O	O
+O	O	cookbook novel	cookbook novel	[CLS]胡萝卜怎么炒好吃？。我要看图文小说	[CLS] O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O	O
+O	O	cookbook telephone	cookbook telephone	[CLS]给爸爸打电话。木瓜汤怎么做	[CLS] O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O	O
+O	O	epg news	epg news	[CLS]查下安徽电视台今天节目单。今日头条新闻。	[CLS] O O B-ORG I-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O	[CLS] O O B-ORG I-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O	O
+X	X	chat epg	chat epg video	[CLS]今晚看什么电影？。哼谁是你亲爱的	[CLS] O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O	O
+O	O	chat riddle	chat riddle	[CLS]怎么教你记住东西。给我打个谜语，啊！	[CLS] O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O	O
+O	O	chat	chat	[CLS]你怎么就知道我不会呢？。做的还是不够好	[CLS] O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O	O
+O	O	chat match	chat match	[CLS]中超赛事预告，你。。怎么教你记住东西	[CLS] B-ORG O O O O O O O O O O O O O O O O O	[CLS] B-ORG O O O O O O O O O O O O O O O O O	O
+X	O	cinemas cookbook	cinemas cookbook	[CLS]我要查找雷迪波尔电影院最新上映的大片。蒜茄子怎么做？	[CLS] O O O O B-PER I-PER I-PER I-PER I-ORG I-ORG I-ORG O O O O O O O O O O O O O O O	[CLS] O O O O B-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O O O	X
+X	X	app weather	chat weather	[CLS]明天桂林天气如何。凯立德	[CLS] O O B-LOC I-LOC O O O O O B-PER I-PER I-PER	[CLS] O O B-LOC I-LOC O O O O O B-PER I-PER I-PER	O
+X	X	bus translation	bus flight telephone translation	[CLS]无锡到阜阳怎么坐汽车？。翻译光大银行	[CLS] B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O B-ORG I-ORG I-ORG I-ORG	[CLS] B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O B-ORG I-ORG I-ORG I-ORG	O
+X	X	news tvchannel	chat news	[CLS]新闻解码。是否还有其他关于钓鱼岛的新闻	[CLS] O O O O O O O O O O O O O B-LOC I-LOC I-LOC O O O	[CLS] O O O O O O O O O O O O O B-LOC I-LOC I-LOC O O O	O
+O	O	map translation	map translation	[CLS]南山医院到北大医院路线。今天我要去逛街用英语说	[CLS] B-ORG I-ORG I-ORG I-ORG O B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O O	[CLS] B-ORG I-ORG I-ORG I-ORG O B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O O	O
+O	O	chat	chat	[CLS]你的梦想是什么呢。笨笨家在哪	[CLS] O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O	O
+O	O	cookbook stock	cookbook stock	[CLS]姐你红烧肉怎么做呀。查询一下南方航空的股票	[CLS] O O O O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG O O O	[CLS] O O O O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG O O O	O
+X	X	epg poetry	chat poetry	[CLS]哪个台在放非诚勿扰。造化钟神秀的下一句是什么？	[CLS] O O O O O O O O O O O O B-PER I-PER I-PER O O O O O O O O	[CLS] O O O O O O O O O O O O B-PER I-PER I-PER O O O O O O O O	O
+X	X	chat tvchannel	chat	[CLS]打开浦口生活资讯频道。你在玩什么呀	[CLS] O O B-LOC I-LOC O O O O O O O O O O O O O	[CLS] O O B-LOC I-LOC O O O O O O O O O O O O O	O
+O	O	chat video	chat video	[CLS]什么有点意思啊。播放2005年励志动漫	[CLS] O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O	O
+X	X	chat video	chat cinemas	[CLS]为啥穷。帮我看一下最近哪些电影是新上映的。	[CLS] O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O O	O
+X	X	chat video	chat epg video	[CLS]找一下非诚勿扰娱乐节目。你是白痴吗	[CLS] O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O	O
+X	O	schedule video	schedule video	[CLS]早晨8:10叫我。。查雷神电影	[CLS] O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O B-PER B-PER I-PER O O	X
+X	X	chat video	chat cookbook	[CLS]爱她该怎么做。发现之美	[CLS] O O O O O O O O O O O	[CLS] O O O O O O O O O O O	O
+O	O	cinemas news	cinemas news	[CLS]给我放一部最新的电影。。t我要听新闻。	[CLS] O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O	O
+O	O	chat novel	chat novel	[CLS]我要看末世进化小说。在干吗啊	[CLS] O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O	O
+X	X	video	epg	[CLS]请帮我播放樱桃。体育赛事直播	[CLS] O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O	O
+O	O	cookbook tvchannel	cookbook tvchannel	[CLS]请问鱼块的做法。。北京二	[CLS] O O O O O O O O O B-ORG I-ORG I-ORG	[CLS] O O O O O O O O O B-ORG I-ORG I-ORG	O
+X	X	flight translation	flight stock translation	[CLS]上海到北京的飞机航班。翻译光大银行	[CLS] B-LOC I-LOC O B-LOC I-LOC O O O O O O O O B-ORG I-ORG I-ORG I-ORG	[CLS] B-LOC I-LOC O B-LOC I-LOC O O O O O O O O B-ORG I-ORG I-ORG I-ORG	O
+X	X	chat radio	radio schedule	[CLS]我要听fm90.8。你们你过生日吃蛋糕吗	[CLS] O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O	O
+O	O	calc map	calc map	[CLS]3次根号19。去华强北的路怎么走	[CLS] O O O O O O O O B-LOC I-LOC I-LOC O O O O O	[CLS] O O O O O O O O B-LOC I-LOC I-LOC O O O O O	O
+O	O	chat tvchannel	chat tvchannel	[CLS]北京二台高清。其实我不跟你说话么办	[CLS] B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O	[CLS] B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O	O
+X	O	news video	news video	[CLS]预约还珠格格第八集。等，请播报新闻	[CLS] O O O O O O O O O O O O O O O O O	[CLS] O O B-PER I-PER I-PER I-PER O O O O O O O O O O O	X
+X	X	chat tvchannel	chat news	[CLS]cctv新闻。提示什么	[CLS] O O O O O O O O O O O	[CLS] B-ORG I-ORG I-ORG I-ORG O O O O O O O	X
+O	O	cookbook map	cookbook map	[CLS]鲤鱼怎么做？。我想到科大讯飞走高速路线	[CLS] O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O	O
+X	X	translation website	app translation website	[CLS]易车网看看。早上好英语怎么讲	[CLS] B-ORG I-ORG I-ORG O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O	X
+X	X	contacts translation	chat contacts translation	[CLS]张培的电话号码是多少。你还没有结婚用英语怎么讲	[CLS] B-PER I-PER O O O O O O O O O O O O O O O O O O O O O	[CLS] B-PER I-PER O O O O O O O O O O O O O O O O O O O O O	O
+X	X	cookbook music	cookbook	[CLS]做可乐鸡翅需要哪些材料？。播放上海滩。	[CLS] O O O O O O O O O O O O O O O B-LOC I-LOC I-LOC O	[CLS] O O O O O O O O O O O O O O O B-LOC I-LOC I-LOC O	O
+X	X	epg video	app video	[CLS]帮我查查北京电视台-6上周六开始美味的想念呢。请帮我打开电影	[CLS] O O O O B-ORG I-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O B-ORG I-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O O O O O O O O O	O
+O	O	datetime riddle	datetime riddle	[CLS]明天是农历几号。不辣，猜谜语。	[CLS] O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O	O
+O	O	chat cookbook	chat cookbook	[CLS]怎么。孜然排骨怎么做？	[CLS] O O O O O O O O O O O	[CLS] O O O O O O O O O O O	O
+O	O	news video	news video	[CLS]小破孩动画片。今日头条新闻。	[CLS] O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O	O
+O	O	chat flight	chat flight	[CLS]查询上海到丽江飞机票的价格。谁是猪	[CLS] O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O	[CLS] O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O	O
+X	X	chat video	chat train video	[CLS]日韩好看的电视剧。可以帮买火车票吗	[CLS] B-LOC I-LOC O O O O O O O O O O O O O O O	[CLS] B-LOC B-LOC O O O O O O O O O O O O O O O	X
+X	O	cookbook video	cookbook video	[CLS]扬州炒饭。青瓷电视剧	[CLS] B-LOC I-LOC O O O O O O O O	[CLS] B-ORG I-ORG I-ORG I-ORG O O O O O O	X
+O	O	chat cookbook	chat cookbook	[CLS]你们这么爽。蛋黄焗薯条怎么做	[CLS] O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O	O
+O	O	chat poetry	chat poetry	[CLS]读首唐诗来听听。。朱泽圻女朋友你认识吗	[CLS] O O O O O O O O O B-PER I-PER I-PER O O O O O O O	[CLS] O O O O O O O O O B-PER I-PER I-PER O O O O O O O	O
+O	O	cookbook novel	cookbook novel	[CLS]烧鸭怎么做。我要看图文小说	[CLS] O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O	O
+O	O	app train	app train	[CLS]帮我打开人人。去南昌的火车	[CLS] O O O O O O O O B-LOC I-LOC O O O	[CLS] O O O O O O O O B-LOC I-LOC O O O	O
+O	O	app cookbook	app cookbook	[CLS]搜索手机办公软件。干锅鱼怎么做	[CLS] O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O	O
+X	X	chat cookbook	cookbook translation	[CLS]煲鸡汤。。怎么写	[CLS] O O O O O O O O	[CLS] O O O O O O O O	O
+X	X	chat message	chat datetime message	[CLS]你知道怎么拍照么。给爸爸发条短信，说[UNK]爸爸，我国庆节回来[UNK]	[CLS] O O O O O O O O O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O O O O O O O O O O	O
+O	O	chat weather	chat weather	[CLS]你长什么样子。你知道今天南京的天气吗	[CLS] O O O O O O O O O O O O B-LOC I-LOC O O O O	[CLS] O O O O O O O O O O O O B-LOC I-LOC O O O O	O
+O	O	chat music	chat music	[CLS]干啥呢。哦来一首忘情水	[CLS] O O O O O O O O O O O	[CLS] O O O O O O O O O O O	O
+X	X	message poetry	message poetry telephone	[CLS]写短信给颖村。搜索一下白居易的诗。	[CLS] O O O O B-LOC I-LOC O O O O O B-PER I-PER I-PER O O O	[CLS] O O O O B-PER I-PER O O O O O B-PER I-PER I-PER O O O	X
+O	O	chat cookbook	chat cookbook	[CLS]刘挺是谁？。做可乐鸡翅需要哪些材料？	[CLS] B-PER I-PER O O O O O O O O O O O O O O O O	[CLS] B-PER I-PER O O O O O O O O O O O O O O O O	O
+X	O	cookbook message	cookbook message	[CLS]酸菜粉条肉的做法。。发送短信给老婆我在三号楼三零幺刚才那个教室关门了	[CLS] O O O O O O O O O O O O O O O O O O O B-LOC I-LOC O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O B-LOC I-LOC I-LOC I-LOC I-LOC I-LOC O O O O O O O O O	X
+O	O	chat weather	chat weather	[CLS]明天天气怎样啊。在干吗啊	[CLS] O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O	O
+O	O	poetry video	poetry video	[CLS]第二梦。背唐诗李白侠客行	[CLS] O O O O O O O B-PER I-PER O O O	[CLS] O O O O O O O B-PER I-PER O O O	O
+O	O	cookbook flight	cookbook flight	[CLS]从广州到贵阳市的航班。脆瓜。	[CLS] O B-LOC I-LOC O B-LOC I-LOC I-LOC O O O O O O O	[CLS] O B-LOC I-LOC O B-LOC I-LOC I-LOC O O O O O O O	O
+X	O	chat stock	chat stock	[CLS]南京熊猫股票。最近有啥新鲜事阿	[CLS] B-LOC I-LOC O O O O O O O O O O O O O	[CLS] B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O	X
+X	X	telephone tvchannel	epg telephone tvchannel video	[CLS]打电话给幺三七幺零五五二幺九九。高清中央电视台电影频道	[CLS] O O O O O O O O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG I-ORG O O O O	[CLS] O O O O O O O O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG I-ORG O O O O	O
+X	X	map music	map poetry	[CLS]来一首我们的歌谣。。查查科大讯飞在哪儿	[CLS] O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O	O
+O	O	epg translation	epg translation	[CLS]床英文怎么说。贵州卫视今晚看什么电视剧？	[CLS] O O O O O O O B-ORG I-ORG I-ORG I-ORG O O O O O O O O O	[CLS] O O O O O O O B-ORG I-ORG I-ORG I-ORG O O O O O O O O O	O
+O	O	contacts radio	contacts radio	[CLS]请帮我调频100.8梧州人民广播电台。把孟蕾的电话发给陈姬	[CLS] O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG O O B-PER I-PER O O O O O B-PER I-PER	[CLS] O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG O O B-PER I-PER O O O O O B-PER I-PER	O
+X	O	chat stock	chat stock	[CLS]查询标准股份的股票。你能曝照吗	[CLS] O O B-ORG I-ORG I-ORG I-ORG O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O	X
+X	X	app cookbook	cookbook message	[CLS]帮我找到微信。怎么做？酸菜鱼？	[CLS] O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O	O
+X	O	flight map	flight map	[CLS]去红心中路怎么走。帮我看一下明天去北京的飞机	[CLS] O O I-LOC O O O O O O O O O O O O O O B-LOC I-LOC O O O	[CLS] O B-LOC I-LOC I-LOC I-LOC O O O O O O O O O O O O B-LOC I-LOC O O O	X
+O	O	chat poetry	chat poetry	[CLS]毛泽东的诗哦。。怎么写	[CLS] B-PER I-PER I-PER O O O O O O O O	[CLS] B-PER I-PER I-PER O O O O O O O O	O
+X	X	cookbook weather	chat cookbook weather	[CLS]好吧，我想知道稻香排骨是怎么做的？。海南天气怎么样	[CLS] O O O O O O O O O O O O O O O O O O B-LOC I-LOC O O O O O	[CLS] O O O O O O O O O O O O O O O O O O B-LOC I-LOC O O O O O	O
+O	O	novel video	novel video	[CLS]找找三毛的爱情小说。蝎子王蝎子王	[CLS] O O B-PER I-PER O O O O O O O O O O O O	[CLS] O O B-PER I-PER O O O O O O O O O O O O	O
+X	X	app bus	bus flight train	[CLS]黎宇我要玩中国象棋。北京到成都的汽车时刻表。	[CLS] B-PER I-PER O O O B-LOC I-LOC O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O	[CLS] B-PER I-PER O O O B-LOC I-LOC O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O	O
+O	O	cookbook flight	cookbook flight	[CLS]明天从桂林到杭州的航班。童子鸡的做法。	[CLS] O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O	[CLS] O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O	O
+O	O	chat radio	chat radio	[CLS]你能曝照吗。调频幺零三点二	[CLS] O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O	O
+X	O	chat news	chat news	[CLS]喝哪种酒。占田你给我放一下最近的新闻。	[CLS] O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O B-PER I-PER O O O O O O O O O O O O	X
+O	O	chat	chat	[CLS]顾超是谁。你能给我唱歌吗	[CLS] B-PER I-PER O O O O O O O O O O	[CLS] B-PER I-PER O O O O O O O O O O	O
+X	X	calc poetry	calc translation	[CLS]你背首唐诗给我听听啊。4乘6然后再乘七再除以二	[CLS] O O O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O O O O	O
+O	O	poetry weather	poetry weather	[CLS]现在温度几度。来一首李清照的词	[CLS] O O O O O O O O O O B-PER I-PER I-PER O O	[CLS] O O O O O O O O O O B-PER I-PER I-PER O O	O
+O	O	cinemas epg	cinemas epg	[CLS]现在电影院有什么好电影？。哪个台播放节目	[CLS] O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O	O
+X	X	bus weather	bus chat weather	[CLS]查询许昌到中山的汽车。。中山天气怎么样	[CLS] O O B-LOC I-LOC O B-LOC I-LOC O O O O O B-LOC I-LOC O O O O O	[CLS] O O B-LOC I-LOC O B-ORG I-LOC O O O O O B-LOC I-LOC O O O O O	X
+X	X	cookbook video	chat cookbook	[CLS]黑猫截长。猪大肠怎么炒？	[CLS] O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O	O
+X	X	epg	chat epg video	[CLS]现在有没有什么大片？。今晚看什么电影？	[CLS] O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O	O
+X	X	train video	train	[CLS]查询广州到贵港的火车。音乐视频	[CLS] O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O	[CLS] O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O	O
+O	O	chat epg	chat epg	[CLS]湖南卫视有什么节目。弄啥类	[CLS] B-ORG I-ORG I-ORG I-ORG O O O O O O O O O	[CLS] B-ORG I-ORG I-ORG I-ORG O O O O O O O O O	O
+O	O	app cookbook	app cookbook	[CLS]脆瓜。。黎宇我要玩中国象棋	[CLS] O O O O B-PER I-PER O O O B-LOC I-LOC O O	[CLS] O O O O B-PER I-PER O O O B-LOC I-LOC O O	O
+X	O	app video	app video	[CLS]电影十二生肖。开启qq	[CLS] O O O O O O O O O B-ORG O	[CLS] O O O O O O O O O B-ORG I-ORG	X
+O	O	chat epg	chat epg	[CLS]怎么我问你什么你都不知道。你知道现在广东卫视在演什么吗？	[CLS] O O O O O O O O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG O O O O O O	O
+O	O	chat	chat	[CLS]除了会说这些还会说哪行啊。你在玩什么呀	[CLS] O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O	O
+X	X	app video	app email message video	[CLS]音乐视频。帮我找到微信	[CLS] O O O O O O O O O O O	[CLS] O O O O O O O O O O O	O
+O	O	chat cookbook	chat cookbook	[CLS]两点半夜鸡叫什么了不少钱包。讯飞语点请你搜索一下番茄炒蛋怎么做？	[CLS] O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O	O
+O	O	news train	news train	[CLS]我想听重庆新闻。。星期四去上海的火车	[CLS] O O O B-LOC I-LOC O O O O O O O O B-LOC I-LOC O O O	[CLS] O O O B-LOC I-LOC O O O O O O O O B-LOC I-LOC O O O	O
+X	X	music website	app music website	[CLS]帮我链接到新浪网。点一首爱情买卖来听听	[CLS] O O O O O B-ORG I-ORG I-ORG O O O O O O O O O O O	[CLS] O O O O O B-ORG I-ORG I-ORG O O O O O O O O O O O	O
+X	X	epg news	cinemas epg news	[CLS]帮我查一查今天的新闻。。现在有什么好的电影呢？	[CLS] O O O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O O O O	O
+X	O	app message	app message	[CLS]链家地产打开qq。给李慧发个短信说我要回家	[CLS] O O O O O O O O O O B-PER I-PER O O O O O O O O O	[CLS] B-ORG I-ORG I-ORG I-ORG O O O O O O B-PER I-PER O O O O O O O O O	X
+O	O	cinemas video	cinemas video	[CLS]最近最热的电视剧。离我最近的电影院。	[CLS] O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O	O
+X	X	email weather	chat email weather	[CLS]我想知道北京的天气。给我看新邮件	[CLS] O O O O B-LOC I-LOC O O O O O O O O O O	[CLS] O O O O B-LOC I-LOC O O O O O O O O O O	O
+X	O	epg poetry	epg poetry	[CLS]来一首琵琶行。。cctv9明晚有转播仁心解码2呢	[CLS] O O O O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O	X
+O	O	news train	news train	[CLS]从广州到南昌的火车票时刻表。现在有什么热点新闻？	[CLS] O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O O O O O O O O	[CLS] O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O O O O O O O O	O
+O	O	chat cookbook	chat cookbook	[CLS]灌汤小笼包怎样做。。是什么呢	[CLS] O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O	O
+O	O	chat news	chat news	[CLS]笨笨家在哪。该我读新闻。	[CLS] O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O	O
+X	X	email music	chat email	[CLS]给我看新邮件。来一首有点舍不得	[CLS] O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O	O
+O	O	cookbook flight	cookbook flight	[CLS]肥肠的做法。帮我看一下明天去北京的飞机	[CLS] O O O O O O O O O O O O O O B-LOC I-LOC O O O	[CLS] O O O O O O O O O O O O O O B-LOC I-LOC O O O	O
+O	O	cookbook telephone	cookbook telephone	[CLS]红烧肉的做法啊！。我要打电话给洪云刚	[CLS] O O O O O O O O O O O O O O O B-PER I-PER I-PER	[CLS] O O O O O O O O O O O O O O O B-PER I-PER I-PER	O
+O	O	app flight	app flight	[CLS]帮我看一下明天去北京的飞机。搜索手机办公软件	[CLS] O O O O O O O O B-LOC I-LOC O O O O O O O O O O O O	[CLS] O O O O O O O O B-LOC I-LOC O O O O O O O O O O O O	O
+X	X	contacts video	contacts telephone	[CLS]体育赛事直播。张培的电话号码是多少	[CLS] O O O O O O O B-PER I-PER O O O O O O O O	[CLS] O O O O O O O B-PER I-PER O O O O O O O O	O
+O	O	epg message	epg message	[CLS]发短信给子健晚上回家吃饭。查下安徽电视台今天节目单	[CLS] O O O O B-PER I-PER O O O O O O O O O B-ORG I-ORG I-ORG I-ORG I-ORG O O O O O	[CLS] O O O O B-PER I-PER O O O O O O O O O B-ORG I-ORG I-ORG I-ORG I-ORG O O O O O	O
+X	X	cookbook email	cookbook email message	[CLS]发邮件给灿灿说明早我们一起跑步。打豆浆剩下的豆渣怎样做，好吃？	[CLS] O O O O B-PER I-PER O O O O O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O B-PER I-PER O O O O O O O O O O O O O O O O O O O O O O O O O	O
+O	O	chat cookbook	chat cookbook	[CLS]是啊你说的那几句话到底啥意思。酸菜粉条肉的做法。	[CLS] O O O O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O O O O O	O
+X	X	lottery poetry	lottery music poetry	[CLS]背一首声声慢。。搜索25选5的获奖号码	[CLS] O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O	O
+O	O	chat website	chat website	[CLS]打开百度哇。你有兄弟么	[CLS] O O O O O O O O O O O	[CLS] O O O O O O O O O O O	O
+O	O	music translation	music translation	[CLS]歌曲白天不懂夜的黑。苹果翻译成英语	[CLS] O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O	O
+O	O	chat flight	chat flight	[CLS]怎么上分。明天去徐州的航班	[CLS] O O O O O O O O B-LOC I-LOC O O O	[CLS] O O O O O O O O B-LOC I-LOC O O O	O
+O	O	cookbook music	cookbook music	[CLS]点一首爱情买卖来听听。板栗怎么煮？	[CLS] O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O	O
+O	O	chat telephone	chat telephone	[CLS]打电话给阿华。你知道小黄鸡吗	[CLS] O O O O B-PER I-PER O O O O O O O O	[CLS] O O O O B-PER I-PER O O O O O O O O	O
+X	X	stock video	stock	[CLS]蝎子王蝎子王。中海油服股票	[CLS] O O O O O O O B-ORG I-ORG I-ORG I-ORG O O	[CLS] O O O O O O O B-ORG I-ORG I-ORG I-ORG O O	O
+X	X	health map	chat health	[CLS]嗯我想知道曲阜在什么地方。肠胃炎怎么治？	[CLS] O O O O O B-LOC I-LOC O O O O O O O O O O O O O	[CLS] O O O O O B-LOC I-LOC O O O O O O O O O O O O O	O
+X	X	poetry video	chat music poetry	[CLS]尽在不言中下一句是什么？。请帮我播放樱桃	[CLS] O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O	O
+X	X	weather website	app weather website	[CLS]今天广州的天气怎样。打开腾讯拍拍网	[CLS] O O B-LOC I-LOC O O O O O O O O O I-ORG O O O	[CLS] O O B-LOC I-LOC O O O O O O O O O O O O O	X
+O	O	lottery weather	lottery weather	[CLS]搜索25选5的获奖号码。今天广州的天气怎样	[CLS] O O O O O O O O O O O O O O B-LOC I-LOC O O O O O	[CLS] O O O O O O O O O O O O O O B-LOC I-LOC O O O O O	O
+O	O	chat telephone	chat telephone	[CLS]你怎么认识我的。给曹广义打电话	[CLS] O O O O O O O O O B-PER I-PER I-PER O O O	[CLS] O O O O O O O O O B-PER I-PER I-PER O O O	O
+X	X	poetry video	chat poetry	[CLS]要看特种兵。若相惜不弃下一句是什么？	[CLS] O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O	O
+O	O	message news	message news	[CLS]给查乐发短信。今天重大新闻	[CLS] O B-PER I-PER O O O O O O O O O O	[CLS] O B-PER I-PER O O O O O O O O O O	O
+O	O	stock weather	stock weather	[CLS]泰山石油股票。天气预报广州	[CLS] B-ORG I-ORG I-ORG I-ORG O O O O O O O B-LOC I-LOC	[CLS] B-ORG I-ORG I-ORG I-ORG O O O O O O O B-LOC I-LOC	O
+O	O	chat lottery	chat lottery	[CLS]你咋没上幼儿园。最近几期的大乐透的开奖情况	[CLS] O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O O	O
+O	O	cookbook weather	cookbook weather	[CLS]酱油鸡。。帮我看看今天的天气	[CLS] O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O	O
+X	X	chat music	bus chat music	[CLS]毛阿敏的歌。有汽车票吗	[CLS] B-PER I-PER I-PER O O O O O O O O	[CLS] B-PER I-PER I-PER O O O O O O O O	O
+O	O	calc stock	calc stock	[CLS]54乘上45。中海油服股票	[CLS] O O O O O O O B-ORG I-ORG I-ORG I-ORG O O	[CLS] O O O O O O O B-ORG I-ORG I-ORG I-ORG O O	O
+O	O	chat flight	chat flight	[CLS]机票。你能给我唱歌吗	[CLS] O O O O O O O O O O	[CLS] O O O O O O O O O O	O
+X	X	message website	app message	[CLS]打开猫扑。发短信方钰玲	[CLS] O O O O O O O O B-PER I-PER I-PER	[CLS] O O O O O O O O B-PER I-PER I-PER	O
+X	X	music translation	translation	[CLS]播放上海滩。。你还没有结婚用英语怎么讲	[CLS] O O B-LOC I-LOC I-LOC O O O O O O O O O O O O O O	[CLS] O O B-LOC I-LOC I-LOC O O O O O O O O O O O O O O	O
+X	X	music website	app chat music	[CLS]来一首有点舍不得。那你帮我打开百度	[CLS] O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O	O
+X	X	train video	music train	[CLS]我要看功夫熊猫帮我播放出来。从余姚到贵阳的火车票	[CLS] O O O O O O O O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O	[CLS] O O O O O O O O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O	O
+X	X	video	chat video	[CLS]金枝欲孽。三女休夫	[CLS] O O O O O O O O O	[CLS] O O O O O O O B-PER I-PER	X
+O	O	cookbook website	cookbook website	[CLS]黑芝麻怎么炒？。那你帮我打开百度	[CLS] O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O	O
+O	O	cookbook riddle	cookbook riddle	[CLS]再讲一个谜语吧！。干锅香辣虾	[CLS] O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O	O
+O	O	cookbook	cookbook	[CLS]鱼香肉丝的做法啊！。五梆瓜鸡蛋汤怎么做？	[CLS] O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O	O
+O	O	chat cookbook	chat cookbook	[CLS]你是说我有意思吗。请问鱼块的做法。	[CLS] O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O	O
+X	X	cookbook health	chat cookbook health	[CLS]如何治疗脚气。臭豆腐怎么做啊？	[CLS] O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O	O
+O	O	chat cookbook	chat cookbook	[CLS]谁是你的爱。黑米红豆粥的做法。	[CLS] O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O	O
+X	X	translation weather	datetime translation weather	[CLS]今天我要去逛街用英语说。现在温度几度	[CLS] O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O	O
+X	X	chat cookbook	cookbook	[CLS]欧洲杯谁能夺冠。红烧肉的做法啊！	[CLS] B-LOC I-LOC O O O O O O O O O O O O O O	[CLS] B-LOC I-LOC O O O O O O O O O O O O O O	O
+O	O	chat email	chat email	[CLS]要啥?。我想打开新邮件	[CLS] O O O O O O O O O O O	[CLS] O O O O O O O O O O O	O
+O	O	cookbook health	cookbook health	[CLS]我想我想做老鸭汤用什么材料？。肠胃炎怎么治？	[CLS] O O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O O O	O
+X	X	app website	app chat website	[CLS]打开汽车之家。请打开人人网	[CLS] O O O O O O O O O O O O O	[CLS] O O O O O O O O O O B-ORG I-ORG I-ORG	X
+O	O	cookbook translation	cookbook translation	[CLS]早上好英语怎么讲。鱼香肉丝，怎么炒？	[CLS] O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O	O
+X	X	chat telephone	chat telephone video	[CLS]哪有小猫。呼叫王希	[CLS] O O O O O O O B-PER I-PER	[CLS] O O O O O O O B-PER I-PER	O
+X	O	bus music	bus music	[CLS]来一首隐形的翅膀。。查询许昌到中山的汽车。	[CLS] O O O O O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O	[CLS] O O O O O O O O O O O O B-LOC I-LOC O B-ORG I-LOC O O O O	X
+X	X	datetime weather	chat datetime weather	[CLS]长春现在是什么天气。端午节是哪一天	[CLS] O O O O O O O O O O O O O O O O O	[CLS] B-LOC I-LOC O O O O O O O O O O O O O O O	X
+O	O	cookbook poetry	cookbook poetry	[CLS]搜索一下白居易的诗。。糖醋鲤鱼怎么做啊？你只负责吃，c则c。	[CLS] O O O O B-PER I-PER I-PER O O O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O B-PER I-PER I-PER O O O O O O O O O O O O O O O O O O O O O O O	O
+O	O	cookbook website	cookbook website	[CLS]访问京东商城的网页。童子鸡的做法。	[CLS] O O B-LOC I-LOC I-LOC I-LOC O O O O O O O O O O O	[CLS] O O B-LOC I-LOC I-LOC I-LOC O O O O O O O O O O O	O
+O	O	train	train	[CLS]连云港到徐州的火车票。北京到上海的火车票	[CLS] B-LOC I-LOC I-LOC O B-LOC I-LOC O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O	[CLS] B-LOC I-LOC I-LOC O B-LOC I-LOC O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O	O
+O	O	chat message	chat message	[CLS]给杨凯发短信。凭啥	[CLS] O B-PER I-PER O O O O O O	[CLS] O B-PER I-PER O O O O O O	O
+X	X	radio train	lottery radio train	[CLS]重庆到成都的火车票多少钱。调频幺零三点二	[CLS] B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O O O O O	[CLS] B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O O O O O	O
+X	O	epg stock	epg stock	[CLS]我想了解地产板块股票现在怎么样。看一下今天晚上广西台有没有警戒线？	[CLS] O O O O O O O O O O O O O O O O O O O O O O O B-ORG I-ORG I-ORG O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O O O O B-LOC I-LOC O O O O O O O O	X
+X	X	contacts lottery	chat contacts lottery	[CLS]新建联系人李四号码是一二三四五六七八。最近几期的大乐透的开奖情况	[CLS] O O O O O B-PER I-PER O O O O O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O B-PER I-PER O O O O O O O O O O O O O O O O O O O O O O O O O	O
+O	O	cookbook message	cookbook message	[CLS]红烧带鱼怎么做？你？。发短信给王曼希望你幸福	[CLS] O O O O O O O O O O O O O O O B-PER I-PER O O O O O	[CLS] O O O O O O O O O O O O O O O B-PER I-PER O O O O O	O
+O	O	chat	chat	[CLS]你的性格是什么。这是哪年的事	[CLS] O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O	O
+O	O	chat contacts	chat contacts	[CLS]谁是猪。把刘荣涛的电话发给王华成	[CLS] O O O O O B-PER I-PER I-PER O O O O O B-PER I-PER I-PER	[CLS] O O O O O B-PER I-PER I-PER O O O O O B-PER I-PER I-PER	O
+X	X	video	music video	[CLS]播放非诚勿扰。请搜电影画皮	[CLS] O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O	O
+X	X	cinemas stock	cinemas epg stock	[CLS]离我最近的电影院。。今天上证指数是几点	[CLS] O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O	O
+X	X	datetime weather	chat datetime weather	[CLS]端午节是哪一天。长春现在是什么天气	[CLS] O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O B-LOC I-LOC O O O O O O O	X
+X	X	chat schedule	schedule	[CLS]你这都跟哪啊快雪的。设置闹钟。	[CLS] O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O	O
+X	X	chat video	chat telephone video	[CLS]夜访吸血鬼。车车美么	[CLS] O O O O O O O O O O	[CLS] O O O O O O O O O O	O
+O	O	video weather	video weather	[CLS]整人专家的电影。郑州天气	[CLS] O O O O O O O O B-LOC I-LOC O O	[CLS] O O O O O O O O B-LOC I-LOC O O	O
+O	O	cookbook telephone	cookbook telephone	[CLS]豆沙包。。打电话温正军	[CLS] O O O O O O O O B-PER I-PER I-PER	[CLS] O O O O O O O O B-PER I-PER I-PER	O
+X	X	map message	chat message	[CLS]查查科大讯飞在哪里。给爸爸发条短信，说[UNK]爸爸，我国庆节回来[UNK]	[CLS] O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O	O
+X	X	news schedule	news	[CLS]啊，社会新闻。。十五分钟之后叫我。	[CLS] O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O	O
+O	O	chat cookbook	chat cookbook	[CLS]怎么做？酸菜鱼？。你是哪里的人啊	[CLS] O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O	O
+X	X	cookbook lottery	cookbook	[CLS]打豆浆剩下的豆渣怎样做，好吃？。看一看七乐彩的信息	[CLS] O O O O O O O O O O O O O O O O O O O B-ORG I-ORG I-ORG O O O	[CLS] O O O O O O O O O O O O O O O O O O O B-ORG I-ORG I-ORG O O O	O
+O	O	message weather	message weather	[CLS]发短信给王勋连说我很好。现在温度几度	[CLS] O O O O B-PER I-PER I-PER O O O O O O O O O O O	[CLS] O O O O B-PER I-PER I-PER O O O O O O O O O O O	O
+O	O	message poetry	message poetry	[CLS]火气冲天，下一句是什么？。发条短信给杨桑	[CLS] O O O O O O O O O O O O O O O O O O B-PER I-PER	[CLS] O O O O O O O O O O O O O O O O O O B-PER I-PER	O
+O	O	chat telephone	chat telephone	[CLS]怎么这么热受不了了。打给宋成钢	[CLS] O O O O O O O O O O O O B-PER I-PER I-PER	[CLS] O O O O O O O O O O O O B-PER I-PER I-PER	O
+O	O	chat cookbook	chat cookbook	[CLS]你们学校机械学院都有哪些好老师他们都叫什么名字。酸辣藕丁的做法。	[CLS] O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O	O
+O	O	chat email	chat email	[CLS]给我看邮件。这有啥意思	[CLS] O O O O O O O O O O O	[CLS] O O O O O O O O O O O	O
+X	X	video weather	weather	[CLS]帮我看看今天的天气。音乐视频	[CLS] O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O	O
+O	O	chat cookbook	chat cookbook	[CLS]不懂饭的做法。。你能曝照吗	[CLS] O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O	O
+O	O	cookbook flight	cookbook flight	[CLS]帮我查一下从济南到福州的机票。红烧肉的做法啊！	[CLS] O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O O	[CLS] O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O O	O
+O	O	chat	chat	[CLS]是谁呀。你谁什么	[CLS] O O O O O O O O	[CLS] O O O O O O O O	O
+O	O	chat news	chat news	[CLS]你肥吗。我想知道今天的娱乐新闻。	[CLS] O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O	O
+O	O	cookbook stock	cookbook stock	[CLS]蒜茄子怎么做？。查询中国石化的股价	[CLS] O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG O O O	[CLS] O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG O O O	O
+X	X	translation tvchannel	chat translation	[CLS]切换上海频道。你曾爱过我吗用英语怎么说	[CLS] O O B-LOC I-LOC O O O O O O O O O O O O O O O	[CLS] O O B-LOC I-LOC O O O O O O O O O O O O O O O	O
+X	O	tvchannel weather	tvchannel weather	[CLS]山东台高清。你知道今天南京的天气吗	[CLS] B-ORG I-ORG I-ORG O O O O O O O O B-LOC I-LOC O O O O	[CLS] B-ORG I-ORG I-ORG I-ORG O O O O O O O B-LOC I-LOC O O O O	X
+X	X	music riddle	riddle	[CLS]动物谜语。。来点歌听听	[CLS] O O O O O O O O O O O	[CLS] O O O O O O O O O O O	O
+X	X	contacts cookbook	cookbook	[CLS]把刘荣涛的电话发给王华成。小白菜拌豆腐怎么做呀？	[CLS] O B-PER I-PER I-PER O O O O O B-PER I-PER I-PER O O O O O O O O O O O O	[CLS] O B-PER I-PER I-PER O O O O O B-PER I-PER I-PER O O O O O O O O O O O O	O
+X	X	flight video	cinemas flight	[CLS]查询今天上海到成都的航班。帮我看一下最近哪些电影是新上映的。	[CLS] O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O O O O O O O O O O O	O
+O	O	riddle video	riddle video	[CLS]青瓷电视剧。讲个谜语吧，辣。	[CLS] O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O	O
+X	X	health video	chat health	[CLS]我要看电视了。黄疸	[CLS] O O O O O O O O O	[CLS] O O O O O O O O O	O
+X	X	cinemas music	music	[CLS]搜索合肥左岸电影城。。毛阿敏的歌	[CLS] O O B-LOC I-LOC B-LOC I-LOC I-LOC I-LOC I-LOC O O B-PER I-PER I-PER O O	[CLS] O O B-LOC I-LOC B-LOC I-LOC I-LOC I-LOC I-LOC O O B-PER I-PER I-PER O O	O
+O	O	cookbook weather	cookbook weather	[CLS]小白菜拌豆腐怎么做呀？。郑州的天气怎么样	[CLS] O O O O O O O O O O O O B-LOC I-LOC O O O O O O	[CLS] O O O O O O O O O O O O B-LOC I-LOC O O O O O O	O
+X	X	chat video	chat	[CLS]憨豆特工。你谁什么	[CLS] O O O O O O O O O	[CLS] O O O O O O O O O	O
+O	O	telephone video	telephone video	[CLS]请打电话给沈晨浩。大耳朵图图二	[CLS] O O O O O B-PER I-PER I-PER O O O O O O O	[CLS] O O O O O B-PER I-PER I-PER O O O O O O O	O
+X	X	lottery video	chat lottery	[CLS]我要看西游记啊。搜索25选5的获奖号码	[CLS] O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O	O
+O	O	message video	message video	[CLS]美国电影破碎之城。给李慧发个短信说我要回家	[CLS] B-LOC I-LOC O O O O O O O O B-PER I-PER O O O O O O O O O	[CLS] B-LOC I-LOC O O O O O O O O B-PER I-PER O O O O O O O O O	O
+X	X	bus epg	bus epg news	[CLS]读书频道上个星期五有播放新闻联播吗。去深圳怎么坐车？	[CLS] O O O O O O O O O O O O O O O O O O O B-LOC I-LOC O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O B-LOC I-LOC O O O O O	O
+O	O	flight video	flight video	[CLS]查询大大后天广州到武汉的航班。黑猫截长	[CLS] O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O	[CLS] O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O	O
+O	O	health poetry	health poetry	[CLS]肠胃炎怎么治？。尽在不言中下一句是什么？	[CLS] O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O	O
+X	O	chat video	chat video	[CLS]怎么安慰啊。三女休夫	[CLS] O O O O O O O O O O	[CLS] O O O O O O O O B-PER I-PER	X
+O	O	app flight	app flight	[CLS]有没有下周二到贵阳的航班。帮忙打开一下酷狗音乐播放音乐行不	[CLS] O O O O O O O B-LOC I-LOC O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O B-LOC I-LOC O O O O O O O O O O O O O O O O O O O O	O
+O	O	app match	app match	[CLS]打开相机这。中超赛事预告，你。	[CLS] O O O O O O B-ORG O O O O O O O O	[CLS] O O O O O O B-ORG O O O O O O O O	O
+O	O	news telephone	news telephone	[CLS]幺五八九三二八二八三八。搜索最新新闻。	[CLS] O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O	O
+O	O	train translation	train translation	[CLS]有没有徐州到洛阳的火车票。虾的英文怎么说	[CLS] O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O O	[CLS] O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O O	O
+X	O	cookbook map	cookbook map	[CLS]周黑鸭怎么做？。查查科大讯飞在哪里	[CLS] O O O O O O O O O O O O O O O O O	[CLS] B-PER I-PER I-PER O O O O O O O O O O O O O O	X
+X	X	train video	flight train	[CLS]查一下明天下午南通到南京的火车票。青年奥林匹克运动会	[CLS] O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O O O O	[CLS] O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O O O O	O
+X	O	cookbook video	cookbook video	[CLS]孜然排骨怎么做？。美国电影敢死队二	[CLS] O O O O O O O O O B-LOC I-LOC O O O O O O	[CLS] O O O O O O O O O B-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG	X
+X	O	app riddle	app riddle	[CLS]帮忙打开一下酷狗音乐播放音乐行不。帮忙讲几个谜语给我猜。	[CLS] O O O O O O B-ORG I-ORG O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O O O O O O O O O	X
+X	O	chat music	chat music	[CLS]she的歌。其实我不跟你说话么办	[CLS] O O O O O O O O O O O O O O O O	[CLS] B-ORG I-ORG I-ORG O O O O O O O O O O O O O	X
+X	X	contacts weather	telephone weather	[CLS]明天深圳天气怎么样。把李会计的电话发给小江	[CLS] O O B-LOC I-LOC O O O O O O O B-PER I-PER I-PER O O O O O B-PER I-PER	[CLS] O O B-LOC I-LOC O O O O O O O B-PER O O O O O O O B-PER I-PER	X
+O	O	cookbook riddle	cookbook riddle	[CLS]小猪哨糖醋排骨的做法。。不辣，猜谜语。	[CLS] O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O	O
+X	X	telephone	telephone video	[CLS]打给孩子的爸。打电话温正军	[CLS] O O O O O O O O O O B-PER I-PER I-PER	[CLS] O O O O O O O O O O B-PER I-PER I-PER	O
+O	O	chat	chat	[CLS]这有啥意思。你咋没上幼儿园	[CLS] O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O	O
+O	O	map website	map website	[CLS]进入中国移动官方网站。南山医院到北大医院路线	[CLS] O O B-ORG I-ORG I-ORG I-ORG O O O O O B-ORG I-ORG I-ORG I-ORG O B-ORG I-ORG I-ORG I-ORG O O	[CLS] O O B-ORG I-ORG I-ORG I-ORG O O O O O B-ORG I-ORG I-ORG I-ORG O B-ORG I-ORG I-ORG I-ORG O O	O
+O	O	cookbook	cookbook	[CLS]帮我搜索一下红烧排骨。。不，做个红烧肉怎么做？	[CLS] O O O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O O O O	O
+O	O	chat cookbook	chat cookbook	[CLS]喝啥子哩。讯飞语点请你搜索一下番茄炒蛋怎么做？	[CLS] O O O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O O O O	O
+X	O	epg map	epg map	[CLS]广西电视台现在播放什么节目？。去红心中路怎么走	[CLS] B-ORG I-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O O O O O O	[CLS] B-ORG I-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O B-LOC I-LOC I-LOC I-LOC O O O	X
+X	X	epg website	chat epg website	[CLS]帮我上下新浪网。哪个台播放节目	[CLS] O O O O B-ORG I-ORG O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O	X
+X	O	map news	map news	[CLS]新东站怎么走。帮我查一查今天的新闻。	[CLS] O I-LOC I-LOC O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O	X
+O	O	cookbook translation	cookbook translation	[CLS]翻译光大银行。干贝怎么做？	[CLS] O O B-ORG I-ORG I-ORG I-ORG O O O O O O O	[CLS] O O B-ORG I-ORG I-ORG I-ORG O O O O O O O	O
+O	O	chat stock	chat stock	[CLS]中国石化的股价怎么样。你怎么变笨了	[CLS] B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O	[CLS] B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O	O
+X	X	chat music	chat map music	[CLS]来一首不可以。。我们去爬山怎么样啊	[CLS] O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O	O
+X	X	cookbook translation	chat cookbook translation	[CLS][UNK]拌土豆丝。。你吃过早饭了吗用英文怎么讲	[CLS] O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O	O
+O	O	cookbook schedule	cookbook schedule	[CLS]晚上8:10的闹钟。。怎么做？酸菜鱼？	[CLS] O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O	O
+O	O	poetry train	poetry train	[CLS]北京到上海的火车票。朗诵一首李白的诗词。	[CLS] B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O B-PER I-PER O O O O	[CLS] B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O B-PER I-PER O O O O	O
+O	O	schedule translation	schedule translation	[CLS]明天叫我8:10起床。。笑话用英语怎么说	[CLS] O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O	O
+O	O	chat epg	chat epg	[CLS]你什么意思。湖南卫视有什么节目	[CLS] O O O O O O B-ORG I-ORG I-ORG I-ORG O O O O O	[CLS] O O O O O O B-ORG I-ORG I-ORG I-ORG O O O O O	O
+X	X	contacts health	contacts flight health	[CLS]更年期综合症。。把高建清的号码发给潘青华	[CLS] O O O O O O O O O B-PER I-PER I-PER O O O O O B-PER I-PER I-PER	[CLS] O O O O O O O O O B-PER I-PER I-PER O O O O O B-PER I-PER I-PER	O
+X	X	chat video	chat music video	[CLS]锁梦楼。这么逗我好玩是不	[CLS] O O O O O O O O O O O O	[CLS] B-LOC I-LOC I-LOC O O O O O O O O O	X
+X	X	translation video	translation	[CLS]出口在哪里英文怎么说。小c帮我搜一下断剑视频	[CLS] O O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O I-PER O O O O O O O O O	X
+X	X	epg weather	chat datetime weather	[CLS]15号的我愿意。郑州的天气怎么样	[CLS] O O O O O O O O B-LOC I-LOC O O O O O O	[CLS] O O O O O O O O B-LOC I-LOC O O O O O O	O
+X	X	chat video	chat cinemas	[CLS]我喜欢好朋友吗。帮我看一下最近哪些电影是新上映的。	[CLS] O O O O O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O O O O O O	O
+O	O	bus cookbook	bus cookbook	[CLS]在合肥怎么坐去南京的汽车。做可乐鸡翅需要哪些材料？	[CLS] O B-LOC I-LOC O O O O B-LOC I-LOC O O O O O O O O O O O O O O O O	[CLS] O B-LOC I-LOC O O O O B-LOC I-LOC O O O O O O O O O O O O O O O O	O
+O	O	flight music	flight music	[CLS]来点歌听听。查询上海到丽江飞机票的价格	[CLS] O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O	[CLS] O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O	O
+O	O	chat	chat	[CLS]那你为什么要养家糊口。它在哪里	[CLS] O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O	O
+O	O	translation	translation	[CLS]我记住了用英文怎么讲。苹果翻译成英语	[CLS] O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O	O
+O	O	novel radio	novel radio	[CLS]有什么好看的校园小说。帮我调频94.8兰溪人民广播电台可以不？	[CLS] O O O O O O O O O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG O O O O	[CLS] O O O O O O O O O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG O O O O	O
+O	O	cookbook video	cookbook video	[CLS]红烧牛肉面我想来一碗。。魔幻电影	[CLS] O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O	O
+O	O	calc news	calc news	[CLS]4的平方根的立方加9的2次方根的3次方。哦，听新闻。	[CLS] O O O O O O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O O O O O O O	O
+X	O	contacts flight	contacts flight	[CLS]把李会计的电话发给小江。查下上海到太原的机票	[CLS] O B-PER I-PER I-PER O O O O O B-PER I-PER O O O B-LOC I-LOC O B-LOC I-LOC O O O	[CLS] O B-PER O O O O O O O B-PER I-PER O O O B-LOC I-LOC O B-LOC I-LOC O O O	X
+O	O	app cookbook	app cookbook	[CLS]打开uc二哦。童子鸡的做法。	[CLS] O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O	O
+O	O	cookbook riddle	cookbook riddle	[CLS]糖醋鲤鱼怎么做啊？你只负责吃，c则c。。出一个谜语给我猜猜吧！	[CLS] O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O	O
+O	O	chat tvchannel	chat tvchannel	[CLS]么么么哒。我要看云南二台	[CLS] O O O O O O O O B-ORG I-ORG I-ORG I-ORG	[CLS] O O O O O O O O B-ORG I-ORG I-ORG I-ORG	O
+O	O	cookbook weather	cookbook weather	[CLS]用电压力锅怎么蒸米粉肉。。郑州的天气怎么样	[CLS] O O O O O O O O O O O O O B-LOC I-LOC O O O O O O	[CLS] O O O O O O O O O O O O O B-LOC I-LOC O O O O O O	O
+X	X	stock tvchannel	epg stock tvchannel	[CLS]今天上证指数是几点。高清中央8	[CLS] O O O O O O O O O O B-PER O B-ORG O O	[CLS] O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG O	X
+X	X	contacts map	contacts flight telephone	[CLS]杭州到上海。把李会计的电话发给小江	[CLS] B-LOC I-LOC O B-LOC I-LOC O O B-PER I-PER I-PER O O O O O B-PER I-PER	[CLS] B-LOC I-LOC O B-LOC I-LOC O O B-PER O O O O O O O B-PER I-PER	X
+O	O	chat message	chat message	[CLS]发短信给王曼希望你幸福。你能做点什么	[CLS] O O O O B-PER I-PER O O O O O O O O O O O O	[CLS] O O O O B-PER I-PER O O O O O O O O O O O O	O
+X	X	chat video	chat news video	[CLS]搜幕府风云。谁是你的爱	[CLS] O O O O O O O O O O O	[CLS] O O O O O O O O O O O	O
+X	X	music website	chat music website	[CLS]开网页。随便唱首歌。	[CLS] O O O O O O O O O O	[CLS] O O O O O O O O O O	O
+X	X	chat video	chat music video	[CLS]聊这么。我要看功夫熊猫帮我播放出来	[CLS] O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O	O
+X	X	chat lottery	chat	[CLS]凭啥。看一看七乐彩的信息	[CLS] O O O O O O B-ORG I-ORG I-ORG O O O	[CLS] O O O O O O B-ORG I-ORG I-ORG O O O	O
+X	O	chat video	chat video	[CLS]你怎么笨笨的?。三女休夫	[CLS] O O O O O O O O O O O O	[CLS] O O O O O O O O O O B-PER I-PER	X
+O	O	chat cookbook	chat cookbook	[CLS]哼谁是你亲爱的。帮我搜索一下红烧排骨。	[CLS] O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O	O
+O	O	news telephone	news telephone	[CLS]呼叫王希。我想听重庆新闻。	[CLS] O O B-PER I-PER O O O O B-LOC I-LOC O O O	[CLS] O O B-PER I-PER O O O O B-LOC I-LOC O O O	O
+X	X	map poetry	chat poetry	[CLS]阿妈，来一首白居易的诗。。河北在哪里	[CLS] O O O O O O B-PER I-PER I-PER O O O O B-LOC I-LOC O O O	[CLS] O O O O O O B-PER I-PER I-PER O O O O B-LOC I-LOC O O O	O
+X	X	app health	chat health	[CLS]感冒注意什么？。凯立德	[CLS] O O O O O O O O B-PER I-PER I-PER	[CLS] O O O O O O O O B-PER I-PER I-PER	O
+O	O	chat news	chat news	[CLS]么，哥来一下最新的新闻。。你现在在做什么啊	[CLS] O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O O	O
+O	O	lottery news	lottery news	[CLS]k新闻想听新闻。。帮我查一下2013年2月8日开奖的七星彩中奖号码	[CLS] O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O	O
+X	X	chat	chat news	[CLS]谈的怎么样。天才中有什么重大新闻	[CLS] O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O	O
+O	O	chat health	chat health	[CLS]乳腺癌。。怎么我问你什么你都不知道	[CLS] O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O	O
+O	O	news weather	news weather	[CLS]今天重大新闻。中山天气怎么样	[CLS] O O O O O O O B-LOC I-LOC O O O O O	[CLS] O O O O O O O B-LOC I-LOC O O O O O	O
+X	X	poetry tvchannel	poetry	[CLS]给我背一首诗。。切换上海频道	[CLS] O O O O O O O O O O B-LOC I-LOC O O	[CLS] O O O O O O O O O O B-LOC I-LOC O O	O
+O	O	chat train	chat train	[CLS]你唉啥。帮我查一下从开封到郑州的火车几点发	[CLS] O O O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O	[CLS] O O O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O	O
+O	O	chat video	chat video	[CLS]家有儿女第二部。要啥?	[CLS] O O O O O O O O O O O	[CLS] O O O O O O O O O O O	O
+X	O	video	video	[CLS]查雷神电影。小c我想看北京青年	[CLS] O O O O O O O O O O O B-LOC I-LOC O O	[CLS] B-PER B-PER I-PER O O O B-PER I-PER O O O B-ORG I-ORG O O	X
+X	X	music video	chat music	[CLS]恶熊出没。随便唱首歌。	[CLS] O O O O O O O O O O O	[CLS] O O O O O O O O O O O	O
+O	O	bus chat	bus chat	[CLS]从无锡市到西安市的汽车。。能发点其他的吗	[CLS] O B-LOC I-LOC I-LOC O B-LOC I-LOC I-LOC O O O O O O O O O O O O	[CLS] O B-LOC I-LOC I-LOC O B-LOC I-LOC I-LOC O O O O O O O O O O O O	O
+X	O	cookbook	cookbook	[CLS]做花生拌豆腐需要什么材料啊？。刘林面怎么做啊？	[CLS] O O O O O O O O O O O O O O O B-PER I-PER O O O O O O	[CLS] O O O O O O O O O O O O O O O B-PER I-PER I-PER O O O O O	X
+X	X	email telephone	app chat email	[CLS]请拨幺幺零。我想打开新邮件	[CLS] O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O	O
+O	O	chat music	chat music	[CLS]你下蛋吗。来一首隐形的翅膀。	[CLS] O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O	O
+X	X	cookbook epg	chat cookbook	[CLS]一站到底是哪个电视台播放的。。面包怎么做	[CLS] O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O	O
+X	X	chat weather	chat translation weather	[CLS]什么语无伦次的。查南京天气	[CLS] O O O O O O O O O B-LOC I-LOC O O	[CLS] O O O O O O O O O B-LOC I-LOC O O	O
+O	O	chat train	chat train	[CLS]一共有几个小动物。查一下从广州到南宁的火车票	[CLS] O O O O O O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O	[CLS] O O O O O O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O	O
+O	O	epg radio	epg radio	[CLS]第二十二条婚规什么时候结束。麻烦您可不可以帮我调频97广西经济广播电台	[CLS] O O O O O O O O O O O O O O O O O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG	[CLS] O O O O O O O O O O O O O O O O O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG	O
+O	O	cookbook news	cookbook news	[CLS]现在有什么热点新闻？。红烧肉的做法啊！	[CLS] O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O	O
+O	O	calc translation	calc translation	[CLS]翻译今天出去玩。54乘上45	[CLS] O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O	O
+X	X	cookbook	chat cookbook	[CLS]做火腿炒茄瓜需要什么材料？。面包怎么做	[CLS] O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O	O
+O	O	chat poetry	chat poetry	[CLS]你能听懂我说的是啥吗。火气冲天，下一句是什么？	[CLS] O O O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O O O O	O
+O	O	cookbook translation	cookbook translation	[CLS]臭豆腐怎么做啊？。翻译光大银行	[CLS] O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG	[CLS] O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG	O
+O	O	cookbook telephone	cookbook telephone	[CLS]我要打电话给洪云刚。红烧带鱼怎么做？你？	[CLS] O O O O O O B-PER I-PER I-PER O O O O O O O O O O O	[CLS] O O O O O O B-PER I-PER I-PER O O O O O O O O O O O	O
+O	O	map radio	map radio	[CLS]帮我调频92.8桐庐人民广播电台行不行？。龙口西路在哪里	[CLS] O O O O O O O O B-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG O O O O O B-LOC I-LOC I-LOC I-LOC O O O	[CLS] O O O O O O O O B-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG O O O O O B-LOC I-LOC I-LOC I-LOC O O O	O
+X	X	email map	chat email train	[CLS]龙口西路在哪里。给我看新邮件	[CLS] B-LOC I-LOC I-LOC I-LOC O O O O O O O O O O	[CLS] B-LOC I-LOC I-LOC I-LOC O O O O O O O O O O	O
+X	X	chat cookbook	cookbook poetry	[CLS]就拉下的饺子怎么做？。啊我要订票你怎么吟诗了	[CLS] O O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O O O	O
+O	O	chat health	chat health	[CLS]弄啥类。暴发性紫癜	[CLS] O O O O O O O O O	[CLS] O O O O O O O O O	O
+X	X	email tvchannel	email telephone tvchannel	[CLS]北京二。帮我发邮件给婷婷	[CLS] B-ORG I-ORG I-ORG O O O O O O O B-PER I-PER	[CLS] B-ORG I-ORG I-ORG O O O O O O O B-PER I-PER	O
+X	X	chat video	chat	[CLS]你是用什么训练的。预约还珠格格第八集	[CLS] O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O B-PER I-PER I-PER I-PER O O O	X
+X	O	chat cookbook	chat cookbook	[CLS]赵柏田鸡怎么做啊？。哪里牛逼了	[CLS] B-PER I-PER I-PER O O O O O O O O O O O O	[CLS] B-PER I-PER O O O O O O O O O O O O O	X
+O	O	riddle telephone	riddle telephone	[CLS]讲个谜语吧，辣。。幺五八九三二八二八三八	[CLS] O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O	O
+X	X	app chat	app chat website	[CLS]能告诉我徐乐乐的信息吗。打开淘宝购物	[CLS] O O O O B-PER I-PER I-PER O O O O O O O O O O O	[CLS] O O O O B-PER I-PER I-PER O O O O O O O O O O O	O
+O	O	chat telephone	chat telephone	[CLS]打电话给子明。这么笨啊怪不得叫笨笨	[CLS] O O O O B-PER I-PER O O O O O O O O O O O	[CLS] O O O O B-PER I-PER O O O O O O O O O O O	O
+O	O	riddle stock	riddle stock	[CLS]中国建设银行的行情。出一个谜语给我猜猜吧！	[CLS] B-ORG I-ORG I-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O O O	[CLS] B-ORG I-ORG I-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O O O	O
+X	X	music video	chat music poetry video	[CLS]小c帮我搜一下断剑视频。来一首有点舍不得	[CLS] O I-PER O O O O O O O O O O O O O O O O O O	[CLS] O I-PER O O O O O O O O O O O O O O O O O O	O
+O	O	cookbook match	cookbook match	[CLS]做蛋炒饭需要什么材料？。广州恒大比赛比分。	[CLS] O O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG O O O O O	[CLS] O O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG O O O O O	O
+X	X	cookbook email	chat cookbook email	[CLS]我想打开新邮件。[UNK]拌土豆丝。	[CLS] O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O	O
+X	O	riddle website	riddle website	[CLS]打开腾讯拍拍网。讲个谜语吧，辣。	[CLS] O O B-ORG I-ORG O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O	X
+X	X	cookbook datetime	cookbook datetime schedule	[CLS]现在的日期。讯飞语点请你搜索一下番茄炒蛋怎么做？	[CLS] O O O O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O O O O O	O
+O	O	news riddle	news riddle	[CLS]搜索最新新闻。。给我打个谜语，啊！	[CLS] O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O	O
+X	X	cookbook schedule	cookbook	[CLS]说到上海了提醒我一下。干贝怎么做？	[CLS] O O B-LOC I-LOC O O O O O O O O O O O O O	[CLS] O O B-LOC I-LOC O O O O O O O O O O O O O	O
+X	X	cookbook music	cookbook	[CLS]干贝怎么做？。播放上海滩。	[CLS] O O O O O O O O O B-LOC I-LOC I-LOC O	[CLS] O O O O O O O O O B-LOC I-LOC I-LOC O	O
+X	O	bus cookbook	bus cookbook	[CLS]从台州到金华的汽车。。打了怎么做红烧肉的做法？	[CLS] O B-LOC I-LOC O B-PER I-PER O O O O O O O O O O O O O O O O O	[CLS] O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O O O O O O O	X
+O	O	chat translation	chat translation	[CLS]笨笨你是没有年龄么。汽车英语怎么讲	[CLS] O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O	O
+O	O	cookbook news	cookbook news	[CLS]是否还有其他关于钓鱼岛的新闻。请问鱼块的做法。	[CLS] O O O O O O O O B-LOC I-LOC I-LOC O O O O O O O O O O O O	[CLS] O O O O O O O O B-LOC I-LOC I-LOC O O O O O O O O O O O O	O
+X	X	email health	chat email health lottery	[CLS]肺结核要注意些啥。帮我发邮件给婷婷	[CLS] O O O O O O O O O O O O O O O B-PER I-PER	[CLS] O O O O O O O O O O O O O O O B-PER I-PER	O
+O	O	telephone weather	telephone weather	[CLS]打电话温正军。龙岩市天气	[CLS] O O O B-PER I-PER I-PER O B-LOC I-LOC I-LOC O O	[CLS] O O O B-PER I-PER I-PER O B-LOC I-LOC I-LOC O O	O
+X	X	epg tvchannel	epg tvchannel video	[CLS]高清中央8。今天晚上有没有中国好声音呢？	[CLS] O O B-ORG I-ORG I-ORG O O O O O O O O B-LOC I-LOC O O O O O	[CLS] B-ORG I-ORG I-ORG I-ORG O O O O O O O O O B-LOC I-LOC O O O O O	X
+X	O	app cookbook	app cookbook	[CLS]给我打开一下qq。萝卜炖排骨汤怎么做？	[CLS] O O O O O O B-ORG O O O O O O O O O O O O	[CLS] O O O O O O B-ORG I-ORG O O O O O O O O O O O	X
+O	O	news weather	news weather	[CLS]中山天气怎么样。帮我查一查今天的新闻。	[CLS] B-LOC I-LOC O O O O O O O O O O O O O O O O O	[CLS] B-LOC I-LOC O O O O O O O O O O O O O O O O O	O
+O	O	epg train	epg train	[CLS]星期四去上海的火车。查下最近1周有转播x女特工	[CLS] O O O O B-LOC I-LOC O O O O O O O O O O O O O O O O O	[CLS] O O O O B-LOC I-LOC O O O O O O O O O O O O O O O O O	O
+O	O	cookbook translation	cookbook translation	[CLS]虾的英文怎么说。做红烧肉。	[CLS] O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O	O
+O	O	telephone	telephone	[CLS]拨打幺三七零九五二零八五八。幺八九幺八九二二五五五	[CLS] O O O O O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O O O O O O	O
+O	O	chat map	chat map	[CLS]上海到北京怎么走。你怎么变笨了	[CLS] B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O	[CLS] B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O	O
+X	O	cookbook match	cookbook match	[CLS]海虾的做法。。2013年亚洲冠军联赛恒广州恒大比赛时间。	[CLS] O O O O O O O O O O O O B-ORG O O O O O O B-ORG I-ORG I-ORG I-ORG O O O O O	[CLS] O O O O O O O O O O O O B-LOC I-LOC O O O O O B-ORG I-ORG I-ORG I-ORG O O O O O	X
+X	X	match website	app website	[CLS]请打开人人网。中超赛事预告，从在哪里看呢？	[CLS] O O O O O O O B-ORG O O O O O O O O O O O O O	[CLS] O O O B-ORG I-ORG I-ORG O B-ORG O O O O O O O O O O O O O	X
+X	X	chat radio	map radio	[CLS]麻烦您可不可以帮我调频97广西经济广播电台。我们去爬山怎么样啊	[CLS] O O O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG O O O O O O O O O O	[CLS] O O O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG O O O O O O O O O O	O
+X	X	message news	news	[CLS]传简讯给家里。等，请播报新闻	[CLS] O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O	O
+X	X	music poetry	poetry	[CLS]我给我念一首李白的诗吧？。来一首隐形的翅膀。	[CLS] O O O O O O B-PER I-PER O O O O O O O O O O O O O O	[CLS] O O O O O O B-PER I-PER O O O O O O O O O O O O O O	O
+O	O	cookbook poetry	cookbook poetry	[CLS]江苏路红薯粉怎么做好吃？。来首纳兰性德的词。	[CLS] B-LOC I-LOC I-LOC O O O O O O O O O O O O B-PER I-PER I-PER I-PER O O O	[CLS] B-LOC I-LOC I-LOC O O O O O O O O O O O O B-PER I-PER I-PER I-PER O O O	O
+O	O	cookbook poetry	cookbook poetry	[CLS]那好，那你告诉我西红柿炒鸡蛋，怎么去做？。背一首李白的诗来听听。	[CLS] O O O O O O O O O O O O O O O O O O O O O O O O B-PER I-PER O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O O O O O B-PER I-PER O O O O O O	O
+O	O	chat weather	chat weather	[CLS]郑州天气。你咋不上天呢	[CLS] B-LOC I-LOC O O O O O O O O O	[CLS] B-LOC I-LOC O O O O O O O O O	O
+O	O	chat video	chat video	[CLS]文艺片。那你哈尔滨那边有什么好吃的呀你今天吃什么呀	[CLS] O O O O O O B-LOC I-LOC I-LOC O O O O O O O O O O O O O O O O	[CLS] O O O O O O B-LOC I-LOC I-LOC O O O O O O O O O O O O O O O O	O
+O	O	chat poetry	chat poetry	[CLS]读首唐诗。你是妹妹还是哥哥	[CLS] O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O	O
+O	O	cookbook translation	cookbook translation	[CLS]笑话用英语怎么说。萝卜炖排骨汤怎么做？	[CLS] O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O	O
+X	X	cookbook	chat cookbook	[CLS]怎样做凉拌？。胡萝卜怎么炒好吃？	[CLS] O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O	O
+X	X	cookbook lottery	chat cookbook lottery	[CLS]帮我购买2注25选5的彩票。糖醋排骨怎么做？好了额，你。	[CLS] O O O O O O O O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O O O O O O O O O	O
+O	O	schedule weather	schedule weather	[CLS]银川天气怎么样。明天叫我8:10起床。	[CLS] B-LOC I-LOC O O O O O O O O O O O O O O O O O	[CLS] B-LOC I-LOC O O O O O O O O O O O O O O O O O	O
+O	O	cookbook match	cookbook match	[CLS]干锅鱼怎么做。中超赛事预告，从在哪里看呢？	[CLS] O O O O O O O B-ORG O O O O O O O O O O O O O	[CLS] O O O O O O O B-ORG O O O O O O O O O O O O O	O
+O	O	chat	chat	[CLS]你娘亲是谁。你是用什么训练的	[CLS] O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O	O
+O	O	cookbook message	cookbook message	[CLS]福寿鱼怎么煮比较好吃？。给查乐发短信	[CLS] O O O O O O O O O O O O O B-PER I-PER O O O	[CLS] O O O O O O O O O O O O O B-PER I-PER O O O	O
+X	X	bus epg	bus video	[CLS]下周有什么好看的恐怖电影。在合肥怎么坐去南京的汽车	[CLS] O O O O O O O O O O O O O O B-LOC I-LOC O O O O B-LOC I-LOC O O O	[CLS] O O O O O O O O O O O O O O B-LOC I-LOC O O O O B-LOC I-LOC O O O	O
+O	O	bus stock	bus stock	[CLS]科大讯飞的股价如何。无锡到阜阳怎么坐汽车？	[CLS] O O O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O	[CLS] O O O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O	O
+X	O	poetry schedule	poetry schedule	[CLS]造化钟神秀的下一句是什么？。早晨8:10叫我。	[CLS] O O O O O O O O O O O O O O O O O O O O O O O	[CLS] O O B-PER I-PER I-PER O O O O O O O O O O O O O O O O O O	X
+O	O	chat music	chat music	[CLS]你咋不上天呢。随便唱首歌。	[CLS] O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O	O
+X	X	map poetry	flight map poetry	[CLS]来一首李清照的词。杭州到上海	[CLS] O O O B-PER I-PER I-PER O O O B-LOC I-LOC O B-LOC I-LOC	[CLS] O O O B-PER I-PER I-PER O O O B-LOC I-LOC O B-LOC I-LOC	O
+X	X	flight	chat flight	[CLS]去桂林的航班怎样。去桂林的航班怎样	[CLS] O B-LOC I-LOC O O O O O O O B-LOC I-LOC O O O O O	[CLS] O B-LOC I-LOC O O O O O O O B-LOC I-LOC O O O O O	O
+O	O	chat match	chat match	[CLS]武汉卓尔的赛程。。你是妹妹还是哥哥	[CLS] B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O	[CLS] B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O	O
+O	O	chat cookbook	chat cookbook	[CLS]帮我找出红烧肉的做法。。那草为啥会绿	[CLS] O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O	O
+X	O	cookbook video	cookbook video	[CLS]猪肉丸子汤怎么做啊？。预约还珠格格第八集	[CLS] O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O B-PER I-PER I-PER I-PER O O O	X
+X	X	calc radio	radio	[CLS]0乘7。帮我调频94.8兰溪人民广播电台可以不？	[CLS] O O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG O O O O	[CLS] O O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG O O O O	O
+O	O	chat cookbook	chat cookbook	[CLS]它在哪里。孜然排骨怎么做？	[CLS] O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O	O
+O	O	cookbook stock	cookbook stock	[CLS]广汇股份的收盘价格。糖醋鲤鱼怎么做啊？你只负责吃，c则c。	[CLS] B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O O O O O O O O O O O O O	[CLS] B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O O O O O O O O O O O O O	O
+O	O	bus cookbook	bus cookbook	[CLS]打了怎么做红烧肉的做法？。无锡到阜阳怎么坐汽车？	[CLS] O O O O O O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O	[CLS] O O O O O O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O	O
+O	O	contacts cookbook	contacts cookbook	[CLS]搜索烤饼的做法。。张培的电话号码是多少	[CLS] O O O O O O O O O B-PER I-PER O O O O O O O O	[CLS] O O O O O O O O O B-PER I-PER O O O O O O O O	O
+X	X	datetime match	chat datetime match	[CLS]中超赛事预告，从在哪里看呢？。明天是农历几号	[CLS] B-ORG O O O O O O O O O O O O O O O O O O O O O	[CLS] B-ORG O O O O O O O O O O O O O O O O O O O O O	O
+O	O	message train	message train	[CLS]从余姚到贵阳的火车票。发短信给王曼希望你幸福	[CLS] O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O B-PER I-PER O O O O O	[CLS] O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O B-PER I-PER O O O O O	O
+O	O	chat message	chat message	[CLS]发消息给周磊。一共有几个小动物	[CLS] O O O O B-PER I-PER O O O O O O O O O	[CLS] O O O O B-PER I-PER O O O O O O O O O	O
+X	X	chat epg	datetime epg schedule	[CLS]谁子。看一下今天晚上广西台有没有警戒线？	[CLS] O O O O O O O O O O B-ORG I-ORG I-ORG O O O O O O O	[CLS] O O O O O O O O O O B-LOC I-LOC O O O O O O O O	X
+X	X	chat contacts	chat telephone	[CLS]哦钢结构的电话是多少。是什么呢	[CLS] O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O	O
+O	O	chat train	chat train	[CLS]哪个学校的。杭州到北京的火车班次	[CLS] O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O	[CLS] O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O	O
+O	O	chat telephone	chat telephone	[CLS]拨打幺三九幺三八九九三九九。我能把你教坏吗	[CLS] O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O O	O
+O	O	chat	chat	[CLS]嗯你叫啥呀。你能给我唱歌吗	[CLS] O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O	O
+X	X	tvchannel weather	chat weather	[CLS]cctv农业。明天天气怎样啊	[CLS] O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O	O
+X	X	cinemas stock	epg stock	[CLS]电影搜索啊！。今天上证指数是几点	[CLS] O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O	O
+O	O	chat news	chat news	[CLS]我想知道今天的娱乐新闻。。刘挺是谁？	[CLS] O O O O O O O O O O O O O B-PER I-PER O O O	[CLS] O O O O O O O O O O O O O B-PER I-PER O O O	O
+O	O	cookbook message	cookbook message	[CLS]发短信方钰玲。臭豆腐怎么做啊？	[CLS] O O O B-PER I-PER I-PER O O O O O O O O O	[CLS] O O O B-PER I-PER I-PER O O O O O O O O O	O
+X	X	tvchannel video	app tvchannel video	[CLS]请帮我打开电影。央视9	[CLS] O O O O O O O O B-ORG I-ORG O	[CLS] O O O O O O O O B-ORG I-ORG I-ORG	X
+X	O	email tvchannel	email tvchannel	[CLS]央视9。我要回复这个邮件	[CLS] B-ORG I-ORG O O O O O O O O O O	[CLS] B-ORG I-ORG I-ORG O O O O O O O O O	X
+O	O	chat translation	chat translation	[CLS]不行么。今天我要去逛街用英语说	[CLS] O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O	O
+X	X	cookbook weather	chat cookbook weather	[CLS]你知道今天南京的天气吗。烧鸭怎么做	[CLS] O O O O O B-LOC I-LOC O O O O O O O O O O	[CLS] O O O O O B-LOC I-LOC O O O O O O O O O O	O
+X	X	calc riddle	calc lottery riddle	[CLS]45的倒数多少啊。猜脑筋急转弯二。	[CLS] O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O	O
+X	X	epg video	epg tvchannel video	[CLS]80年代成龙演的电影。世界军事中央台世界军事	[CLS] O O O O O O O O O O O O O O O B-ORG I-ORG I-ORG O O O O	[CLS] O O O O B-PER I-PER O O O O O B-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG O O O O	X
+O	O	chat poetry	chat poetry	[CLS]没听清吗。火气冲天，下一句是什么？	[CLS] O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O	O
+O	O	chat poetry	chat poetry	[CLS]背首杜甫的诗啊？。可以教教吗?	[CLS] O O B-PER I-PER O O O O O O O O O O O	[CLS] O O B-PER I-PER O O O O O O O O O O O	O
+O	O	message	message	[CLS]给孟南发短信。我要发信息给高鹤航	[CLS] O B-PER I-PER O O O O O O O O O O B-PER I-PER I-PER	[CLS] O B-PER I-PER O O O O O O O O O O B-PER I-PER I-PER	O
+X	X	cookbook video	cinemas cookbook video	[CLS]鸡蛋的做法。最近新上映的电视剧。	[CLS] O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O	O
+O	O	cookbook	cookbook	[CLS]怎么样煮方便面。。红烧牛肉面我想来一碗。	[CLS] O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O	O
+X	X	app epg	app website	[CLS]打开qq通讯。明天安徽卫视演什么	[CLS] O O B-ORG I-ORG O O O O O B-ORG I-ORG I-ORG I-ORG O O O	[CLS] O O B-ORG I-ORG I-ORG I-ORG O O O B-ORG I-ORG I-ORG I-ORG O O O	X
+X	X	chat poetry	health poetry	[CLS]几八痒。毛泽东的诗哦。	[CLS] O O O O B-PER I-PER I-PER O O O O	[CLS] O O O O B-PER I-PER I-PER O O O O	O
+X	X	train video	flight train	[CLS]帮我查一下明天去郑州的火车票。青春四十	[CLS] O O O O O O O O B-LOC I-LOC O O O O O O O O O	[CLS] O O O O O O O O B-LOC I-LOC O O O O O O O O O	O
+O	O	cookbook map	cookbook map	[CLS]去华强北的路怎么走。豆沙包。	[CLS] O B-LOC I-LOC I-LOC O O O O O O O O O O	[CLS] O B-LOC I-LOC I-LOC O O O O O O O O O O	O
+X	X	bus video	bus chat	[CLS]去深圳怎么坐车？。锁梦楼	[CLS] O B-LOC I-LOC O O O O O O O O O	[CLS] O B-LOC I-LOC O O O O O O B-LOC I-LOC I-LOC	X
+O	O	cookbook message	cookbook message	[CLS]给石荣福发短信。不，做个红烧肉怎么做？	[CLS] O B-PER I-PER I-PER O O O O O O O O O O O O O O O	[CLS] O B-PER I-PER I-PER O O O O O O O O O O O O O O O	O
+O	O	epg telephone	epg telephone	[CLS]哪个台播放节目。呼叫王希	[CLS] O O O O O O O O O O B-PER I-PER	[CLS] O O O O O O O O O O B-PER I-PER	O
+O	O	chat poetry	chat poetry	[CLS]来首纳兰性德的词。。可以教教吗?	[CLS] O O B-PER I-PER I-PER I-PER O O O O O O O O O O	[CLS] O O B-PER I-PER I-PER I-PER O O O O O O O O O O	O
+X	X	stock video	cinemas epg stock	[CLS]最近有什么电影可以看一下。。中国石化的股价怎么样	[CLS] O O O O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG O O O O O O	[CLS] O O O O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG O O O O O O	O
+O	O	cookbook website	cookbook website	[CLS]糖醋排骨怎么做？好了额，你。。打开百度哇	[CLS] O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O	O
+O	O	health train	health train	[CLS]去南昌的火车。鼻息肉	[CLS] O B-LOC I-LOC O O O O O O O	[CLS] O B-LOC I-LOC O O O O O O O	O
+X	X	match website	app chat map	[CLS]上广州坐车网查一下从这里到大咋地怎么走。中超赛事预告，从在哪里看呢？	[CLS] O B-LOC I-LOC O O O O O O O O O O O O O O O O O B-ORG O O O O O O O O O O O O O	[CLS] O B-LOC I-LOC O O O O O O O O O O O O O O O O O B-ORG O O O O O O O O O O O O O	O
+X	O	flight telephone	flight telephone	[CLS]七月三十一日上海虹桥到北京的航班。拨打幺三七零九五二零八五八	[CLS] O O O O O O B-LOC I-LOC I-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O O O O O O O	[CLS] O O O O O O B-LOC I-LOC B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O O O O O O O	X
+X	O	map tvchannel	map tvchannel	[CLS]从济源市到河南省电信分公司怎么走。北京二台高清	[CLS] O B-LOC I-LOC I-LOC O B-LOC I-LOC I-LOC I-LOC I-ORG I-LOC I-LOC I-LOC O O O O B-ORG I-ORG I-ORG I-ORG O O	[CLS] O B-LOC I-LOC I-LOC O B-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG O O O O B-ORG I-ORG I-ORG I-ORG O O	X
+X	X	map weather	map train weather	[CLS]帮我查一下明日天气。北京西站在哪	[CLS] O O O O O O O O O O B-LOC I-LOC I-LOC I-LOC O O	[CLS] O O O O O O O O O O B-LOC I-LOC I-LOC I-LOC O O	O
+X	X	chat video	chat	[CLS]抽身游戏。娃咋么杨你因为呵呵演完呀不到你	[CLS] O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O B-PER O O O O O O O O O O O	X
+X	O	riddle stock	riddle stock	[CLS]中海油服股票。出一个谜语给我猜猜吧！	[CLS] B-ORG I-ORG I-ORG O O O O O O O O O O O O O O O	[CLS] B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O O	X
+O	O	epg poetry	epg poetry	[CLS]背唐诗李白侠客行。一站到底是哪个电视台播放的。	[CLS] O O O B-PER I-PER O O O O O O O O O O O O O O O O O O	[CLS] O O O B-PER I-PER O O O O O O O O O O O O O O O O O O	O
+X	X	app cookbook	cookbook	[CLS]凯立德。萝卜炖排骨汤怎么做？	[CLS] B-PER I-PER I-PER O O O O O O O O O O O	[CLS] B-PER I-PER I-PER O O O O O O O O O O O	O
+X	X	cookbook video	chat cookbook video	[CLS]刘林面怎么做啊？。三女休夫	[CLS] B-PER I-PER I-PER O O O O O O O O O O	[CLS] B-PER I-PER I-PER O O O O O O O O B-PER I-PER	X
+X	O	cookbook match	cookbook match	[CLS]2013年亚洲冠军联赛恒广州恒大比赛时间。。脆瓜。	[CLS] O O O O O B-LOC O O O O O O B-ORG I-ORG I-ORG I-ORG O O O O O O O O O	[CLS] O O O O O B-LOC I-LOC O O O O O B-ORG I-ORG I-ORG I-ORG O O O O O O O O O	X
+O	O	chat train	chat train	[CLS]明天广州到长葛的火车。你爱玩什么英雄	[CLS] O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O	[CLS] O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O	O
+X	X	chat message	chat map message	[CLS]我是不是好没用。发送短信给老婆我在三号楼三零幺刚才那个教室关门了	[CLS] O O O O O O O O O O O O O O O O O B-LOC I-LOC I-LOC O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O B-LOC I-LOC I-LOC I-LOC I-LOC I-LOC O O O O O O O O O	X
+O	O	epg news	epg news	[CLS]该我读新闻。。广西电视台现在播放什么节目？	[CLS] O O O O O O O B-ORG I-ORG I-ORG I-ORG I-ORG O O O O O O O O O	[CLS] O O O O O O O B-ORG I-ORG I-ORG I-ORG I-ORG O O O O O O O O O	O
+O	O	cookbook poetry	cookbook poetry	[CLS]板栗怎么煮？。读首唐诗	[CLS] O O O O O O O O O O O	[CLS] O O O O O O O O O O O	O
+X	X	cookbook music	cookbook music poetry	[CLS]黑米红豆粥的做法。。给我来一首，相见恨晚的音乐。	[CLS] O O O O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O O O O O	O
+O	O	chat translation	chat translation	[CLS]你喜欢玩肥皂么？。翻译今天出去玩	[CLS] O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O	O
+X	X	health riddle	chat health riddle	[CLS]痛经。。出一个谜语给我猜猜吧！	[CLS] O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O	O
+X	O	chat cookbook	chat cookbook	[CLS]你什么梦想。周黑鸭怎么做？	[CLS] O O O O O O O O O O O O O	[CLS] O O O O O O B-PER I-PER I-PER O O O O	X
+X	O	chat tvchannel	chat tvchannel	[CLS]徐梓翔是谁。北京二台高清	[CLS] B-PER I-PER I-PER O O O B-ORG I-ORG I-ORG I-ORG B-PER I-PER	[CLS] B-PER I-PER I-PER O O O B-ORG I-ORG I-ORG I-ORG O O	X
+O	O	cookbook video	cookbook video	[CLS]用菜籽油做面包。恶熊出没	[CLS] O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O	O
+X	X	cookbook website	app cookbook website	[CLS]打开新浪网我肏。酸菜鱼怎样做	[CLS] O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O	O
+O	O	chat riddle	chat riddle	[CLS]你妈逼你考大学了吗。动物谜语。	[CLS] O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O	O
+O	O	chat	chat	[CLS]那聊什么呢。你怎么知道～	[CLS] O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O	O
+X	X	chat radio	chat tvchannel	[CLS]打开安徽交通台。你知道怎么拍照么	[CLS] O O B-ORG I-ORG I-ORG I-ORG I-ORG O O O O O O O O O	[CLS] O O B-ORG I-ORG I-ORG I-ORG I-ORG O O O O O O O O O	O
+X	X	map news	news	[CLS]查查科大讯飞在哪儿。今日头条新闻。	[CLS] O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O	O
+X	X	train video	train	[CLS]大耳朵图图二。杭州到北京的火车班次	[CLS] O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O	[CLS] O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O	O
+O	O	chat news	chat news	[CLS]你能做点什么。我想听重庆新闻。	[CLS] O O O O O O O O O O B-LOC I-LOC O O O	[CLS] O O O O O O O O O O B-LOC I-LOC O O O	O
+X	X	contacts video	contacts telephone	[CLS]青年奥林匹克运动会。把李会计的电话发给小江	[CLS] O O O O O O O O O O O B-PER I-PER I-PER O O O O O B-PER I-PER	[CLS] O O O O O O O O O O O B-PER O O O O O O O B-PER I-PER	X
+O	O	chat health	chat health	[CLS]得了关节炎怎么办？。你们学校机械学院都有哪些好老师他们都叫什么名字	[CLS] O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O	O
+X	X	train translation	poetry train translation	[CLS]翻译背首诗。去南昌的火车	[CLS] O O O O O O O B-LOC I-LOC O O O	[CLS] O O O O O O O B-LOC I-LOC O O O	O
+O	O	epg video	epg video	[CLS]年代秀什么时候播。家有儿女第二部	[CLS] O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O	O
+X	X	train video	train	[CLS]青春四十。查一下明天下午南通到南京的火车票	[CLS] O O O O O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O	[CLS] O O O O O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O	O
+X	X	epg novel	epg video	[CLS]湖北卫视今天下午六点以后开始播男生女生向前冲。搜索极品天王	[CLS] B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O O O O O O O O O O O O O	[CLS] B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O O O O O O O O O O O O O	O
+X	X	epg music	chat epg music video	[CLS]明晚真人秀频道有播放过百变大咖秀呢。我要听张雨生的歌。	[CLS] O O O O O O O O O O O O O O O O O O O O O B-PER I-PER I-PER O O O	[CLS] O O O O O O O O O O O O O O O O O O O O O B-PER I-PER I-PER O O O	O
+X	X	cookbook tvchannel	app cookbook	[CLS]搜索第10频道。烧鸭怎么做	[CLS] O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O	O
+X	X	chat video	chat cinemas	[CLS]好有爱?。帮我看一下最近哪些电影是新上映的。	[CLS] O O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O O O	O
+X	X	contacts music	music	[CLS]查看之丽丽的号码。播放音乐喜帖街。	[CLS] O O O O O O O O O O O O O O O O O	[CLS] O O O B-PER I-PER O O O O O O O O O O O O	X
+X	X	video website	cinemas epg video	[CLS]打开浦发银行。最近新上映的电视剧。	[CLS] O O B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O	[CLS] O O B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O	O
+X	X	epg train	train	[CLS]哪个频道有刘德华出演的电视剧。帮我查一下宁波到郑州的火车	[CLS] O O O O O B-PER I-PER I-PER O O O O O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O	[CLS] O O O O O B-PER I-PER I-PER O O O O O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O	O
+O	O	message poetry	message poetry	[CLS]背首宋词。。我要发信息给高鹤航	[CLS] O O O O O O O O O O O O B-PER I-PER I-PER	[CLS] O O O O O O O O O O O O B-PER I-PER I-PER	O
+O	O	chat cookbook	chat cookbook	[CLS]最近有啥新鲜事阿。猪大肠怎么炒？	[CLS] O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O	O
+X	X	message tvchannel	message	[CLS]山东高清。我要发信息给高鹤航	[CLS] B-LOC I-LOC B-PER I-PER O O O O O O O B-PER I-PER I-PER	[CLS] B-LOC I-LOC O O O O O O O O O B-PER I-PER I-PER	X
+O	O	music stock	music stock	[CLS]哦来一首忘情水。科大讯飞的股价如何	[CLS] O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O	O
+O	O	cookbook	cookbook	[CLS]做黄焖小土豆怎么做啊？。搜索烤饼的做法。	[CLS] O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O	O
+O	O	chat translation	chat translation	[CLS]那你哈尔滨那边有什么好吃的呀你今天吃什么呀。挑逗你真好玩儿英语怎么说	[CLS] O O B-LOC I-LOC I-LOC O O O O O O O O O O O O O O O O O O O O O O O O O O O O O	[CLS] O O B-LOC I-LOC I-LOC O O O O O O O O O O O O O O O O O O O O O O O O O O O O O	O
+O	O	chat train	chat train	[CLS]查询临沂到济南的火车票。我能把你教坏吗	[CLS] O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O O	[CLS] O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O O	O
+X	X	match website	match	[CLS]那你帮我打开百度。广州恒大比赛比分。	[CLS] O O O O O O O O O B-ORG I-ORG I-ORG I-ORG O O O O O	[CLS] O O O O O O O O O B-ORG I-ORG I-ORG I-ORG O O O O O	O
+O	O	chat train	chat train	[CLS]能发点其他的吗。星期四去上海的火车	[CLS] O O O O O O O O O O O O B-LOC I-LOC O O O	[CLS] O O O O O O O O O O O O B-LOC I-LOC O O O	O
+O	O	app datetime	app datetime	[CLS]距离春节还有多久。给我打开一下qq	[CLS] O O O O O O O O O O O O O O O B-ORG I-ORG	[CLS] O O O O O O O O O O O O O O O B-ORG I-ORG	O
+O	O	chat weather	chat weather	[CLS]郑州的天气怎么样。几八痒	[CLS] B-LOC I-LOC O O O O O O O O O O	[CLS] B-LOC I-LOC O O O O O O O O O O	O
+X	X	chat	chat weather	[CLS]今天什么天气。你叫什么名字?	[CLS] O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O	O
+O	O	contacts stock	contacts stock	[CLS]把高建清的号码发给潘青华。中国石化的股价怎么样	[CLS] O B-PER I-PER I-PER O O O O O B-PER I-PER I-PER O B-ORG I-ORG I-ORG I-ORG O O O O O O	[CLS] O B-PER I-PER I-PER O O O O O B-PER I-PER I-PER O B-ORG I-ORG I-ORG I-ORG O O O O O O	O
+X	X	video	music video	[CLS]我想看爱在春天。锁梦楼	[CLS] O O O O O O O O O O O	[CLS] O O O O O O O O B-LOC I-LOC I-LOC	X
+X	X	cookbook health	chat cookbook health	[CLS]多囊肾怎么治啊？。不懂饭的做法。	[CLS] O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O	O
+O	O	cookbook weather	cookbook weather	[CLS]查南京天气。帮我搜索一下红烧排骨。	[CLS] O B-LOC I-LOC O O O O O O O O O O O O O O	[CLS] O B-LOC I-LOC O O O O O O O O O O O O O O	O
+X	X	app cookbook	cookbook	[CLS]鱼香肉丝，怎么炒？。开微信	[CLS] O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O	O
+X	X	calc translation	calc chat translation	[CLS]你吃过早饭了吗用英文怎么讲。45的倒数多少啊	[CLS] O O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O O O	O
+X	X	chat cinemas	cinemas datetime map	[CLS]哪天的？。搜索合肥左岸电影城。	[CLS] O O O O O O O B-LOC I-LOC B-LOC I-LOC I-LOC I-LOC I-LOC O	[CLS] O O O O O O O B-LOC I-LOC B-LOC I-LOC I-LOC I-LOC I-LOC O	O
+O	O	chat	chat	[CLS]什么曰子啊。你怎么认识我的	[CLS] O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O	O
+O	O	radio translation	radio translation	[CLS]苹果翻译成英语。帮我调频92.8桐庐人民广播电台行不行？	[CLS] O O O O O O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG O O O O	[CLS] O O O O O O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG O O O O	O
+O	O	chat poetry	chat poetry	[CLS]可以告诉我你的性别么。唐代诗人李白。	[CLS] O O O O O O O O O O O O O O O B-PER I-PER O	[CLS] O O O O O O O O O O O O O O O B-PER I-PER O	O
+X	X	music telephone	music telephone video	[CLS]给叶君恩打电话。我叫小沈阳这首歌	[CLS] O B-PER I-PER I-PER O O O O O O B-PER I-PER I-PER O O O	[CLS] O B-PER I-PER I-PER O O O O O O O B-PER I-PER O O O	X
+X	X	epg translation	epg schedule translation	[CLS]看一下今天晚上广西台有没有警戒线？。出口在哪里英文怎么说	[CLS] O O O O O O O B-ORG I-ORG I-ORG O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O B-LOC I-LOC O O O O O O O O O O O O O O O O O O O	X
+O	O	chat	chat	[CLS]你是穆斯林吗。笨笨你爸比和帮主是什么关系	[CLS] O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O	O
+O	O	chat	chat	[CLS]是什么呢。在干吗啊	[CLS] O O O O O O O O O	[CLS] O O O O O O O O O	O
+O	O	chat translation	chat translation	[CLS]翻译秋天。我就不是好孩子了怎么了	[CLS] O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O	O
+O	O	chat	chat	[CLS]这么笨啊怪不得叫笨笨。晚餐吃点什么呢	[CLS] O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O	O
+X	O	music stock	music stock	[CLS]查询大北农的股票。我想听期待这首歌	[CLS] O O B-ORG I-ORG I-ORG O O O O O O O O O O O O	[CLS] O O O B-ORG I-ORG O O O O O O O O O O O O	X
+X	X	novel translation	translation video	[CLS]搜索极品天王。笑话用英语怎么说	[CLS] O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O	O
+O	O	stock translation	stock translation	[CLS]挑逗你真好玩儿英语怎么说。查询中国石化的股价	[CLS] O O O O O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG O O O	[CLS] O O O O O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG O O O	O
+X	X	map video	map	[CLS]查询合肥市植物园的位置。尼古拉斯凯奇	[CLS] O O B-LOC I-LOC I-LOC I-LOC I-LOC I-LOC O O O O B-PER I-PER I-PER I-PER I-PER I-PER	[CLS] O O B-LOC I-LOC I-LOC I-LOC I-LOC I-LOC O O O O B-PER I-PER I-PER I-PER I-PER I-PER	O
+X	X	chat	chat flight	[CLS]订机票今天吃什么。你能听懂我说的是啥吗	[CLS] O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O	O
+X	X	translation tvchannel	epg translation tvchannel	[CLS]高清中央电视台电影频道。翻译今天出去玩	[CLS] O O B-ORG I-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O	[CLS] O O B-ORG I-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O	O
+X	X	cinemas epg	chat epg video	[CLS]电影频道今天放什么。电影搜索啊！	[CLS] O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O	O
+X	X	health website	app health	[CLS]包皮包茎。打开浦发银行	[CLS] O O O O O O O B-ORG I-ORG I-ORG I-ORG	[CLS] O O O O O O O B-ORG I-ORG I-ORG I-ORG	O
+O	O	chat cookbook	chat cookbook	[CLS]做红烧肉。。你是妹妹还是哥哥	[CLS] O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O	O
+X	O	weather website	weather website	[CLS]盘县今天的天气如何。请打开人人网	[CLS] B-LOC I-LOC O O O O O O O O O O O O O O	[CLS] B-LOC I-LOC O O O O O O O O O O O B-ORG I-ORG I-ORG	X
+X	X	health stock	chat health stock	[CLS]破伤风该怎么处理。南京熊猫股票	[CLS] O O O O O O O O O B-LOC I-LOC O O O O	[CLS] O O O O O O O O O B-ORG I-ORG I-ORG I-ORG O O	X
+O	O	chat video	chat video	[CLS]真的吗。惊情四百年	[CLS] O O O O O O O O O	[CLS] O O O O O O O O O	O
+O	O	datetime poetry	datetime poetry	[CLS]唐诗哦。。现在的日期	[CLS] O O O O O O O O O O	[CLS] O O O O O O O O O O	O
+O	O	epg riddle	epg riddle	[CLS]中央六台的节目单。出一个谜语给我猜猜吧！	[CLS] B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O O O O	[CLS] B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O O O O	O
+X	X	stock video	epg stock	[CLS]科大讯飞的股票是多少a。体育赛事直播	[CLS] O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O	O
+O	O	chat translation	chat translation	[CLS]小老虎用英语怎么讲。在干吗啊	[CLS] O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O	O
+O	O	cookbook telephone	cookbook telephone	[CLS]打给宋成钢。不懂饭的做法。	[CLS] O O B-PER I-PER I-PER O O O O O O O O	[CLS] O O B-PER I-PER I-PER O O O O O O O O	O
+X	X	chat translation	translation	[CLS]星期天早晨我们一起去打篮球英语怎么说。你是妹妹还是哥哥	[CLS] O O O O O O O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O O O O O O O O	O
+O	O	cookbook schedule	cookbook schedule	[CLS]鸡爪怎么炒？。晚上8:10的闹钟。	[CLS] O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O	O
+X	X	chat weather	chat poetry weather	[CLS]你还会什么古诗。帮我查一下明日天气	[CLS] O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O	O
+O	O	chat translation	chat translation	[CLS]翻译芬兰。干啥呢	[CLS] O O B-LOC I-LOC O O O O	[CLS] O O B-LOC I-LOC O O O O	O
+X	X	message train	flight message train	[CLS]给爸爸发条短信，说[UNK]爸爸，我国庆节回来[UNK]。从广州到南昌的火车票时刻表	[CLS] O O O O O O O O O O O O O O O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O	O
+X	X	epg music	chat epg poetry	[CLS]给我来一首，相见恨晚的音乐。。哪个台播放节目	[CLS] O O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O O O	O
+O	O	email match	email match	[CLS]我想要全部答复。武汉卓尔的赛程。	[CLS] O O O O O O O O B-ORG I-ORG I-ORG I-ORG O O O O	[CLS] O O O O O O O O B-ORG I-ORG I-ORG I-ORG O O O O	O
+X	X	epg stock	stock	[CLS]查询股票00230。明天安徽卫视演什么	[CLS] O O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG O O O	[CLS] O O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG O O O	O
+O	O	chat train	chat train	[CLS]你有兄弟么。查询广州到贵港的火车	[CLS] O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O	[CLS] O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O	O
+X	X	chat website	app chat website	[CLS]打开网页猫扑。有答案了吗	[CLS] O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O	O
+O	O	cookbook schedule	cookbook schedule	[CLS]拔丝芋头怎么做。晚上8:10的闹钟。	[CLS] O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O	O
+X	X	epg stock	chat epg stock	[CLS]你知道现在广东卫视在演什么吗？。查询中国石化的股价	[CLS] O O O O O B-ORG I-ORG I-ORG I-ORG O O O O O O O O O B-ORG I-ORG I-ORG I-ORG O O O	[CLS] O O O O O B-ORG I-ORG I-ORG I-ORG O O O O O O O O O B-ORG I-ORG I-ORG I-ORG O O O	O
+O	O	chat website	chat website	[CLS]你觉得我嫁的出去吗。帮我上下新浪网	[CLS] O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O	O
+O	O	app poetry	app poetry	[CLS]天王盖地虎的下一句是什么？。帮忙打开一下酷狗音乐播放音乐行不	[CLS] O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O	O
+X	O	chat translation	chat translation	[CLS]娃咋么杨你因为呵呵演完呀不到你。出口在哪里英文怎么说	[CLS] O O O O O O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O B-PER O O O O O O O O O O O O O O O O O O O O O O	X
+O	O	cookbook train	cookbook train	[CLS]查询湛江到广州的火车票。海虾的做法。	[CLS] O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O	[CLS] O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O	O
+X	O	lottery news	lottery news	[CLS]最近几期的大乐透的开奖情况。盘锦新闻。	[CLS] O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O B-LOC I-LOC O O O	X
+O	O	chat train	chat train	[CLS]帮我查一下宁波到郑州的火车。不行么	[CLS] O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O	[CLS] O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O	O
+X	X	cinemas map	cinemas	[CLS]河北在哪里。我要查找雷迪波尔电影院最新上映的大片	[CLS] B-LOC I-LOC O O O O O O O O B-PER I-PER I-PER I-PER I-ORG I-ORG I-ORG O O O O O O O	[CLS] B-LOC I-LOC O O O O O O O O B-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG O O O O O O O	X
+X	X	cookbook epg	cookbook epg video	[CLS]动漫频道三天之后有开始播吸血鬼日记第四季呢。蛋黄焗薯条怎么做	[CLS] O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O	O
+O	O	bus train	bus train	[CLS]南京到，黄山的汽车。。有没有徐州到洛阳的火车票	[CLS] B-LOC I-LOC O O B-LOC I-LOC O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O	[CLS] B-LOC I-LOC O O B-LOC I-LOC O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O	O
+O	O	bus chat	bus chat	[CLS]有答案了吗。无锡到阜阳怎么坐汽车？	[CLS] O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O	[CLS] O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O	O
+X	X	epg message	epg message news	[CLS]发送短信给老婆我在三号楼三零幺刚才那个教室关门了。回放昨晚的焦点访谈	[CLS] O O O O O O O O O B-LOC I-LOC I-LOC B-LOC I-LOC O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O B-LOC I-LOC I-LOC I-LOC I-LOC I-LOC O O O O O O O O O O O O O O O O O O O	X
+X	X	message weather	message telephone weather	[CLS]龙岩市天气。传简讯给家里	[CLS] B-LOC I-LOC I-LOC O O O O O O O O O	[CLS] B-LOC I-LOC I-LOC O O O O O O O O O	O
+O	O	news telephone	news telephone	[CLS]打电话给张帕楼。哦，听新闻。	[CLS] O O O O B-PER I-PER I-PER O O O O O O O	[CLS] O O O O B-PER I-PER I-PER O O O O O O O	O
+O	O	chat train	chat train	[CLS]查一下从广州到南宁的火车票。你咋不上天呢	[CLS] O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O	[CLS] O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O	O
+O	O	chat poetry	chat poetry	[CLS]问题是有些东西你听不懂怎么聊天。背首宋词。	[CLS] O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O O	O
+O	O	app train	app train	[CLS]请帮我打开uc。开封到信阳的火车	[CLS] O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O	[CLS] O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O	O
+X	X	news video	news	[CLS]等，请播报新闻。黑猫截长	[CLS] O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O	O
+O	O	chat flight	chat flight	[CLS]你是白痴吗。从广州到贵阳市的航班	[CLS] O O O O O O O B-LOC I-LOC O B-LOC I-LOC I-LOC O O O	[CLS] O O O O O O O B-LOC I-LOC O B-LOC I-LOC I-LOC O O O	O
+X	X	video	cinemas epg video	[CLS]放年代短片看。最近新上映的电视剧。	[CLS] O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O	O
+X	X	epg music	poetry	[CLS]世界军事中央台世界军事。给我来一首，相见恨晚的音乐。	[CLS] O O O O B-ORG I-ORG I-ORG O O O O O O O O O O O O O O O O O O O	[CLS] B-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O O O O O O O	X
+O	O	message news	message news	[CLS]给潘开国发短信。我想知道今天的娱乐新闻。	[CLS] O B-PER I-PER I-PER O O O O O O O O O O O O O O O O	[CLS] O B-PER I-PER I-PER O O O O O O O O O O O O O O O O	O
+X	X	email message	chat email message	[CLS]我要回复这个邮件。发短信给王勋连说我很好	[CLS] O O O O O O O O O O O O O B-PER I-PER I-PER O O O O	[CLS] O O O O O O O O O O O O O B-PER I-PER I-PER O O O O	O
+O	O	chat train	chat train	[CLS]这么神奇吗。从余姚到贵阳的火车票	[CLS] O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O	[CLS] O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O	O
+O	O	message	message	[CLS]我要发信息给高鹤航。给石荣福发短信	[CLS] O O O O O O B-PER I-PER I-PER O O B-PER I-PER I-PER O O O	[CLS] O O O O O O B-PER I-PER I-PER O O B-PER I-PER I-PER O O O	O
+O	O	chat	chat	[CLS]我都不害羞你害羞什么。对呀+你咋这么笨呢	[CLS] O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O	O
+X	X	cinemas map	cinemas video	[CLS]导航到奉贤。最近热门的电影。	[CLS] O O O B-LOC I-LOC O O O O O O O O O	[CLS] O O O B-LOC I-LOC O O O O O O O O O	O
+O	O	message poetry	message poetry	[CLS]朗读一首李白的诗呗！。发短信给王曼希望你幸福	[CLS] O O O O B-PER I-PER O O O O O O O O O B-PER I-PER O O O O O	[CLS] O O O O B-PER I-PER O O O O O O O O O B-PER I-PER O O O O O	O
+X	X	chat epg	epg	[CLS]搜一下今天中午开始放郭的秀。怎么	[CLS] O O O O O O O O O O B-PER I-PER I-PER O O O	[CLS] O O O O O O O O O O B-PER O O O O O	X
+X	X	music poetry	chat music poetry	[CLS]呦呦鹿鸣的下一句。。随便唱首歌。	[CLS] O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O	O
+X	O	chat map	chat map	[CLS]去金湖县城。我们去爬山怎么样啊	[CLS] O B-LOC I-LOC I-LOC I-LOC O O O O O O O O O O	[CLS] O B-LOC I-LOC O O O O O O O O O O O O	X
+X	X	flight video	app flight	[CLS]武汉到北京的飞机票。请帮我打开电影	[CLS] B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O O	[CLS] B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O O	O
+O	O	cookbook video	cookbook video	[CLS]播放2005年励志动漫。鱼香肉丝，怎么炒？	[CLS] O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O O	O
+X	X	contacts health	contacts flight health	[CLS]鼻息肉。把高建清的号码发给潘青华	[CLS] O O O O O B-PER I-PER I-PER O O O O O B-PER I-PER I-PER	[CLS] O O O O O B-PER I-PER I-PER O O O O O B-PER I-PER I-PER	O
+O	O	chat email	chat email	[CLS]怎么写。帮我发邮件给婷婷	[CLS] O O O O O O O O O O B-PER I-PER	[CLS] O O O O O O O O O O B-PER I-PER	O
+O	O	cookbook health	cookbook health	[CLS]糖尿病注意什么？。帮我找出红烧肉的做法。	[CLS] O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O	O
+X	O	chat tvchannel	chat tvchannel	[CLS]我就不是好孩子了怎么了。山东台高清	[CLS] O O O O O O O O O O O O B-ORG I-ORG I-ORG B-PER I-ORG	[CLS] O O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG O	X
+O	O	cookbook map	cookbook map	[CLS]我想到科大讯飞走高速路线。用菜籽油做面包	[CLS] O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O	O
+X	X	message video	chat message	[CLS]发现之美。发短信给王曼希望你幸福	[CLS] O O O O O O O O O B-PER I-PER O O O O O	[CLS] O O O O O O O O O B-PER I-PER O O O O O	O
+X	X	contacts website	chat telephone website	[CLS]打开聚划算网站。老马的电话是多少	[CLS] O O O O O O O O O B-PER O O O O O O	[CLS] O O B-ORG I-ORG I-ORG O O O O B-PER O O O O O O	X
+X	O	tvchannel video	tvchannel video	[CLS]湖北电视台。查雷神电影	[CLS] B-ORG I-ORG I-ORG I-ORG I-ORG O O O O O O	[CLS] B-ORG I-ORG I-ORG I-ORG I-ORG O B-PER B-PER I-PER O O	X
+O	O	cookbook poetry	cookbook poetry	[CLS]朗诵一首李白的诗词。。宫爆鸡丁的菜谱。	[CLS] O O O O B-PER I-PER O O O O O O O O O O O O O	[CLS] O O O O B-PER I-PER O O O O O O O O O O O O O	O
+X	O	cinemas flight	cinemas flight	[CLS]明天去徐州的航班。我要查找雷迪波尔电影院最新上映的大片	[CLS] O O O B-LOC I-LOC O O O O O O O O B-PER I-PER I-PER I-PER I-ORG I-ORG I-ORG O O O O O O O	[CLS] O O O B-LOC I-LOC O O O O O O O O B-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG O O O O O O O	X
+O	O	chat stock	chat stock	[CLS]罗顿发展的股票。喝哪种酒	[CLS] B-PER I-PER O O O O O O O O O O	[CLS] B-PER I-PER O O O O O O O O O O	O
+O	O	music train	music train	[CLS]我要听张雨生的歌。。查询广州到北京的火车	[CLS] O O O B-PER I-PER I-PER O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O	[CLS] O O O B-PER I-PER I-PER O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O	O
+X	X	map stock	chat stock	[CLS]帮我看一下到科大讯飞最快的是哪条路线。保利地产的股票	[CLS] O O O O O O O O O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG O O O	[CLS] O O O O O O O O O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG O O O	O
+O	O	cookbook music	cookbook music	[CLS]做红烧肉怎么做？。来点歌听听	[CLS] O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O	O
+X	X	chat	chat cookbook	[CLS]你们你过生日吃蛋糕吗。做的还是不够好	[CLS] O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O	O
+X	X	chat website	chat map	[CLS]你好能看懂表情吗呲牙。上广州坐车网查一下从这里到大咋地怎么走	[CLS] O O O O O O O O O O O O B-LOC I-LOC O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O B-LOC I-LOC O O O O O O O O O O O O O O O O	O
+X	X	chat riddle	riddle	[CLS]猜脑筋急转弯二。。这么傲娇	[CLS] O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O	O
+X	O	chat match	chat match	[CLS]其实我不跟你说话么办。宏大俱乐部赛程。	[CLS] O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG I-ORG O O O	[CLS] O O O O O O O O O O O O O O O O O O O	X
+O	O	chat match	chat match	[CLS]提示什么。武汉卓尔的赛程。	[CLS] O O O O O B-ORG I-ORG I-ORG I-ORG O O O O	[CLS] O O O O O B-ORG I-ORG I-ORG I-ORG O O O O	O
+X	X	poetry video	poetry	[CLS]来一首白居易的诗。第二梦	[CLS] O O O B-PER I-PER I-PER O O O O O O	[CLS] O O O B-PER I-PER I-PER O O O O O O	O
+X	X	health radio	health radio schedule	[CLS]暴发性紫癜。我要听fm90.8	[CLS] O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O	O
+O	O	chat cookbook	chat cookbook	[CLS]摸啥。煲鸡汤。	[CLS] O O O O O O O	[CLS] O O O O O O O	O
+O	O	cookbook flight	cookbook flight	[CLS]做糖醋排骨需要哪些材料呀？。阜阳到温州的航班	[CLS] O O O O O O O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O	[CLS] O O O O O O O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O	O
+X	X	chat lottery	chat	[CLS]看一看七乐彩的信息。你怎么就知道我不会呢？	[CLS] O O O B-ORG I-ORG I-ORG O O O O O O O O O O O O O O O	[CLS] O O O B-ORG I-ORG I-ORG O O O O O O O O O O O O O O O	O
+X	X	music video	chat music	[CLS]大耳朵图图获。来一首有点舍不得	[CLS] O O O O O O O O O O O O O O O	[CLS] O O O B-PER I-PER O O O O O O O O O O	X
+O	O	cookbook riddle	cookbook riddle	[CLS]帮我出一个灯谜。。鱼香肉丝，怎么炒？	[CLS] O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O	O
+X	X	cookbook website	cookbook map	[CLS]银耳莲子粥怎么做。上广州坐车网查一下从这里到大咋地怎么走	[CLS] O O O O O O O O O O B-LOC I-LOC O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O B-LOC I-LOC O O O O O O O O O O O O O O O O	O
+O	O	chat video	chat video	[CLS]谁告诉你的。电影十二生肖	[CLS] O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O	O
+O	O	chat message	chat message	[CLS]做的还是不够好。发信息给[UNK][UNK]	[CLS] O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O	O
+X	X	train video	train	[CLS]请搜电影画皮。烟台到齐齐哈尔的火车票	[CLS] O O O O O O O B-LOC I-LOC O B-LOC I-LOC I-LOC I-LOC O O O O	[CLS] O O O O O O O B-LOC I-LOC O B-LOC I-LOC I-LOC I-LOC O O O O	O
+X	X	poetry video	poetry	[CLS]张艺谋的甄嬛传。说个李白的诗来听听。	[CLS] B-PER I-PER I-PER O O O O O O O B-PER I-PER O O O O O O	[CLS] B-PER I-PER I-PER O O O O O O O B-PER I-PER O O O O O O	O
+O	O	cookbook train	cookbook train	[CLS]我说吃飞蟹，怎么做？。查询广州到贵港的火车	[CLS] O O O O O O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O	[CLS] O O O O O O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O	O
+X	X	chat schedule	chat datetime schedule	[CLS]谁是小萌萌。下午的日程是什么	[CLS] O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O	O
+X	X	stock video	stock	[CLS]查询一下南方航空的股票。智慧树我	[CLS] O O O O B-ORG I-ORG I-ORG I-ORG O O O O O O O O	[CLS] O O O O B-ORG I-ORG I-ORG I-ORG O O O O O O O O	O
+X	X	calc epg	calc	[CLS]4乘6然后再乘七再除以二。明晚真人秀频道有播放过百变大咖秀呢	[CLS] O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O	O
+O	O	chat music	chat music	[CLS]给我放一首最炫民族风。。不行么	[CLS] O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O	O
+O	O	cookbook	cookbook	[CLS]宫爆鸡丁的菜谱。。蛋黄焗薯条怎么做	[CLS] O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O	O
+X	X	contacts poetry	chat contacts poetry telephone	[CLS]老马的电话是多少。若相惜不弃下一句是什么？	[CLS] O B-PER O O O O O O O O O O O O O O O O O O O	[CLS] O B-PER O O O O O O O O O O O O O O O O O O O	O
+X	X	message music	message music video	[CLS]播放音乐喜帖街。。写短信给颖村	[CLS] O O O O O O O O O O O O O B-PER I-PER	[CLS] O O O O O O O O O O O O O B-PER I-PER	O
+X	O	epg video	epg video	[CLS]爱情片。搜一下今天中午开始放郭的秀	[CLS] O O O O O O O O O O O O O O B-PER I-PER I-PER	[CLS] O O O O O O O O O O O O O O B-PER O O	X
+X	X	epg tvchannel	epg	[CLS]贵州卫视今晚看什么电视剧？。搜索第10频道	[CLS] B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O O O O O	[CLS] B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O O O O O	O
+O	O	chat stock	chat stock	[CLS]查询中国石化的股价。不行么	[CLS] O O B-ORG I-ORG I-ORG I-ORG O O O O O O O	[CLS] O O B-ORG I-ORG I-ORG I-ORG O O O O O O O	O
+X	X	cinemas riddle	riddle	[CLS]给我打个谜语，啊！。给我放一部最新的电影。	[CLS] O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O O	O
+X	O	epg stock	epg stock	[CLS]今天晚上有没有中国好声音呢？。查询标准股份的股票	[CLS] O O O O O O O B-LOC I-LOC O O O O O O O O B-ORG I-ORG I-ORG I-ORG O O O	[CLS] O O O O O O O B-LOC I-LOC O O O O O O O O O O O O O O O	X
+O	O	chat poetry	chat poetry	[CLS]朗读岳飞的满江红。。除了会说这些还会说哪行啊	[CLS] O O B-PER I-PER O O O O O O O O O O O O O O O O O O	[CLS] O O B-PER I-PER O O O O O O O O O O O O O O O O O O	O
+X	X	cookbook lottery	chat cookbook lottery	[CLS]酸菜鱼怎样做。查询大乐透的开奖公告	[CLS] O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O	O
+O	O	contacts cookbook	contacts cookbook	[CLS]把孟蕾的电话发给陈姬。好吧，我想知道稻香排骨是怎么做的？	[CLS] O B-PER I-PER O O O O O B-PER I-PER O O O O O O O O O O O O O O O O O O	[CLS] O B-PER I-PER O O O O O B-PER I-PER O O O O O O O O O O O O O O O O O O	O
+X	X	chat	bus chat	[CLS]有汽车票吗。我都不害羞你害羞什么	[CLS] O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O	O
+X	X	epg stock	epg	[CLS]金鹰卡通今天晚上放什么节目？。三安光电	[CLS] O O O O O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG	[CLS] B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG	X
+X	X	chat video	app chat	[CLS]你叫什么名字?。请帮我打开电影	[CLS] O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O	O
+X	O	epg stock	epg stock	[CLS]cctv9明晚有转播仁心解码2呢。科大讯飞的股票是多少a	[CLS] O O O O O O O O O O O O O O O O O O O O O O O O O O O O	[CLS] B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O O O O O O O O O O O O	X
+O	O	chat match	chat match	[CLS]广州恒大比赛谁赢了。。不行么	[CLS] B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O	[CLS] B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O	O
+O	O	chat epg	chat epg	[CLS]你在玩什么呀。帮我查查北京电视台-6上周六开始美味的想念呢	[CLS] O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O	O
+X	X	cookbook	chat cookbook	[CLS]请问红烧肉的做法？你，你。。糖醋鲤鱼怎么做啊？你只负责吃，c则c。	[CLS] O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O	O
+X	O	chat stock	chat stock	[CLS]你能给我唱歌吗。查询标准股份的股票	[CLS] O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG O O O	[CLS] O O O O O O O O O O O O O O O O O	X
+O	O	flight poetry	flight poetry	[CLS]东营到济南的航班。背唐诗李白侠客行	[CLS] B-LOC I-LOC O B-LOC I-LOC O O O O O O O B-PER I-PER O O O	[CLS] B-LOC I-LOC O B-LOC I-LOC O O O O O O O B-PER I-PER O O O	O
+X	X	flight music	flight video	[CLS]查下上海到太原的机票。我想听星月神话	[CLS] O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O	[CLS] O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O	O
+O	O	flight telephone	flight telephone	[CLS]查询后天广州到上海的航班。给爸爸打电话	[CLS] O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O	[CLS] O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O	O
+X	X	chat video	chat epg	[CLS]什么一年多了。搜幕府风云	[CLS] O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O	O
+X	X	map website	chat map website	[CLS]进银河网。新东站怎么走	[CLS] O B-ORG I-ORG I-ORG O O O O O O O	[CLS] O B-LOC I-LOC I-LOC O O O O O O O	X
+O	O	radio video	radio video	[CLS]帮我调频94.8兰溪人民广播电台可以不？。汽车总动员	[CLS] O O O O O O O O B-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG O O O O O O O O O O	[CLS] O O O O O O O O B-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG O O O O O O O O O O	O
+O	O	health translation	health translation	[CLS]甲亢怎么治疗？。笑话用英语怎么说	[CLS] O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O	O
+O	O	cookbook music	cookbook music	[CLS]我想听期待这首歌。酸辣藕丁的做法。	[CLS] O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O	O
+X	X	app stock	app website	[CLS]三安光电。百度浏览器打开	[CLS] B-ORG I-ORG I-ORG I-ORG O B-ORG I-ORG O O O O O	[CLS] B-ORG I-ORG I-ORG I-ORG O O O O O O O O	X
+X	X	app novel	novel	[CLS]我要看唯美童话小说。打开汽车之家	[CLS] O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O	O
+O	O	chat train	chat train	[CLS]开封到信阳的火车。那你哈尔滨那边有什么好吃的呀你今天吃什么呀	[CLS] B-LOC I-LOC O B-LOC I-LOC O O O O O O B-LOC I-LOC I-LOC O O O O O O O O O O O O O O O O	[CLS] B-LOC I-LOC O B-LOC I-LOC O O O O O O B-LOC I-LOC I-LOC O O O O O O O O O O O O O O O O	O
+X	O	cookbook news	cookbook news	[CLS]盘锦新闻。。怎么做？酸菜鱼？	[CLS] O O O O O O O O O O O O O O	[CLS] B-LOC I-LOC O O O O O O O O O O O O	X
+X	O	app video	app video	[CLS]武林风视频。百度浏览器打开	[CLS] B-LOC I-LOC O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O	X
+O	O	chat video	chat video	[CLS]汽车总动员。车车美么	[CLS] O O O O O O O O O O	[CLS] O O O O O O O O O O	O
+X	O	news riddle	news riddle	[CLS]关注一下今天的欧洲杯新闻。猜脑筋急转弯二。	[CLS] O O O O O O O B-LOC O O O O O O O O O O O O O	[CLS] O O O O O O O B-LOC I-LOC O O O O O O O O O O O O	X
+X	O	news radio	news radio	[CLS]钓鱼岛新闻。帮我调频94.8兰溪人民广播电台可以不？	[CLS] B-LOC I-LOC I-LOC O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG O O O O	[CLS] B-ORG I-ORG I-ORG I-ORG I-ORG O O O O O O O O O B-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG O O O O	X
+X	X	poetry video	poetry	[CLS]背一首李白的诗来听听。。80年代成龙演的电影	[CLS] O O O B-PER I-PER O O O O O O O O O O O O O O O O O	[CLS] O O O B-PER I-PER O O O O O O O O O O O B-PER I-PER O O O O	X
+O	O	chat riddle	chat riddle	[CLS]帮忙讲几个谜语给我猜。。那你为什么要养家糊口	[CLS] O O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O O O	O
+O	O	chat weather	chat weather	[CLS]你怎么会不知道能。海南天气怎么样	[CLS] O O O O O O O O O B-LOC I-LOC O O O O O	[CLS] O O O O O O O O O B-LOC I-LOC O O O O O	O
+O	O	lottery train	lottery train	[CLS]帮我查一下从开封到郑州的火车几点发。帮我购买2注25选5的彩票	[CLS] O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O O O O O O O O O O	O
+X	O	match telephone	match telephone	[CLS]呼叫浦蒲。广州恒大比赛谁赢了。	[CLS] O O B-PER I-PER O B-ORG I-ORG I-ORG I-ORG O O O O O O	[CLS] O O B-ORG I-ORG O B-ORG I-ORG I-ORG I-ORG O O O O O O	X
+O	O	novel poetry	novel poetry	[CLS]我要看图文小说。背诵唐诗三百首静夜思。	[CLS] O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O	O
+X	X	app video	app	[CLS]尼古拉斯凯奇。帮我打开人人	[CLS] B-PER I-PER I-PER I-PER I-PER I-PER O O O O O O O	[CLS] B-PER I-PER I-PER I-PER I-PER I-PER O O O O O O O	O
+O	O	bus lottery	bus lottery	[CLS]帮我查一下2013年2月8日开奖的七星彩中奖号码。去深圳怎么坐车？	[CLS] O O O O O O O O O O O O O O O O O O O O O O O O O O B-LOC I-LOC O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O O O O O O O B-LOC I-LOC O O O O O	O
+X	X	stock website	stock	[CLS]保利地产的股票。打开浦发银行	[CLS] B-ORG I-ORG I-ORG I-ORG O O O O O O B-ORG I-ORG I-ORG I-ORG	[CLS] B-ORG I-ORG I-ORG I-ORG O O O O O O B-ORG I-ORG I-ORG I-ORG	O
+X	O	cookbook stock	cookbook stock	[CLS]猪大肠怎么炒？。查询下北京首创的股票	[CLS] O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG O O O	[CLS] O O O O O O O O O O O B-LOC I-LOC O O O O O	X
+O	O	radio telephone	radio telephone	[CLS]幺八九幺八九二二五五五。帮我调频94.8兰溪人民广播电台可以不？	[CLS] O O O O O O O O O O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG O O O O	O
+O	O	chat flight	chat flight	[CLS]你谁什么。查询今天上海到成都的航班	[CLS] O O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O	[CLS] O O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O	O
+O	O	chat health	chat health	[CLS]你怎么知道～。内分泌失调了怎么调理？	[CLS] O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O	O
+X	X	app epg	chat epg video	[CLS]现在有什么好的电影呢？。凯立德	[CLS] O O O O O O O O O O O O B-PER I-PER I-PER	[CLS] O O O O O O O O O O O O B-PER I-PER I-PER	O
+X	O	message stock	message stock	[CLS]发信息给[UNK][UNK]。查询标准股份的股票	[CLS] O O O O O O O O O B-ORG I-ORG I-ORG I-ORG O O O	[CLS] O O O O O O O O O O O O O O O O	X
+O	O	calc video	calc video	[CLS]根号三的倒数。美国电影破碎之城	[CLS] O O O O O O O B-LOC I-LOC O O O O O O	[CLS] O O O O O O O B-LOC I-LOC O O O O O O	O
+X	X	stock video	epg video	[CLS]最近好评的晚会。创元	[CLS] O O O O O O O O O O	[CLS] O O O O O O O O B-ORG I-ORG	X
+X	X	app cookbook	cookbook message	[CLS]土豆粉怎么做好吃？。开微信	[CLS] O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O	O
+X	X	bus video	bus cinemas flight train	[CLS]北京到成都的汽车时刻表。。最近有什么电影可以看一下。	[CLS] B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O O O O O O O O O O O	[CLS] B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O O O O O O O O O O O	O
+O	O	chat map	chat map	[CLS]从武汉到呼和浩特。那你为什么要养家糊口	[CLS] O B-LOC I-LOC O B-LOC I-LOC I-LOC I-LOC O O O O O O O O O O O	[CLS] O B-LOC I-LOC O B-LOC I-LOC I-LOC I-LOC O O O O O O O O O O O	O
+X	X	train translation	chat train translation	[CLS]烟台到齐齐哈尔的火车票。你吃过早饭了吗用英文怎么讲	[CLS] B-LOC I-LOC O B-LOC I-LOC I-LOC I-LOC O O O O O O O O O O O O O O O O O O	[CLS] B-LOC I-LOC O B-LOC I-LOC I-LOC I-LOC O O O O O O O O O O O O O O O O O O	O
+O	O	weather	weather	[CLS]天气预报广州。天气预报广州	[CLS] O O O O B-LOC I-LOC O O O O O B-LOC I-LOC	[CLS] O O O O B-LOC I-LOC O O O O O B-LOC I-LOC	O
+O	O	poetry train	poetry train	[CLS]查寻上海到北京的火车票。唐诗哦。	[CLS] O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O	[CLS] O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O	O
+O	O	music poetry	music poetry	[CLS]背诵唐诗三百首静夜思。。我想听期待这首歌	[CLS] O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O	O
+O	O	chat	chat	[CLS]你是妹妹还是哥哥。能发点其他的吗	[CLS] O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O	O
+X	X	health video	epg health video	[CLS]黄疸。最近好评的晚会	[CLS] O O O O O O O O O O	[CLS] O O O O O O O O O O	O
+O	O	chat map	chat map	[CLS]你现在在做什么啊。上海到北京怎么走	[CLS] O O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O	[CLS] O O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O	O
+O	O	chat	chat	[CLS]有房有车吗微笑。车车美么	[CLS] O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O	O
+O	O	chat flight	chat flight	[CLS]你想吃什么呀。查询上海到丽江飞机票的价格	[CLS] O O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O	[CLS] O O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O	O
+X	O	cookbook poetry	cookbook poetry	[CLS]若相惜不弃下一句是什么？。刘林面怎么做啊？	[CLS] O O O O O O O O O O O O O B-PER I-PER O O O O O O	[CLS] O O O O O O O O O O O O O B-PER I-PER I-PER O O O O O	X
+X	X	cinemas weather	cinemas video weather	[CLS]最近热门的电影。。我想知道北京的天气	[CLS] O O O O O O O O O O O O O B-LOC I-LOC O O O	[CLS] O O O O O O O O O O O O O B-LOC I-LOC O O O	O
+O	O	chat translation	chat translation	[CLS]你还没有结婚用英语怎么讲。谁是小萌萌	[CLS] O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O	O
+X	X	chat video	train	[CLS]我想去上海坐火车得几天。音乐视频	[CLS] O O O B-LOC I-LOC O O O O O O O O O O O	[CLS] O O O B-LOC I-LOC O O O O O O O O O O O	O
+X	X	cookbook schedule	cookbook datetime schedule	[CLS]干锅香辣虾。下午的日程是什么	[CLS] O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O	O
+O	O	cookbook video	cookbook video	[CLS]爱情工寓。用菜籽油做面包	[CLS] O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O	O
+O	O	chat novel	chat novel	[CLS]这么傲娇。有什么好看的校园小说	[CLS] O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O	O
+O	O	cookbook translation	cookbook translation	[CLS]汽车英语怎么讲。拔丝芋头怎么做	[CLS] O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O	O
+O	O	chat message	chat message	[CLS]发条短信给杨桑。你能听懂我说的是啥吗	[CLS] O O O O O B-PER I-PER O O O O O O O O O O O	[CLS] O O O O O B-PER I-PER O O O O O O O O O O O	O
+X	X	poetry video	poetry	[CLS]惊情四百年。那给我背静夜思。	[CLS] O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O	O
+X	X	chat video	chat cinemas video	[CLS]帮我看下最近有什么好看的电影？。怎么这么热受不了了	[CLS] O O O O O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O O O O O O	O
+O	O	chat cookbook	chat cookbook	[CLS]做苹果麦片粥需要哪写材料？。能发点其他的吗	[CLS] O O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O O	O
+X	X	calc cinemas	calc video	[CLS]哦哦，最新的电影。。9的2次方根的3次方	[CLS] O O O O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O O O O	O
+O	O	poetry schedule	poetry schedule	[CLS]搜索岳飞的诗满江红。。早晨8:10叫我。	[CLS] O O B-PER I-PER O O O O O O O O O O O O O O O O	[CLS] O O B-PER I-PER O O O O O O O O O O O O O O O O	O
+X	X	music weather	chat music weather	[CLS]今日天气怎么样啊。来一首有点舍不得	[CLS] O O O O O O O O O O O O O O O O O	[CLS] O O O O O O O O O O O O O O O O O	O
+X	X	chat epg	chat datetime epg	[CLS]你生日是什么时候。湖南卫视现在演什么节目	[CLS] O O O O O O O O O B-ORG I-ORG I-ORG I-ORG O O O O O O O	[CLS] O O O O O O O O O B-ORG I-ORG I-ORG I-ORG O O O O O O O	O
