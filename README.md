@@ -245,7 +245,6 @@ slot_recall = 0.8775508948061814
 
 | frame_O_X  | intent  | 意圖標籤（答案） |意圖標籤（預測） |原句 |實體（預測） |實體（答案） |
 | ------------ | ------------ |------------ |------------ |------------ |------------ |------------ |
-| [chat, tvchannel]	| 有体育方面的吗。CCTV四套	| O O O O O O O O O O O O O O
 | X	| X	| email website	app | email website	| [CLS]替我回复这封邮件。打开网页猫扑	| [CLS] O O O O O O O O O O O O O O O	| [CLS] O O O O O O O O O O O O O O O	O
 | X	| X	| lottery video	| lottery	| [CLS]查询大乐透的开奖公告。大耳朵图图二	| [CLS] O O O O O O O O O O O O O O O O O| 	[CLS] O O O O O O O O O O O O O O O O O	O
 | O| 	O	| chat map	| chat map	| [CLS]是我说话太直接了么。查询合肥市植物园的位置	| [CLS] O O O O O O O O O O O O B-LOC I-LOC I-LOC I-LOC I-LOC I-LOC O O O| 	[CLS] O O O O O O O O O O O O B-LOC I-LOC I-LOC I-LOC I-LOC I-LOC O O O	O
