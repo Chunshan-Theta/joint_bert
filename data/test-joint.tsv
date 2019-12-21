@@ -1,0 +1,763 @@
+[email, website]	替我回复这封邮件。打开网页猫扑	O O O O O O O O O O O O O O O
+[lottery, video]	查询大乐透的开奖公告。大耳朵图图二	O O O O O O O O O O O O O O O O O
+[chat, map]	是我说话太直接了么。查询合肥市植物园的位置	O O O O O O O O O O O O B-LOC I-LOC I-LOC I-LOC I-LOC I-LOC O O O
+[poetry, chat]	我背一首生查子。。你咋没上幼儿园	O O O O O O O O O O O O O O O O
+[chat, cinemas]	晚餐吃点什么呢。哦哦，最新的电影。	O O O O O O O O O O O O O O O O O
+[novel, bus]	搜一搜三毛的小说。在合肥怎么坐去南京的汽车	O O O B-PER I-PER O O O O O B-LOC I-LOC O O O O B-LOC I-LOC O O O
+[epg, flight]	明天安徽卫视演什么。后天去大连的航班	O O B-ORG I-ORG I-ORG I-ORG O O O O O O O B-LOC I-LOC O O O
+[tvchannel, video]	江苏党校二套。张艺谋的甄嬛传	B-ORG I-ORG I-ORG I-ORG O O O B-PER I-PER I-PER O O O O
+[flight, health]	十月四号从广州到北京的飞机票多少钱。暴发性紫癜	O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O O O
+[contacts, flight]	把鱼苗的电话号码发给徐景明。七月三十一日上海虹桥到北京的航班	O O O O O O O O O O B-PER I-PER I-PER O O O O O O O B-LOC I-LOC B-LOC I-LOC O B-LOC I-LOC O O O
+[tvchannel, music]	找深圳卫视。来点歌听听	O B-ORG I-ORG I-ORG I-ORG O O O O O O
+[epg, train]	北京青年频道谁在说。查询广州到北京的火车	B-LOC I-LOC O O O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O
+[train]	帮我查下上海到合肥的火车。从广州到南昌的火车票时刻表	O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O
+[tvchannel, chat]	跳换到湖南卫视。你觉得我嫁的出去吗	O O O B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O
+[news, cookbook]	t我要听新闻。。打豆浆剩下的豆渣怎样做，好吃？	O O O O O O O O O O O O O O O O O O O O O O O
+[chat]	我们去爬山怎么样啊。车车美么	O O O O O O O O O O O O O O
+[epg, chat]	江西卫视三天之后放一站到底么。提示什么	B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O O O
+[tvchannel, music]	频道管理。放一首青花瓷哦哦	O O O O O O O O O O O O O
+[video, telephone]	最近新上映的电视剧。。呼叫王希	O O O O O O O O O O O O O B-PER I-PER
+[chat, news]	笨笨你爸比和帮主是什么关系。该我读新闻。	O O O O O O O O O O O O O O O O O O O O
+[music, translation]	我叫小沈阳这首歌。笑话用英语怎么说	O O O B-PER I-PER O O O O O O O O O O O O
+[app, music]	开启qq。随便唱首歌。	O O B-ORG I-ORG O O O O O O O
+[match, chat]	广州恒大比赛比分。。你好能看懂表情吗呲牙	B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O O O O
+[telephone, chat]	打电话给六六三。是啊你说的那几句话到底啥意思	O O O O O O O O O O O O O O O O O O O O O O
+[chat]	你不是本人吗。什么曰子啊	O O O O O O O O O O O O
+[lottery, chat]	任意购买三张大乐透。可以帮买火车票吗	O O O O O O O O O O O O O O O O O O
+[chat, weather]	下面有什么。明天天气怎样啊	O O O O O O O O O O O O O
+[stock, video]	九连股份今天股价。大耳朵图图获	B-ORG I-ORG I-ORG I-ORG O O O O O O O O B-PER I-PER O
+[news, chat]	占田你给我放一下最近的新闻。。这么傲娇	B-PER I-PER O O O O O O O O O O O O O O O O O
+[chat, news]	谁最聪明。占田你给我放一下最近的新闻。	O O O O O B-PER I-PER O O O O O O O O O O O O
+[chat, epg]	我能把你教坏吗。动漫频道三天之后有开始播吸血鬼日记第四季呢	O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+[chat, cookbook]	你咋知道我是老师?。帮我搜索一下红烧排骨。	O O O O O O O O O O O O O O O O O O O O O
+[video, tvchannel]	三女休夫。CCTV新闻	O O B-PER I-PER O B-ORG I-ORG I-ORG I-ORG O O
+[poetry, datetime]	那给我背静夜思。。现在的日期	O O O O O O O O O O O O O O
+[cookbook, epg]	清蒸鱼怎么做？吴？。你知道现在广东卫视在演什么吗？	O O O O O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG O O O O O O
+[cookbook, chat]	酸辣藕丁的做法。。你能给我唱歌吗	O O O O O O O O O O O O O O O O
+[chat, news]	这么逗我好玩是不。么，哥来一下最新的新闻。	O O O O O O O O O O O O O O O O O O O O O
+[chat, schedule]	啊我要订票你怎么吟诗了。早晨8:10叫我。	O O O O O O O O O O O O O O O O O O O O O
+[cookbook, poetry]	童子鸡的做法。。给我背一首诗。	O O O O O O O O O O O O O O O
+[map, flight]	玉照公园怎么走。上海到北京的飞机航班	B-LOC I-LOC I-LOC I-LOC O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O
+[translation, chat]	今天的天气真是好用英语怎么说。喝哪种酒	O O O O O O O O O O O O O O O O O O O
+[epg, telephone]	帮我搜下什么时间有演星跳水立方。拨打幺三七零九五二零八五八	O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+[chat]	车车美么。有答案了吗	O O O O O O O O O O
+[cookbook, video]	讯飞语点请你搜索一下番茄炒蛋怎么做？。美国电影破碎之城	O O O O O O O O O O O O O O O O O O O B-LOC I-LOC O O O O O O
+[music, chat]	放一首青花瓷哦哦。笨笨家在哪	O O O O O O O O O O O O O O
+[train, news]	查询广州到北京的火车。泰州新闻。	O O B-LOC I-LOC O B-LOC I-LOC O O O O B-LOC I-LOC O O O
+[radio, epg]	调频fm九十七点七。回放昨晚的焦点访谈	O O O O O O O O O O O O O O O O O O O
+[flight, chat]	后天去大连的航班。怎么这么热受不了了	O O O B-LOC I-LOC O O O O O O O O O O O O O
+[stock, chat]	创元。我是不是好没用	B-ORG I-ORG O O O O O O O O
+[chat, epg]	你是宇宙飞船吗。哪个频道有刘德华出演的电视剧	O O O O O O O O O O O O O B-PER I-PER I-PER O O O O O O
+[map, calc]	帮我查一下到狼牙山怎么走。0乘7	O O O O O O B-LOC I-LOC I-LOC O O O O O O O
+[cookbook, telephone]	五梆瓜鸡蛋汤怎么做？。呼叫浦蒲	O O O O O O O O O O O O O B-ORG I-ORG
+[weather]	海南天气怎么样。龙岩市天气	B-LOC I-LOC O O O O O O B-LOC I-LOC I-LOC O O
+[music, chat]	随便唱首歌。。你还会什么古诗	O O O O O O O O O O O O O O
+[epg, cookbook]	湖南卫视现在演什么节目。打豆浆剩下的豆渣怎样做，好吃？	B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O O O O O O O O O O O
+[weather, lottery]	我想看一下温州的天气。查询大乐透的开奖公告	O O O O O B-LOC I-LOC O O O O O O O O O O O O O O
+[chat]	可以帮买火车票吗。谁告诉你的	O O O O O O O O O O O O O O
+[music, cookbook]	播放音乐月亮之上的。。周黑鸭怎么做？	O O O O B-LOC I-LOC O O O O O B-PER I-PER I-PER O O O O
+[cookbook, poetry]	面包怎么做。唐代诗人李白。	O O O O O O O O O O B-PER I-PER O
+[epg, cookbook]	查下最近1周有转播X女特工。用菜籽油做面包	O O O O O O O O O O O O O O O O O O O O O
+[chat, cinemas]	你知道小黄鸡吗。离我最近的电影院。	O O O O O O O O O O O O O O O O O
+[stock, translation]	查寻三星股价。翻译光大银行	O O B-ORG I-ORG O O O O O B-ORG I-ORG I-ORG I-ORG
+[chat, poetry]	那草为啥会绿。来首纳兰性德的词。	O O O O O O O O O B-PER I-PER I-PER I-PER O O O
+[map, chat]	从科大讯飞到天鹅湖怎么走能不走高速。聊这么	O O O O O O O O O O O O O O O O O O O O O
+[match, chat]	中超比赛。。推荐几部呗	O O O O O O O O O O O
+[chat]	你是哪里的人啊。你能做点什么	O O O O O O O O O O O O O O
+[weather, translation]	星期六的天气。小老虎用英语怎么讲	O O O O O O O O O O O O O O O O
+[app, video]	开微信。第二梦	O O O O O O O
+[video, cookbook]	帮我看一下最近哪些电影是新上映的。。木瓜汤怎么做	O O O O O O O O O O O O O O O O O O O O O O O O
+[message, flight]	发短信给王二白叫她明天过来玩。武汉到北京的飞机票	O O O O B-PER I-PER I-PER O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O
+[cookbook, contacts]	蛋黄焗薯条怎么做。把鱼苗的电话号码发给徐景明	O O O O O O O O O O O O O O O O O O O B-PER I-PER I-PER
+[chat, train]	对呀+你咋这么笨呢。连云港到徐州的火车票	O O O O O O O O O O B-LOC I-LOC I-LOC O B-LOC I-LOC O O O O
+[video, telephone]	小c我想看北京青年。请拨幺幺零	B-PER I-PER O O O B-ORG I-ORG O O O O O O O O
+[chat, cookbook]	这有什么厉害的。周黑鸭怎么做？	O O O O O O O O B-PER I-PER I-PER O O O O
+[radio, health]	调频幺零三点二。暴发性紫癜	O O O O O O O O O O O O O
+[news, chat]	今日头条新闻。。哪里牛逼了	O O O O O O O O O O O O O
+[schedule, chat]	设置明天8:10闹钟。。喝啥子哩	O O O O O O O O O O O O O O O O
+[datetime, tvchannel]	查询距离12点25分还有多少分钟。北京二台高清	O O O O O O O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG O O
+[schedule, datetime]	下午的日程是什么。日期植树节	O O O O O O O O O O O O O O
+[message, app]	发短信给林晓云说我爱你。开启qq	O O O O B-PER I-PER I-PER O O O O O O O B-ORG I-ORG
+[chat, poetry]	这是哪年的事。朗诵一首李白的诗词。	O O O O O O O O O O O B-PER I-PER O O O O
+[poetry, datetime]	念首唐诗吧！。明天是农历几号	O O O O O O O O O O O O O O
+[video, poetry]	我想看电影台北飘雪。背首杜甫的诗啊？	O O O O O B-LOC I-LOC O O O O O B-PER I-PER O O O O
+[tvchannel, chat]	我要看云南二台。你咋知道我是老师?	O O O B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O
+[match, chat]	宏大俱乐部赛程。。你的性格是什么	O O O O O O O O O O O O O O O O
+[tvchannel, chat]	卡酷少儿频道。你下蛋吗	O O O O O O O O O O O
+[health, cookbook]	内分泌失调了怎么调理？。蒜茄子怎么做？	O O O O O O O O O O O O O O O O O O O
+[cookbook, chat]	芒果西米露怎么做啊。干啥呢	O O O O O O O O O O O O O
+[app, news]	打开qq同步助手。现在有什么热点新闻？	O O B-ORG I-ORG O O O O O O O O O O O O O O O
+[chat, video]	可以教教吗?。电影十二生肖	O O O O O O O O O O O O O
+[chat, message]	推荐几部呗。发送短信给老婆我在三号楼三零幺刚才那个教室关门了	O O O O O O O O O O O O O O O B-LOC I-LOC I-LOC I-LOC I-LOC I-LOC O O O O O O O O O
+[schedule, chat]	设置闹钟。。你是白痴吗	O O O O O O O O O O O
+[cookbook, schedule]	红烧肉怎么煮啊。设置明天8:10闹钟。	O O O O O O O O O O O O O O O O O O O
+[email, website]	帮我发邮件给婷婷。打开百度哇	O O O O O O B-PER I-PER O O O O O O
+[datetime, translation]	日期植树节。虾的英文怎么说	O O O O O O O O O O O O O
+[schedule, chat]	一分钟后叫我起床。。有房有车吗微笑	O O O O O O O O O O O O O O O O O
+[message, contacts]	给栾佳佳发短信说回到济南了。张培的电话号码是多少	O B-PER I-PER I-PER O O O O O O B-LOC I-LOC O O B-PER I-PER O O O O O O O O
+[music]	来首出师表。播放音乐月亮之上的。	O O O O O O O O O O B-LOC I-LOC O O O O
+[tvchannel, cookbook]	CCTV-12套的节目单。鸡爪怎么炒？	O O O O O O O O O O O O O O O O O O O
+[translation, chat]	你曾爱过我吗用英语怎么说。你知道怎么拍照么	O O O O O O O O O O O O O O O O O O O O O
+[schedule]	十五分钟之后叫我。。明天叫我8:10起床。	O O O O O O O O O O O O O O O O O O O O O
+[tvchannel, news]	测试信号2。现在有什么热点新闻？	O O O O O O O O O O O O O O O O
+[riddle, chat]	说个谜语给我猜猜。。会lol吗	O O O O O O O O O O O O O O O
+[novel, chat]	我想看现在很流行的小说。怎么写	O O O O O O O O O O O O O O O
+[chat, map]	你在说啥啊。怎么去农业银行	O O O O O O O O O B-ORG I-ORG I-ORG I-ORG
+[app, chat]	打开淘宝购物。我们去爬山怎么样啊	O O O O O O O O O O O O O O O O
+[news, poetry]	哦，听新闻。。读首唐诗	O O O O O O O O O O O
+[telephone, video]	给曹广义打电话。汽车总动员	O B-PER I-PER I-PER O O O O O O O O O
+[chat]	天才中有什么重大新闻。这么笨啊怪不得叫笨笨	O O O O O O O O O O O O O O O O O O O O O
+[tvchannel, video]	我想看中央十三频道。最近最热的电视剧	O O O O O O O O O O O O O O O O O O
+[chat, video]	你怎么变笨了。小c帮我搜一下断剑视频	O O O O O O O O I-PER O O O O O O O O O
+[calc, novel]	9的2次方根的3次方。搜索极品天王	O O O O O O O O O O O O O O O O O
+[stock, telephone]	查找科大讯飞股票的股价。拨打幺三七零九五二零八五八	O O O O O O O O O O O O O O O O O O O O O O O O O
+[poetry, chat]	说个李白的诗来听听。。摸啥	O O B-PER I-PER O O O O O O O O O
+[cookbook, chat]	木瓜汤怎么做。怎么	O O O O O O O O O
+[flight, message]	明天去纽约的航班。。发条短信给杨桑	O O O B-LOC I-LOC O O O O O O O O O O B-PER I-PER
+[health, cookbook]	得了皮肤病怎么办？。素鸡	O O O O O O O O O O O O
+[news, schedule]	泰州新闻。。说到上海了提醒我一下	B-LOC I-LOC O O O O O O B-LOC I-LOC O O O O O O
+[train, news]	杭州到北京的火车班次。帮我查一查今天的新闻。	B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O O O O O O O
+[video, epg]	魔幻电影。湖北卫视今天下午六点以后开始播男生女生向前冲	O O O O O B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O O O O O O
+[cookbook, email]	萝卜炖排骨汤怎么做？。我要回复这个邮件	O O O O O O O O O O O O O O O O O O O
+[video]	美国电影敢死队二。电影十二生肖	B-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG O O O O O O O
+[chat]	哪里牛逼了。我是不是好没用	O O O O O O O O O O O O O
+[chat]	会lol吗。啊我要订票你怎么吟诗了	O O O O O O O O O O O O O O O O O
+[chat, cookbook]	怎么走爽了呢。土豆粉怎么做好吃？	O O O O O O O O O O O O O O O O
+[website, video]	打开江苏移动网上营业厅网页。蝎子王蝎子王	O O B-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG O O O O O O O O O
+[chat, stock]	你爱玩什么英雄。九连股份今天股价	O O O O O O O O B-ORG I-ORG I-ORG I-ORG O O O O
+[chat, epg]	什么鬼玩意。北京青年频道谁在说	O O O O O O B-LOC I-LOC O O O O O O O
+[video, message]	智慧树我。写短信给颖村	O O O O O O O O O B-PER I-PER
+[map]	怎么去农业银行。从济源市到河南省电信分公司怎么走	O O O B-ORG I-ORG I-ORG I-ORG O O B-LOC I-LOC I-LOC O B-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG O O O
+[stock, train]	查寻轻舞风股票。查一下明天下午南通到南京的火车票	O O O O O O O O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O
+[epg, chat]	回放昨晚的焦点访谈。最近有啥新鲜事阿	O O O O O O O O O O O O O O O O O O
+[poetry, match]	唐代诗人李白。。中超赛事预告，你。	O O O O B-PER I-PER O O B-ORG O O O O O O O O
+[riddle, news]	出一个谜语给我猜猜吧！。么，哥来一下最新的新闻。	O O O O O O O O O O O O O O O O O O O O O O O O
+[cookbook, health]	嗯咯鸡爪怎么做的。。更年期综合症。	O O O O O O O O O O O O O O O O O
+[stock, video]	查询下北京首创的股票。文艺片	O O O B-LOC I-LOC O O O O O O O O O
+[cookbook, video]	不，做个红烧肉怎么做？。家有儿女第二部	O O O O O O O O O O O O O O O O O O O
+[chat, tvchannel]	满意吗。我要看云南二台	O O O O O O O B-ORG I-ORG I-ORG I-ORG
+[cookbook, poetry]	素鸡。若相惜不弃下一句是什么？	O O O O O O O O O O O O O O O
+[message, chat]	给李慧发个短信说我要回家。能发点其他的吗	O B-PER I-PER O O O O O O O O O O O O O O O O O
+[app, flight]	百度浏览器打开。查下上海到太原的机票	O O O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O
+[riddle, chat]	你说谜语给我猜。。聊这么	O O O O O O O O O O O O
+[map, train]	北京西站在哪。有没有徐州到洛阳的火车票	B-LOC I-LOC I-LOC I-LOC O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O
+[music, chat]	我想听星月神话。哪有小猫	O O O O O O O O O O O O
+[riddle, message]	不辣，猜谜语。。发消息给周磊	O O O O O O O O O O O O B-PER I-PER
+[flight, map]	阜阳到温州的航班。查查科大讯飞在哪儿	B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O O O
+[train, cookbook]	查一下从杭州到上海高铁时刻表。帮我搜索一下红烧排骨。	O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O O O O O O O
+[health, chat]	过敏性鼻炎怎么治疗。好有爱?	O O O O O O O O O O O O O O
+[cookbook, email]	酸菜鱼，怎么烧？。给我看新邮件	O O O O O O O O O O O O O O O
+[cookbook, novel]	胡萝卜怎么炒好吃？。我要看图文小说	O O O O O O O O O O O O O O O O O
+[telephone, cookbook]	给爸爸打电话。木瓜汤怎么做	O O O O O O O O O O O O O
+[epg, news]	查下安徽电视台今天节目单。今日头条新闻。	O O B-ORG I-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O
+[epg, chat]	今晚看什么电影？。哼谁是你亲爱的	O O O O O O O O O O O O O O O O
+[chat, riddle]	怎么教你记住东西。给我打个谜语，啊！	O O O O O O O O O O O O O O O O O O
+[chat]	你怎么就知道我不会呢？。做的还是不够好	O O O O O O O O O O O O O O O O O O O
+[match, chat]	中超赛事预告，你。。怎么教你记住东西	B-ORG O O O O O O O O O O O O O O O O O
+[cinemas, cookbook]	我要查找雷迪波尔电影院最新上映的大片。蒜茄子怎么做？	O O O O B-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O O O
+[weather, app]	明天桂林天气如何。凯立德	O O B-LOC I-LOC O O O O O B-PER I-PER I-PER
+[bus, translation]	无锡到阜阳怎么坐汽车？。翻译光大银行	B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O B-ORG I-ORG I-ORG I-ORG
+[tvchannel, news]	新闻解码。是否还有其他关于钓鱼岛的新闻	O O O O O O O O O O O O O B-LOC I-LOC I-LOC O O O
+[map, translation]	南山医院到北大医院路线。今天我要去逛街用英语说	B-ORG I-ORG I-ORG I-ORG O B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O O
+[chat]	你的梦想是什么呢。笨笨家在哪	O O O O O O O O O O O O O O
+[cookbook, stock]	姐你红烧肉怎么做呀。查询一下南方航空的股票	O O O O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG O O O
+[epg, poetry]	哪个台在放非诚勿扰。造化钟神秀的下一句是什么？	O O O O O O O O O O O O B-PER I-PER I-PER O O O O O O O O
+[tvchannel, chat]	打开浦口生活资讯频道。你在玩什么呀	O O B-LOC I-LOC O O O O O O O O O O O O O
+[chat, video]	什么有点意思啊。播放2005年励志动漫	O O O O O O O O O O O O O O O O O O O
+[chat, video]	为啥穷。帮我看一下最近哪些电影是新上映的。	O O O O O O O O O O O O O O O O O O O O O
+[video, chat]	找一下非诚勿扰娱乐节目。你是白痴吗	O O O O O O O O O O O O O O O O O
+[schedule, video]	早晨8:10叫我。。查雷神电影	O O O O O O O O O O B-PER B-PER I-PER O O
+[chat, video]	爱她该怎么做。发现之美	O O O O O O O O O O O
+[cinemas, news]	给我放一部最新的电影。。t我要听新闻。	O O O O O O O O O O O O O O O O O O O
+[novel, chat]	我要看末世进化小说。在干吗啊	O O O O O O O O O O O O O O
+[video]	请帮我播放樱桃。体育赛事直播	O O O O O O O O O O O O O O
+[cookbook, tvchannel]	请问鱼块的做法。。北京二	O O O O O O O O O B-ORG I-ORG I-ORG
+[flight, translation]	上海到北京的飞机航班。翻译光大银行	B-LOC I-LOC O B-LOC I-LOC O O O O O O O O B-ORG I-ORG I-ORG I-ORG
+[radio, chat]	我要听FM90.8。你们你过生日吃蛋糕吗	O O O O O O O O O O O O O O O O O O O O
+[calc, map]	3次根号19。去华强北的路怎么走	O O O O O O O O B-LOC I-LOC I-LOC O O O O O
+[tvchannel, chat]	北京二台高清。其实我不跟你说话么办	B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O
+[video, news]	预约还珠格格第八集。等，请播报新闻	O O B-PER I-PER I-PER I-PER O O O O O O O O O O O
+[tvchannel, chat]	CCTV新闻。提示什么	B-ORG I-ORG I-ORG I-ORG O O O O O O O
+[cookbook, map]	鲤鱼怎么做？。我想到科大讯飞走高速路线	O O O O O O O O O O O O O O O O O O O
+[website, translation]	易车网看看。早上好英语怎么讲	O O O O O O O O O O O O O O
+[contacts, translation]	张培的电话号码是多少。你还没有结婚用英语怎么讲	B-PER I-PER O O O O O O O O O O O O O O O O O O O O O
+[cookbook, music]	做可乐鸡翅需要哪些材料？。播放上海滩。	O O O O O O O O O O O O O O O B-LOC I-LOC I-LOC O
+[epg, video]	帮我查查北京电视台-6上周六开始美味的想念呢。请帮我打开电影	O O O O B-ORG I-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O O O O O O O O O
+[datetime, riddle]	明天是农历几号。不辣，猜谜语。	O O O O O O O O O O O O O O O
+[chat, cookbook]	怎么。孜然排骨怎么做？	O O O O O O O O O O O
+[video, news]	小破孩动画片。今日头条新闻。	O O O O O O O O O O O O O O
+[flight, chat]	查询上海到丽江飞机票的价格。谁是猪	O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O
+[video, chat]	日韩好看的电视剧。可以帮买火车票吗	B-LOC B-LOC O O O O O O O O O O O O O O O
+[cookbook, video]	扬州炒饭。青瓷电视剧	B-ORG I-ORG I-ORG I-ORG O O O O O O
+[chat, cookbook]	你们这么爽。蛋黄焗薯条怎么做	O O O O O O O O O O O O O O
+[poetry, chat]	读首唐诗来听听。。朱泽圻女朋友你认识吗	O O O O O O O O O B-PER I-PER I-PER O O O O O O O
+[cookbook, novel]	烧鸭怎么做。我要看图文小说	O O O O O O O O O O O O O
+[app, train]	帮我打开人人。去南昌的火车	O O O O O O O O B-LOC I-LOC O O O
+[app, cookbook]	搜索手机办公软件。干锅鱼怎么做	O O O O O O O O O O O O O O O
+[cookbook, chat]	煲鸡汤。。怎么写	O O O O O O O O
+[chat, message]	你知道怎么拍照么。给爸爸发条短信，说“爸爸，我国庆节回来”	O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+[chat, weather]	你长什么样子。你知道今天南京的天气吗	O O O O O O O O O O O O B-LOC I-LOC O O O O
+[chat, music]	干啥呢。哦来一首忘情水	O O O O O O O O O O O
+[message, poetry]	写短信给颖村。搜索一下白居易的诗。	O O O O B-PER I-PER O O O O O B-PER I-PER I-PER O O O
+[chat, cookbook]	刘挺是谁？。做可乐鸡翅需要哪些材料？	B-PER I-PER O O O O O O O O O O O O O O O O
+[cookbook, message]	酸菜粉条肉的做法。。发送短信给老婆我在三号楼三零幺刚才那个教室关门了	O O O O O O O O O O O O O O O O O O O B-LOC I-LOC I-LOC I-LOC I-LOC I-LOC O O O O O O O O O
+[weather, chat]	明天天气怎样啊。在干吗啊	O O O O O O O O O O O O
+[video, poetry]	第二梦。背唐诗李白侠客行	O O O O O O O B-PER I-PER O O O
+[flight, cookbook]	从广州到贵阳市的航班。脆瓜。	O B-LOC I-LOC O B-LOC I-LOC I-LOC O O O O O O O
+[stock, chat]	南京熊猫股票。最近有啥新鲜事阿	B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O
+[telephone, tvchannel]	打电话给幺三七幺零五五二幺九九。高清中央电视台电影频道	O O O O O O O O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG I-ORG O O O O
+[music, map]	来一首我们的歌谣。。查查科大讯飞在哪儿	O O O O O O O O O O O O O O O O O O O
+[translation, epg]	床英文怎么说。贵州卫视今晚看什么电视剧？	O O O O O O O B-ORG I-ORG I-ORG I-ORG O O O O O O O O O
+[radio, contacts]	请帮我调频100.8梧州人民广播电台。把孟蕾的电话发给陈姬	O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG O O B-PER I-PER O O O O O B-PER I-PER
+[stock, chat]	查询标准股份的股票。你能曝照吗	O O O O O O O O O O O O O O O
+[app, cookbook]	帮我找到微信。怎么做？酸菜鱼？	O O O O O O O O O O O O O O O
+[map, flight]	去红心中路怎么走。帮我看一下明天去北京的飞机	O B-LOC I-LOC I-LOC I-LOC O O O O O O O O O O O O B-LOC I-LOC O O O
+[poetry, chat]	毛泽东的诗哦。。怎么写	B-PER I-PER I-PER O O O O O O O O
+[cookbook, weather]	好吧，我想知道稻香排骨是怎么做的？。海南天气怎么样	O O O O O O O O O O O O O O O O O O B-LOC I-LOC O O O O O
+[novel, video]	找找三毛的爱情小说。蝎子王蝎子王	O O B-PER I-PER O O O O O O O O O O O O
+[app, bus]	黎宇我要玩中国象棋。北京到成都的汽车时刻表。	B-PER I-PER O O O B-LOC I-LOC O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O
+[flight, cookbook]	明天从桂林到杭州的航班。童子鸡的做法。	O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O
+[chat, radio]	你能曝照吗。调频幺零三点二	O O O O O O O O O O O O O
+[chat, news]	喝哪种酒。占田你给我放一下最近的新闻。	O O O O O B-PER I-PER O O O O O O O O O O O O
+[chat]	顾超是谁。你能给我唱歌吗	B-PER I-PER O O O O O O O O O O
+[poetry, calc]	你背首唐诗给我听听啊。4乘6然后再乘七再除以二	O O O O O O O O O O O O O O O O O O O O O O O
+[weather, poetry]	现在温度几度。来一首李清照的词	O O O O O O O O O O B-PER I-PER I-PER O O
+[cinemas, epg]	现在电影院有什么好电影？。哪个台播放节目	O O O O O O O O O O O O O O O O O O O O
+[bus, weather]	查询许昌到中山的汽车。。中山天气怎么样	O O B-LOC I-LOC O B-ORG I-LOC O O O O O B-LOC I-LOC O O O O O
+[video, cookbook]	黑猫截长。猪大肠怎么炒？	O O O O O O O O O O O O
+[epg]	现在有没有什么大片？。今晚看什么电影？	O O O O O O O O O O O O O O O O O O O
+[train, video]	查询广州到贵港的火车。音乐视频	O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O
+[epg, chat]	湖南卫视有什么节目。弄啥类	B-ORG I-ORG I-ORG I-ORG O O O O O O O O O
+[cookbook, app]	脆瓜。。黎宇我要玩中国象棋	O O O O B-PER I-PER O O O B-LOC I-LOC O O
+[video, app]	电影十二生肖。开启qq	O O O O O O O O O B-ORG I-ORG
+[chat, epg]	怎么我问你什么你都不知道。你知道现在广东卫视在演什么吗？	O O O O O O O O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG O O O O O O
+[chat]	除了会说这些还会说哪行啊。你在玩什么呀	O O O O O O O O O O O O O O O O O O O
+[video, app]	音乐视频。帮我找到微信	O O O O O O O O O O O
+[chat, cookbook]	两点半夜鸡叫什么了不少钱包。讯飞语点请你搜索一下番茄炒蛋怎么做？	O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+[news, train]	我想听重庆新闻。。星期四去上海的火车	O O O B-LOC I-LOC O O O O O O O O B-LOC I-LOC O O O
+[website, music]	帮我链接到新浪网。点一首爱情买卖来听听	O O O O O B-ORG I-ORG I-ORG O O O O O O O O O O O
+[news, epg]	帮我查一查今天的新闻。。现在有什么好的电影呢？	O O O O O O O O O O O O O O O O O O O O O O O
+[app, message]	链家地产打开QQ。给李慧发个短信说我要回家	B-ORG I-ORG I-ORG I-ORG O O O O O O B-PER I-PER O O O O O O O O O
+[video, cinemas]	最近最热的电视剧。离我最近的电影院。	O O O O O O O O O O O O O O O O O O
+[weather, email]	我想知道北京的天气。给我看新邮件	O O O O B-LOC I-LOC O O O O O O O O O O
+[poetry, epg]	来一首琵琶行。。CCTV9明晚有转播仁心解码2呢	O O O O O O O O B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O
+[train, news]	从广州到南昌的火车票时刻表。现在有什么热点新闻？	O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O O O O O O O O
+[cookbook, chat]	灌汤小笼包怎样做。。是什么呢	O O O O O O O O O O O O O O
+[chat, news]	笨笨家在哪。该我读新闻。	O O O O O O O O O O O O
+[email, music]	给我看新邮件。来一首有点舍不得	O O O O O O O O O O O O O O O
+[cookbook, flight]	肥肠的做法。帮我看一下明天去北京的飞机	O O O O O O O O O O O O O O B-LOC I-LOC O O O
+[cookbook, telephone]	红烧肉的做法啊！。我要打电话给洪云刚	O O O O O O O O O O O O O O O B-PER I-PER I-PER
+[flight, app]	帮我看一下明天去北京的飞机。搜索手机办公软件	O O O O O O O O B-LOC I-LOC O O O O O O O O O O O O
+[video, contacts]	体育赛事直播。张培的电话号码是多少	O O O O O O O B-PER I-PER O O O O O O O O
+[message, epg]	发短信给子健晚上回家吃饭。查下安徽电视台今天节目单	O O O O B-PER I-PER O O O O O O O O O B-ORG I-ORG I-ORG I-ORG I-ORG O O O O O
+[email, cookbook]	发邮件给灿灿说明早我们一起跑步。打豆浆剩下的豆渣怎样做，好吃？	O O O O B-PER I-PER O O O O O O O O O O O O O O O O O O O O O O O O O
+[chat, cookbook]	是啊你说的那几句话到底啥意思。酸菜粉条肉的做法。	O O O O O O O O O O O O O O O O O O O O O O O O
+[poetry, lottery]	背一首声声慢。。搜索25选5的获奖号码	O O O O O O O O O O O O O O O O O O O
+[website, chat]	打开百度哇。你有兄弟么	O O O O O O O O O O O
+[music, translation]	歌曲白天不懂夜的黑。苹果翻译成英语	O O O O O O O O O O O O O O O O O
+[chat, flight]	怎么上分。明天去徐州的航班	O O O O O O O O B-LOC I-LOC O O O
+[music, cookbook]	点一首爱情买卖来听听。板栗怎么煮？	O O O O O O O O O O O O O O O O O
+[telephone, chat]	打电话给阿华。你知道小黄鸡吗	O O O O B-PER I-PER O O O O O O O O
+[video, stock]	蝎子王蝎子王。中海油服股票	O O O O O O O B-ORG I-ORG I-ORG I-ORG O O
+[map, health]	嗯我想知道曲阜在什么地方。肠胃炎怎么治？	O O O O O B-LOC I-LOC O O O O O O O O O O O O O
+[poetry, video]	尽在不言中下一句是什么？。请帮我播放樱桃	O O O O O O O O O O O O O O O O O O O O
+[weather, website]	今天广州的天气怎样。打开腾讯拍拍网	O O B-LOC I-LOC O O O O O O O O O O O O O
+[lottery, weather]	搜索25选5的获奖号码。今天广州的天气怎样	O O O O O O O O O O O O O O B-LOC I-LOC O O O O O
+[chat, telephone]	你怎么认识我的。给曹广义打电话	O O O O O O O O O B-PER I-PER I-PER O O O
+[video, poetry]	要看特种兵。若相惜不弃下一句是什么？	O O O O O O O O O O O O O O O O O O
+[message, news]	给查乐发短信。今天重大新闻	O B-PER I-PER O O O O O O O O O O
+[stock, weather]	泰山石油股票。天气预报广州	B-ORG I-ORG I-ORG I-ORG O O O O O O O B-LOC I-LOC
+[chat, lottery]	你咋没上幼儿园。最近几期的大乐透的开奖情况	O O O O O O O O O O O O O O O O O O O O O
+[cookbook, weather]	酱油鸡。。帮我看看今天的天气	O O O O O O O O O O O O O O
+[music, chat]	毛阿敏的歌。有汽车票吗	B-PER I-PER I-PER O O O O O O O O
+[calc, stock]	54乘上45。中海油服股票	O O O O O O O B-ORG I-ORG I-ORG I-ORG O O
+[flight, chat]	机票。你能给我唱歌吗	O O O O O O O O O O
+[website, message]	打开猫扑。发短信方钰玲	O O O O O O O O B-PER I-PER I-PER
+[music, translation]	播放上海滩。。你还没有结婚用英语怎么讲	O O B-LOC I-LOC I-LOC O O O O O O O O O O O O O O
+[music, website]	来一首有点舍不得。那你帮我打开百度	O O O O O O O O O O O O O O O O O
+[video, train]	我要看功夫熊猫帮我播放出来。从余姚到贵阳的火车票	O O O O O O O O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O
+[video]	金枝欲孽。三女休夫	O O O O O O O B-PER I-PER
+[cookbook, website]	黑芝麻怎么炒？。那你帮我打开百度	O O O O O O O O O O O O O O O O
+[riddle, cookbook]	再讲一个谜语吧！。干锅香辣虾	O O O O O O O O O O O O O O
+[cookbook]	鱼香肉丝的做法啊！。五梆瓜鸡蛋汤怎么做？	O O O O O O O O O O O O O O O O O O O O
+[chat, cookbook]	你是说我有意思吗。请问鱼块的做法。	O O O O O O O O O O O O O O O O O
+[health, cookbook]	如何治疗脚气。臭豆腐怎么做啊？	O O O O O O O O O O O O O O O
+[chat, cookbook]	谁是你的爱。黑米红豆粥的做法。	O O O O O O O O O O O O O O O
+[translation, weather]	今天我要去逛街用英语说。现在温度几度	O O O O O O O O O O O O O O O O O O
+[chat, cookbook]	欧洲杯谁能夺冠。红烧肉的做法啊！	B-LOC I-LOC O O O O O O O O O O O O O O
+[chat, email]	要啥?。我想打开新邮件	O O O O O O O O O O O
+[cookbook, health]	我想我想做老鸭汤用什么材料？。肠胃炎怎么治？	O O O O O O O O O O O O O O O O O O O O O O
+[app, website]	打开汽车之家。请打开人人网	O O O O O O O O O O B-ORG I-ORG I-ORG
+[translation, cookbook]	早上好英语怎么讲。鱼香肉丝，怎么炒？	O O O O O O O O O O O O O O O O O O
+[chat, telephone]	哪有小猫。呼叫王希	O O O O O O O B-PER I-PER
+[music, bus]	来一首隐形的翅膀。。查询许昌到中山的汽车。	O O O O O O O O O O O O B-LOC I-LOC O B-ORG I-LOC O O O O
+[weather, datetime]	长春现在是什么天气。端午节是哪一天	B-LOC I-LOC O O O O O O O O O O O O O O O
+[poetry, cookbook]	搜索一下白居易的诗。。糖醋鲤鱼怎么做啊？你只负责吃，c则c。	O O O O B-PER I-PER I-PER O O O O O O O O O O O O O O O O O O O O O O O
+[website, cookbook]	访问京东商城的网页。童子鸡的做法。	O O B-LOC I-LOC I-LOC I-LOC O O O O O O O O O O O
+[train]	连云港到徐州的火车票。北京到上海的火车票	B-LOC I-LOC I-LOC O B-LOC I-LOC O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O
+[message, chat]	给杨凯发短信。凭啥	O B-PER I-PER O O O O O O
+[train, radio]	重庆到成都的火车票多少钱。调频幺零三点二	B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O O O O O
+[stock, epg]	我想了解地产板块股票现在怎么样。看一下今天晚上广西台有没有警戒线？	O O O O O O O O O O O O O O O O O O O O O O O B-LOC I-LOC O O O O O O O O
+[contacts, lottery]	新建联系人李四号码是一二三四五六七八。最近几期的大乐透的开奖情况	O O O O O B-PER I-PER O O O O O O O O O O O O O O O O O O O O O O O O O
+[cookbook, message]	红烧带鱼怎么做？你？。发短信给王曼希望你幸福	O O O O O O O O O O O O O O O B-PER I-PER O O O O O
+[chat]	你的性格是什么。这是哪年的事	O O O O O O O O O O O O O O
+[chat, contacts]	谁是猪。把刘荣涛的电话发给王华成	O O O O O B-PER I-PER I-PER O O O O O B-PER I-PER I-PER
+[video]	播放非诚勿扰。请搜电影画皮	O O O O O O O O O O O O O
+[cinemas, stock]	离我最近的电影院。。今天上证指数是几点	O O O O O O O O O O O O O O O O O O O
+[datetime, weather]	端午节是哪一天。长春现在是什么天气	O O O O O O O O B-LOC I-LOC O O O O O O O
+[chat, schedule]	你这都跟哪啊快雪的。设置闹钟。	O O O O O O O O O O O O O O O
+[video, chat]	夜访吸血鬼。车车美么	O O O O O O O O O O
+[video, weather]	整人专家的电影。郑州天气	O O O O O O O O B-LOC I-LOC O O
+[cookbook, telephone]	豆沙包。。打电话温正军	O O O O O O O O B-PER I-PER I-PER
+[map, message]	查查科大讯飞在哪里。给爸爸发条短信，说“爸爸，我国庆节回来”	O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+[news, schedule]	啊，社会新闻。。十五分钟之后叫我。	O O O O O O O O O O O O O O O O O
+[cookbook, chat]	怎么做？酸菜鱼？。你是哪里的人啊	O O O O O O O O O O O O O O O O
+[cookbook, lottery]	打豆浆剩下的豆渣怎样做，好吃？。看一看七乐彩的信息	O O O O O O O O O O O O O O O O O O O B-ORG I-ORG I-ORG O O O
+[message, weather]	发短信给王勋连说我很好。现在温度几度	O O O O B-PER I-PER I-PER O O O O O O O O O O O
+[poetry, message]	火气冲天，下一句是什么？。发条短信给杨桑	O O O O O O O O O O O O O O O O O O B-PER I-PER
+[chat, telephone]	怎么这么热受不了了。打给宋成钢	O O O O O O O O O O O O B-PER I-PER I-PER
+[chat, cookbook]	你们学校机械学院都有哪些好老师他们都叫什么名字。酸辣藕丁的做法。	O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+[email, chat]	给我看邮件。这有啥意思	O O O O O O O O O O O
+[weather, video]	帮我看看今天的天气。音乐视频	O O O O O O O O O O O O O O
+[cookbook, chat]	不懂饭的做法。。你能曝照吗	O O O O O O O O O O O O O
+[flight, cookbook]	帮我查一下从济南到福州的机票。红烧肉的做法啊！	O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O O
+[chat]	是谁呀。你谁什么	O O O O O O O O
+[chat, news]	你肥吗。我想知道今天的娱乐新闻。	O O O O O O O O O O O O O O O O
+[cookbook, stock]	蒜茄子怎么做？。查询中国石化的股价	O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG O O O
+[tvchannel, translation]	切换上海频道。你曾爱过我吗用英语怎么说	O O B-LOC I-LOC O O O O O O O O O O O O O O O
+[tvchannel, weather]	山东台高清。你知道今天南京的天气吗	B-ORG I-ORG I-ORG I-ORG O O O O O O O B-LOC I-LOC O O O O
+[riddle, music]	动物谜语。。来点歌听听	O O O O O O O O O O O
+[contacts, cookbook]	把刘荣涛的电话发给王华成。小白菜拌豆腐怎么做呀？	O B-PER I-PER I-PER O O O O O B-PER I-PER I-PER O O O O O O O O O O O O
+[flight, video]	查询今天上海到成都的航班。帮我看一下最近哪些电影是新上映的。	O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O O O O O O O O O O O
+[video, riddle]	青瓷电视剧。讲个谜语吧，辣。	O O O O O O O O O O O O O O
+[video, health]	我要看电视了。黄疸	O O O O O O O O O
+[cinemas, music]	搜索合肥左岸电影城。。毛阿敏的歌	O O B-LOC I-LOC B-LOC I-LOC I-LOC I-LOC I-LOC O O B-PER I-PER I-PER O O
+[cookbook, weather]	小白菜拌豆腐怎么做呀？。郑州的天气怎么样	O O O O O O O O O O O O B-LOC I-LOC O O O O O O
+[video, chat]	憨豆特工。你谁什么	O O O O O O O O O
+[telephone, video]	请打电话给沈晨浩。大耳朵图图二	O O O O O B-PER I-PER I-PER O O O O O O O
+[video, lottery]	我要看西游记啊。搜索25选5的获奖号码	O O O O O O O O O O O O O O O O O O O
+[video, message]	美国电影破碎之城。给李慧发个短信说我要回家	B-LOC I-LOC O O O O O O O O B-PER I-PER O O O O O O O O O
+[epg, bus]	读书频道上个星期五有播放新闻联播吗。去深圳怎么坐车？	O O O O O O O O O O O O O O O O O O O B-LOC I-LOC O O O O O
+[flight, video]	查询大大后天广州到武汉的航班。黑猫截长	O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O
+[health, poetry]	肠胃炎怎么治？。尽在不言中下一句是什么？	O O O O O O O O O O O O O O O O O O O O
+[chat, video]	怎么安慰啊。三女休夫	O O O O O O O O B-PER I-PER
+[flight, app]	有没有下周二到贵阳的航班。帮忙打开一下酷狗音乐播放音乐行不	O O O O O O O B-LOC I-LOC O O O O O O O O O O O O O O O O O O O O
+[app, match]	打开相机这。中超赛事预告，你。	O O O O O O B-ORG O O O O O O O O
+[telephone, news]	幺五八九三二八二八三八。搜索最新新闻。	O O O O O O O O O O O O O O O O O O O
+[train, translation]	有没有徐州到洛阳的火车票。虾的英文怎么说	O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O O
+[cookbook, map]	周黑鸭怎么做？。查查科大讯飞在哪里	B-PER I-PER I-PER O O O O O O O O O O O O O O
+[train, video]	查一下明天下午南通到南京的火车票。青年奥林匹克运动会	O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O O O O
+[cookbook, video]	孜然排骨怎么做？。美国电影敢死队二	O O O O O O O O O B-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG
+[app, riddle]	帮忙打开一下酷狗音乐播放音乐行不。帮忙讲几个谜语给我猜。	O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+[music, chat]	she的歌。其实我不跟你说话么办	B-ORG I-ORG I-ORG O O O O O O O O O O O O O
+[weather, contacts]	明天深圳天气怎么样。把李会计的电话发给小江	O O B-LOC I-LOC O O O O O O O B-PER O O O O O O O B-PER I-PER
+[cookbook, riddle]	小猪哨糖醋排骨的做法。。不辣，猜谜语。	O O O O O O O O O O O O O O O O O O O
+[telephone]	打给孩子的爸。打电话温正军	O O O O O O O O O O B-PER I-PER I-PER
+[chat]	这有啥意思。你咋没上幼儿园	O O O O O O O O O O O O O
+[website, map]	进入中国移动官方网站。南山医院到北大医院路线	O O B-ORG I-ORG I-ORG I-ORG O O O O O B-ORG I-ORG I-ORG I-ORG O B-ORG I-ORG I-ORG I-ORG O O
+[cookbook]	帮我搜索一下红烧排骨。。不，做个红烧肉怎么做？	O O O O O O O O O O O O O O O O O O O O O O O
+[chat, cookbook]	喝啥子哩。讯飞语点请你搜索一下番茄炒蛋怎么做？	O O O O O O O O O O O O O O O O O O O O O O O
+[epg, map]	广西电视台现在播放什么节目？。去红心中路怎么走	B-ORG I-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O B-LOC I-LOC I-LOC I-LOC O O O
+[website, epg]	帮我上下新浪网。哪个台播放节目	O O O O O O O O O O O O O O O
+[map, news]	新东站怎么走。帮我查一查今天的新闻。	O O O O O O O O O O O O O O O O O O
+[translation, cookbook]	翻译光大银行。干贝怎么做？	O O B-ORG I-ORG I-ORG I-ORG O O O O O O O
+[stock, chat]	中国石化的股价怎么样。你怎么变笨了	B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O
+[music, chat]	来一首不可以。。我们去爬山怎么样啊	O O O O O O O O O O O O O O O O O
+[cookbook, translation]	炝拌土豆丝。。你吃过早饭了吗用英文怎么讲	O O O O O O O O O O O O O O O O O O O O
+[schedule, cookbook]	晚上8:10的闹钟。。怎么做？酸菜鱼？	O O O O O O O O O O O O O O O O O O O
+[train, poetry]	北京到上海的火车票。朗诵一首李白的诗词。	B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O B-PER I-PER O O O O
+[schedule, translation]	明天叫我8:10起床。。笑话用英语怎么说	O O O O O O O O O O O O O O O O O O O O
+[chat, epg]	你什么意思。湖南卫视有什么节目	O O O O O O B-ORG I-ORG I-ORG I-ORG O O O O O
+[health, contacts]	更年期综合症。。把高建清的号码发给潘青华	O O O O O O O O O B-PER I-PER I-PER O O O O O B-PER I-PER I-PER
+[video, chat]	锁梦楼。这么逗我好玩是不	B-LOC I-LOC I-LOC O O O O O O O O O
+[translation, video]	出口在哪里英文怎么说。小c帮我搜一下断剑视频	O O O O O O O O O O O O I-PER O O O O O O O O O
+[epg, weather]	15号的我愿意。郑州的天气怎么样	O O O O O O O O B-LOC I-LOC O O O O O O
+[chat, video]	我喜欢好朋友吗。帮我看一下最近哪些电影是新上映的。	O O O O O O O O O O O O O O O O O O O O O O O O O
+[bus, cookbook]	在合肥怎么坐去南京的汽车。做可乐鸡翅需要哪些材料？	O B-LOC I-LOC O O O O B-LOC I-LOC O O O O O O O O O O O O O O O O
+[music, flight]	来点歌听听。查询上海到丽江飞机票的价格	O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O
+[chat]	那你为什么要养家糊口。它在哪里	O O O O O O O O O O O O O O O
+[translation]	我记住了用英文怎么讲。苹果翻译成英语	O O O O O O O O O O O O O O O O O O
+[novel, radio]	有什么好看的校园小说。帮我调频94.8兰溪人民广播电台可以不？	O O O O O O O O O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG O O O O
+[cookbook, video]	红烧牛肉面我想来一碗。。魔幻电影	O O O O O O O O O O O O O O O O
+[calc, news]	4的平方根的立方加9的2次方根的3次方。哦，听新闻。	O O O O O O O O O O O O O O O O O O O O O O O O O O
+[contacts, flight]	把李会计的电话发给小江。查下上海到太原的机票	O B-PER O O O O O O O B-PER I-PER O O O B-LOC I-LOC O B-LOC I-LOC O O O
+[app, cookbook]	打开uc二哦。童子鸡的做法。	O O O O O O O O O O O O O O
+[cookbook, riddle]	糖醋鲤鱼怎么做啊？你只负责吃，c则c。。出一个谜语给我猜猜吧！	O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+[chat, tvchannel]	么么么哒。我要看云南二台	O O O O O O O O B-ORG I-ORG I-ORG I-ORG
+[cookbook, weather]	用电压力锅怎么蒸米粉肉。。郑州的天气怎么样	O O O O O O O O O O O O O B-LOC I-LOC O O O O O O
+[stock, tvchannel]	今天上证指数是几点。高清中央8	O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG O
+[map, contacts]	杭州到上海。把李会计的电话发给小江	B-LOC I-LOC O B-LOC I-LOC O O B-PER O O O O O O O B-PER I-PER
+[message, chat]	发短信给王曼希望你幸福。你能做点什么	O O O O B-PER I-PER O O O O O O O O O O O O
+[video, chat]	搜幕府风云。谁是你的爱	O O O O O O O O O O O
+[website, music]	开网页。随便唱首歌。	O O O O O O O O O O
+[chat, video]	聊这么。我要看功夫熊猫帮我播放出来	O O O O O O O O O O O O O O O O O
+[chat, lottery]	凭啥。看一看七乐彩的信息	O O O O O O B-ORG I-ORG I-ORG O O O
+[chat, video]	你怎么笨笨的?。三女休夫	O O O O O O O O O O B-PER I-PER
+[chat, cookbook]	哼谁是你亲爱的。帮我搜索一下红烧排骨。	O O O O O O O O O O O O O O O O O O O
+[telephone, news]	呼叫王希。我想听重庆新闻。	O O B-PER I-PER O O O O B-LOC I-LOC O O O
+[poetry, map]	阿妈，来一首白居易的诗。。河北在哪里	O O O O O O B-PER I-PER I-PER O O O O B-LOC I-LOC O O O
+[health, app]	感冒注意什么？。凯立德	O O O O O O O O B-PER I-PER I-PER
+[news, chat]	么，哥来一下最新的新闻。。你现在在做什么啊	O O O O O O O O O O O O O O O O O O O O O
+[news, lottery]	k新闻想听新闻。。帮我查一下2013年2月8日开奖的七星彩中奖号码	O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+[chat]	谈的怎么样。天才中有什么重大新闻	O O O O O O O O O O O O O O O O
+[health, chat]	乳腺癌。。怎么我问你什么你都不知道	O O O O O O O O O O O O O O O O O
+[news, weather]	今天重大新闻。中山天气怎么样	O O O O O O O B-LOC I-LOC O O O O O
+[poetry, tvchannel]	给我背一首诗。。切换上海频道	O O O O O O O O O O B-LOC I-LOC O O
+[chat, train]	你唉啥。帮我查一下从开封到郑州的火车几点发	O O O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O
+[video, chat]	家有儿女第二部。要啥?	O O O O O O O O O O O
+[video]	查雷神电影。小c我想看北京青年	B-PER B-PER I-PER O O O B-PER I-PER O O O B-ORG I-ORG O O
+[video, music]	恶熊出没。随便唱首歌。	O O O O O O O O O O O
+[bus, chat]	从无锡市到西安市的汽车。。能发点其他的吗	O B-LOC I-LOC I-LOC O B-LOC I-LOC I-LOC O O O O O O O O O O O O
+[cookbook]	做花生拌豆腐需要什么材料啊？。刘林面怎么做啊？	O O O O O O O O O O O O O O O B-PER I-PER I-PER O O O O O
+[telephone, email]	请拨幺幺零。我想打开新邮件	O O O O O O O O O O O O O
+[chat, music]	你下蛋吗。来一首隐形的翅膀。	O O O O O O O O O O O O O O
+[epg, cookbook]	一站到底是哪个电视台播放的。。面包怎么做	O O O O O O O O O O O O O O O O O O O O
+[chat, weather]	什么语无伦次的。查南京天气	O O O O O O O O O B-LOC I-LOC O O
+[chat, train]	一共有几个小动物。查一下从广州到南宁的火车票	O O O O O O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O
+[epg, radio]	第二十二条婚规什么时候结束。麻烦您可不可以帮我调频97广西经济广播电台	O O O O O O O O O O O O O O O O O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG
+[news, cookbook]	现在有什么热点新闻？。红烧肉的做法啊！	O O O O O O O O O O O O O O O O O O O
+[translation, calc]	翻译今天出去玩。54乘上45	O O O O O O O O O O O O O O
+[cookbook]	做火腿炒茄瓜需要什么材料？。面包怎么做	O O O O O O O O O O O O O O O O O O O
+[chat, poetry]	你能听懂我说的是啥吗。火气冲天，下一句是什么？	O O O O O O O O O O O O O O O O O O O O O O O
+[cookbook, translation]	臭豆腐怎么做啊？。翻译光大银行	O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG
+[telephone, cookbook]	我要打电话给洪云刚。红烧带鱼怎么做？你？	O O O O O O B-PER I-PER I-PER O O O O O O O O O O O
+[radio, map]	帮我调频92.8桐庐人民广播电台行不行？。龙口西路在哪里	O O O O O O O O B-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG O O O O O B-LOC I-LOC I-LOC I-LOC O O O
+[map, email]	龙口西路在哪里。给我看新邮件	B-LOC I-LOC I-LOC I-LOC O O O O O O O O O O
+[cookbook, chat]	就拉下的饺子怎么做？。啊我要订票你怎么吟诗了	O O O O O O O O O O O O O O O O O O O O O O
+[chat, health]	弄啥类。暴发性紫癜	O O O O O O O O O
+[tvchannel, email]	北京二。帮我发邮件给婷婷	B-ORG I-ORG I-ORG O O O O O O O B-PER I-PER
+[chat, video]	你是用什么训练的。预约还珠格格第八集	O O O O O O O O O O O B-PER I-PER I-PER I-PER O O O
+[cookbook, chat]	赵柏田鸡怎么做啊？。哪里牛逼了	B-PER I-PER O O O O O O O O O O O O O
+[riddle, telephone]	讲个谜语吧，辣。。幺五八九三二八二八三八	O O O O O O O O O O O O O O O O O O O O
+[chat, app]	能告诉我徐乐乐的信息吗。打开淘宝购物	O O O O B-PER I-PER I-PER O O O O O O O O O O O
+[telephone, chat]	打电话给子明。这么笨啊怪不得叫笨笨	O O O O B-PER I-PER O O O O O O O O O O O
+[stock, riddle]	中国建设银行的行情。出一个谜语给我猜猜吧！	B-ORG I-ORG I-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O O O
+[video, music]	小c帮我搜一下断剑视频。来一首有点舍不得	O I-PER O O O O O O O O O O O O O O O O O O
+[cookbook, match]	做蛋炒饭需要什么材料？。广州恒大比赛比分。	O O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG O O O O O
+[email, cookbook]	我想打开新邮件。炝拌土豆丝。	O O O O O O O O O O O O O O
+[website, riddle]	打开腾讯拍拍网。讲个谜语吧，辣。	O O O O O O O O O O O O O O O O
+[datetime, cookbook]	现在的日期。讯飞语点请你搜索一下番茄炒蛋怎么做？	O O O O O O O O O O O O O O O O O O O O O O O O
+[news, riddle]	搜索最新新闻。。给我打个谜语，啊！	O O O O O O O O O O O O O O O O O
+[schedule, cookbook]	说到上海了提醒我一下。干贝怎么做？	O O B-LOC I-LOC O O O O O O O O O O O O O
+[cookbook, music]	干贝怎么做？。播放上海滩。	O O O O O O O O O B-LOC I-LOC I-LOC O
+[bus, cookbook]	从台州到金华的汽车。。打了怎么做红烧肉的做法？	O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O O O O O O O
+[chat, translation]	笨笨你是没有年龄么。汽车英语怎么讲	O O O O O O O O O O O O O O O O O
+[news, cookbook]	是否还有其他关于钓鱼岛的新闻。请问鱼块的做法。	O O O O O O O O B-LOC I-LOC I-LOC O O O O O O O O O O O O
+[health, email]	肺结核要注意些啥。帮我发邮件给婷婷	O O O O O O O O O O O O O O O B-PER I-PER
+[telephone, weather]	打电话温正军。龙岩市天气	O O O B-PER I-PER I-PER O B-LOC I-LOC I-LOC O O
+[tvchannel, epg]	高清中央8。今天晚上有没有中国好声音呢？	B-ORG I-ORG I-ORG I-ORG O O O O O O O O O B-LOC I-LOC O O O O O
+[app, cookbook]	给我打开一下qq。萝卜炖排骨汤怎么做？	O O O O O O B-ORG I-ORG O O O O O O O O O O O
+[weather, news]	中山天气怎么样。帮我查一查今天的新闻。	B-LOC I-LOC O O O O O O O O O O O O O O O O O
+[train, epg]	星期四去上海的火车。查下最近1周有转播X女特工	O O O O B-LOC I-LOC O O O O O O O O O O O O O O O O O
+[translation, cookbook]	虾的英文怎么说。做红烧肉。	O O O O O O O O O O O O O
+[telephone]	拨打幺三七零九五二零八五八。幺八九幺八九二二五五五	O O O O O O O O O O O O O O O O O O O O O O O O O
+[map, chat]	上海到北京怎么走。你怎么变笨了	B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O
+[cookbook, match]	海虾的做法。。2013年亚洲冠军联赛恒广州恒大比赛时间。	O O O O O O O O O O O O B-LOC I-LOC O O O O O B-ORG I-ORG I-ORG I-ORG O O O O O
+[website, match]	请打开人人网。中超赛事预告，从在哪里看呢？	O O O B-ORG I-ORG I-ORG O B-ORG O O O O O O O O O O O O O
+[radio, chat]	麻烦您可不可以帮我调频97广西经济广播电台。我们去爬山怎么样啊	O O O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG O O O O O O O O O O
+[message, news]	传简讯给家里。等，请播报新闻	O O O O O O O O O O O O O O
+[poetry, music]	我给我念一首李白的诗吧？。来一首隐形的翅膀。	O O O O O O B-PER I-PER O O O O O O O O O O O O O O
+[cookbook, poetry]	江苏路红薯粉怎么做好吃？。来首纳兰性德的词。	B-LOC I-LOC I-LOC O O O O O O O O O O O O B-PER I-PER I-PER I-PER O O O
+[cookbook, poetry]	那好，那你告诉我西红柿炒鸡蛋，怎么去做？。背一首李白的诗来听听。	O O O O O O O O O O O O O O O O O O O O O O O O B-PER I-PER O O O O O O
+[weather, chat]	郑州天气。你咋不上天呢	B-LOC I-LOC O O O O O O O O O
+[video, chat]	文艺片。那你哈尔滨那边有什么好吃的呀你今天吃什么呀	O O O O O O B-LOC I-LOC I-LOC O O O O O O O O O O O O O O O O
+[poetry, chat]	读首唐诗。你是妹妹还是哥哥	O O O O O O O O O O O O O
+[translation, cookbook]	笑话用英语怎么说。萝卜炖排骨汤怎么做？	O O O O O O O O O O O O O O O O O O O
+[cookbook]	怎样做凉拌？。胡萝卜怎么炒好吃？	O O O O O O O O O O O O O O O O
+[lottery, cookbook]	帮我购买2注25选5的彩票。糖醋排骨怎么做？好了额，你。	O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+[weather, schedule]	银川天气怎么样。明天叫我8:10起床。	B-LOC I-LOC O O O O O O O O O O O O O O O O O
+[cookbook, match]	干锅鱼怎么做。中超赛事预告，从在哪里看呢？	O O O O O O O B-ORG O O O O O O O O O O O O O
+[chat]	你娘亲是谁。你是用什么训练的	O O O O O O O O O O O O O O
+[cookbook, message]	福寿鱼怎么煮比较好吃？。给查乐发短信	O O O O O O O O O O O O O B-PER I-PER O O O
+[epg, bus]	下周有什么好看的恐怖电影。在合肥怎么坐去南京的汽车	O O O O O O O O O O O O O O B-LOC I-LOC O O O O B-LOC I-LOC O O O
+[stock, bus]	科大讯飞的股价如何。无锡到阜阳怎么坐汽车？	O O O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O
+[poetry, schedule]	造化钟神秀的下一句是什么？。早晨8:10叫我。	O O B-PER I-PER I-PER O O O O O O O O O O O O O O O O O O
+[chat, music]	你咋不上天呢。随便唱首歌。	O O O O O O O O O O O O O
+[poetry, map]	来一首李清照的词。杭州到上海	O O O B-PER I-PER I-PER O O O B-LOC I-LOC O B-LOC I-LOC
+[flight]	去桂林的航班怎样。去桂林的航班怎样	O B-LOC I-LOC O O O O O O O B-LOC I-LOC O O O O O
+[match, chat]	武汉卓尔的赛程。。你是妹妹还是哥哥	B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O
+[cookbook, chat]	帮我找出红烧肉的做法。。那草为啥会绿	O O O O O O O O O O O O O O O O O O
+[cookbook, video]	猪肉丸子汤怎么做啊？。预约还珠格格第八集	O O O O O O O O O O O O O B-PER I-PER I-PER I-PER O O O
+[calc, radio]	0乘7。帮我调频94.8兰溪人民广播电台可以不？	O O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG O O O O
+[chat, cookbook]	它在哪里。孜然排骨怎么做？	O O O O O O O O O O O O O
+[stock, cookbook]	广汇股份的收盘价格。糖醋鲤鱼怎么做啊？你只负责吃，c则c。	B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O O O O O O O O O O O O O
+[cookbook, bus]	打了怎么做红烧肉的做法？。无锡到阜阳怎么坐汽车？	O O O O O O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O
+[cookbook, contacts]	搜索烤饼的做法。。张培的电话号码是多少	O O O O O O O O O B-PER I-PER O O O O O O O O
+[match, datetime]	中超赛事预告，从在哪里看呢？。明天是农历几号	B-ORG O O O O O O O O O O O O O O O O O O O O O
+[train, message]	从余姚到贵阳的火车票。发短信给王曼希望你幸福	O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O B-PER I-PER O O O O O
+[message, chat]	发消息给周磊。一共有几个小动物	O O O O B-PER I-PER O O O O O O O O O
+[chat, epg]	谁子。看一下今天晚上广西台有没有警戒线？	O O O O O O O O O O B-LOC I-LOC O O O O O O O O
+[contacts, chat]	哦钢结构的电话是多少。是什么呢	O O O O O O O O O O O O O O O
+[chat, train]	哪个学校的。杭州到北京的火车班次	O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O
+[telephone, chat]	拨打幺三九幺三八九九三九九。我能把你教坏吗	O O O O O O O O O O O O O O O O O O O O O
+[chat]	嗯你叫啥呀。你能给我唱歌吗	O O O O O O O O O O O O O
+[tvchannel, weather]	CCTV农业。明天天气怎样啊	O O O O O O O O O O O O O O
+[cinemas, stock]	电影搜索啊！。今天上证指数是几点	O O O O O O O O O O O O O O O O
+[news, chat]	我想知道今天的娱乐新闻。。刘挺是谁？	O O O O O O O O O O O O O B-PER I-PER O O O
+[message, cookbook]	发短信方钰玲。臭豆腐怎么做啊？	O O O B-PER I-PER I-PER O O O O O O O O O
+[video, tvchannel]	请帮我打开电影。央视9	O O O O O O O O B-ORG I-ORG I-ORG
+[tvchannel, email]	央视9。我要回复这个邮件	B-ORG I-ORG I-ORG O O O O O O O O O
+[chat, translation]	不行么。今天我要去逛街用英语说	O O O O O O O O O O O O O O O
+[weather, cookbook]	你知道今天南京的天气吗。烧鸭怎么做	O O O O O B-LOC I-LOC O O O O O O O O O O
+[calc, riddle]	45的倒数多少啊。猜脑筋急转弯二。	O O O O O O O O O O O O O O O O O
+[video, epg]	80年代成龙演的电影。世界军事中央台世界军事	O O O O B-PER I-PER O O O O O B-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG O O O O
+[chat, poetry]	没听清吗。火气冲天，下一句是什么？	O O O O O O O O O O O O O O O O O
+[poetry, chat]	背首杜甫的诗啊？。可以教教吗?	O O B-PER I-PER O O O O O O O O O O O
+[message]	给孟南发短信。我要发信息给高鹤航	O B-PER I-PER O O O O O O O O O O B-PER I-PER I-PER
+[cookbook, video]	鸡蛋的做法。最近新上映的电视剧。	O O O O O O O O O O O O O O O O
+[cookbook]	怎么样煮方便面。。红烧牛肉面我想来一碗。	O O O O O O O O O O O O O O O O O O O O
+[app, epg]	打开QQ通讯。明天安徽卫视演什么	O O B-ORG I-ORG I-ORG I-ORG O O O B-ORG I-ORG I-ORG I-ORG O O O
+[chat, poetry]	几八痒。毛泽东的诗哦。	O O O O B-PER I-PER I-PER O O O O
+[train, video]	帮我查一下明天去郑州的火车票。青春四十	O O O O O O O O B-LOC I-LOC O O O O O O O O O
+[map, cookbook]	去华强北的路怎么走。豆沙包。	O B-LOC I-LOC I-LOC O O O O O O O O O O
+[bus, video]	去深圳怎么坐车？。锁梦楼	O B-LOC I-LOC O O O O O O B-LOC I-LOC I-LOC
+[message, cookbook]	给石荣福发短信。不，做个红烧肉怎么做？	O B-PER I-PER I-PER O O O O O O O O O O O O O O O
+[epg, telephone]	哪个台播放节目。呼叫王希	O O O O O O O O O O B-PER I-PER
+[poetry, chat]	来首纳兰性德的词。。可以教教吗?	O O B-PER I-PER I-PER I-PER O O O O O O O O O O
+[video, stock]	最近有什么电影可以看一下。。中国石化的股价怎么样	O O O O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG O O O O O O
+[cookbook, website]	糖醋排骨怎么做？好了额，你。。打开百度哇	O O O O O O O O O O O O O O O O O O O O
+[train, health]	去南昌的火车。鼻息肉	O B-LOC I-LOC O O O O O O O
+[website, match]	上广州坐车网查一下从这里到大咋地怎么走。中超赛事预告，从在哪里看呢？	O B-LOC I-LOC O O O O O O O O O O O O O O O O O B-ORG O O O O O O O O O O O O O
+[flight, telephone]	七月三十一日上海虹桥到北京的航班。拨打幺三七零九五二零八五八	O O O O O O B-LOC I-LOC B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O O O O O O O
+[map, tvchannel]	从济源市到河南省电信分公司怎么走。北京二台高清	O B-LOC I-LOC I-LOC O B-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG O O O O B-ORG I-ORG I-ORG I-ORG O O
+[weather, map]	帮我查一下明日天气。北京西站在哪	O O O O O O O O O O B-LOC I-LOC I-LOC I-LOC O O
+[video, chat]	抽身游戏。娃咋么杨你因为呵呵演完呀不到你	O O O O O O O O B-PER O O O O O O O O O O O
+[stock, riddle]	中海油服股票。出一个谜语给我猜猜吧！	B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O O
+[poetry, epg]	背唐诗李白侠客行。一站到底是哪个电视台播放的。	O O O B-PER I-PER O O O O O O O O O O O O O O O O O O
+[app, cookbook]	凯立德。萝卜炖排骨汤怎么做？	B-PER I-PER I-PER O O O O O O O O O O O
+[cookbook, video]	刘林面怎么做啊？。三女休夫	B-PER I-PER I-PER O O O O O O O O B-PER I-PER
+[match, cookbook]	2013年亚洲冠军联赛恒广州恒大比赛时间。。脆瓜。	O O O O O B-LOC I-LOC O O O O O B-ORG I-ORG I-ORG I-ORG O O O O O O O O O
+[train, chat]	明天广州到长葛的火车。你爱玩什么英雄	O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O
+[chat, message]	我是不是好没用。发送短信给老婆我在三号楼三零幺刚才那个教室关门了	O O O O O O O O O O O O O O O O O B-LOC I-LOC I-LOC I-LOC I-LOC I-LOC O O O O O O O O O
+[news, epg]	该我读新闻。。广西电视台现在播放什么节目？	O O O O O O O B-ORG I-ORG I-ORG I-ORG I-ORG O O O O O O O O O
+[cookbook, poetry]	板栗怎么煮？。读首唐诗	O O O O O O O O O O O
+[cookbook, music]	黑米红豆粥的做法。。给我来一首，相见恨晚的音乐。	O O O O O O O O O O O O O O O O O O O O O O O O
+[chat, translation]	你喜欢玩肥皂么？。翻译今天出去玩	O O O O O O O O O O O O O O O O
+[health, riddle]	痛经。。出一个谜语给我猜猜吧！	O O O O O O O O O O O O O O O
+[chat, cookbook]	你什么梦想。周黑鸭怎么做？	O O O O O O B-PER I-PER I-PER O O O O
+[chat, tvchannel]	徐梓翔是谁。北京二台高清	B-PER I-PER I-PER O O O B-ORG I-ORG I-ORG I-ORG O O
+[cookbook, video]	用菜籽油做面包。恶熊出没	O O O O O O O O O O O O
+[website, cookbook]	打开新浪网我肏。酸菜鱼怎样做	O O O O O O O O O O O O O O
+[chat, riddle]	你妈逼你考大学了吗。动物谜语。	O O O O O O O O O O O O O O O
+[chat]	那聊什么呢。你怎么知道～	O O O O O O O O O O O O
+[radio, chat]	打开安徽交通台。你知道怎么拍照么	O O B-ORG I-ORG I-ORG I-ORG I-ORG O O O O O O O O O
+[map, news]	查查科大讯飞在哪儿。今日头条新闻。	O O O O O O O O O O O O O O O O O
+[video, train]	大耳朵图图二。杭州到北京的火车班次	O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O
+[chat, news]	你能做点什么。我想听重庆新闻。	O O O O O O O O O O B-LOC I-LOC O O O
+[video, contacts]	青年奥林匹克运动会。把李会计的电话发给小江	O O O O O O O O O O O B-PER O O O O O O O B-PER I-PER
+[health, chat]	得了关节炎怎么办？。你们学校机械学院都有哪些好老师他们都叫什么名字	O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+[translation, train]	翻译背首诗。去南昌的火车	O O O O O O O B-LOC I-LOC O O O
+[epg, video]	年代秀什么时候播。家有儿女第二部	O O O O O O O O O O O O O O O O
+[video, train]	青春四十。查一下明天下午南通到南京的火车票	O O O O O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O
+[epg, novel]	湖北卫视今天下午六点以后开始播男生女生向前冲。搜索极品天王	B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O O O O O O O O O O O O O
+[epg, music]	明晚真人秀频道有播放过百变大咖秀呢。我要听张雨生的歌。	O O O O O O O O O O O O O O O O O O O O O B-PER I-PER I-PER O O O
+[tvchannel, cookbook]	搜索第10频道。烧鸭怎么做	O O O O O O O O O O O O O
+[chat, video]	好有爱?。帮我看一下最近哪些电影是新上映的。	O O O O O O O O O O O O O O O O O O O O O O
+[contacts, music]	查看之丽丽的号码。播放音乐喜帖街。	O O O B-PER I-PER O O O O O O O O O O O O
+[website, video]	打开浦发银行。最近新上映的电视剧。	O O B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O
+[epg, train]	哪个频道有刘德华出演的电视剧。帮我查一下宁波到郑州的火车	O O O O O B-PER I-PER I-PER O O O O O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O
+[poetry, message]	背首宋词。。我要发信息给高鹤航	O O O O O O O O O O O O B-PER I-PER I-PER
+[chat, cookbook]	最近有啥新鲜事阿。猪大肠怎么炒？	O O O O O O O O O O O O O O O O
+[tvchannel, message]	山东高清。我要发信息给高鹤航	B-LOC I-LOC O O O O O O O O O B-PER I-PER I-PER
+[music, stock]	哦来一首忘情水。科大讯飞的股价如何	O O O O O O O O O O O O O O O O O
+[cookbook]	做黄焖小土豆怎么做啊？。搜索烤饼的做法。	O O O O O O O O O O O O O O O O O O O O
+[chat, translation]	那你哈尔滨那边有什么好吃的呀你今天吃什么呀。挑逗你真好玩儿英语怎么说	O O B-LOC I-LOC I-LOC O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+[train, chat]	查询临沂到济南的火车票。我能把你教坏吗	O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O O
+[website, match]	那你帮我打开百度。广州恒大比赛比分。	O O O O O O O O O B-ORG I-ORG I-ORG I-ORG O O O O O
+[chat, train]	能发点其他的吗。星期四去上海的火车	O O O O O O O O O O O O B-LOC I-LOC O O O
+[datetime, app]	距离春节还有多久。给我打开一下qq	O O O O O O O O O O O O O O O B-ORG I-ORG
+[weather, chat]	郑州的天气怎么样。几八痒	B-LOC I-LOC O O O O O O O O O O
+[chat]	今天什么天气。你叫什么名字?	O O O O O O O O O O O O O O
+[contacts, stock]	把高建清的号码发给潘青华。中国石化的股价怎么样	O B-PER I-PER I-PER O O O O O B-PER I-PER I-PER O B-ORG I-ORG I-ORG I-ORG O O O O O O
+[video]	我想看爱在春天。锁梦楼	O O O O O O O O B-LOC I-LOC I-LOC
+[health, cookbook]	多囊肾怎么治啊？。不懂饭的做法。	O O O O O O O O O O O O O O O O
+[weather, cookbook]	查南京天气。帮我搜索一下红烧排骨。	O B-LOC I-LOC O O O O O O O O O O O O O O
+[cookbook, app]	鱼香肉丝，怎么炒？。开微信	O O O O O O O O O O O O O
+[translation, calc]	你吃过早饭了吗用英文怎么讲。45的倒数多少啊	O O O O O O O O O O O O O O O O O O O O O O
+[chat, cinemas]	哪天的？。搜索合肥左岸电影城。	O O O O O O O B-LOC I-LOC B-LOC I-LOC I-LOC I-LOC I-LOC O
+[chat]	什么曰子啊。你怎么认识我的	O O O O O O O O O O O O O
+[translation, radio]	苹果翻译成英语。帮我调频92.8桐庐人民广播电台行不行？	O O O O O O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG O O O O
+[chat, poetry]	可以告诉我你的性别么。唐代诗人李白。	O O O O O O O O O O O O O O O B-PER I-PER O
+[telephone, music]	给叶君恩打电话。我叫小沈阳这首歌	O B-PER I-PER I-PER O O O O O O O B-PER I-PER O O O
+[epg, translation]	看一下今天晚上广西台有没有警戒线？。出口在哪里英文怎么说	O O O O O O O B-LOC I-LOC O O O O O O O O O O O O O O O O O O O
+[chat]	你是穆斯林吗。笨笨你爸比和帮主是什么关系	O O O O O O O O O O O O O O O O O O O O
+[chat]	是什么呢。在干吗啊	O O O O O O O O O
+[translation, chat]	翻译秋天。我就不是好孩子了怎么了	O O O O O O O O O O O O O O O O
+[chat]	这么笨啊怪不得叫笨笨。晚餐吃点什么呢	O O O O O O O O O O O O O O O O O O
+[stock, music]	查询大北农的股票。我想听期待这首歌	O O O B-ORG I-ORG O O O O O O O O O O O O
+[novel, translation]	搜索极品天王。笑话用英语怎么说	O O O O O O O O O O O O O O O
+[translation, stock]	挑逗你真好玩儿英语怎么说。查询中国石化的股价	O O O O O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG O O O
+[map, video]	查询合肥市植物园的位置。尼古拉斯凯奇	O O B-LOC I-LOC I-LOC I-LOC I-LOC I-LOC O O O O B-PER I-PER I-PER I-PER I-PER I-PER
+[chat]	订机票今天吃什么。你能听懂我说的是啥吗	O O O O O O O O O O O O O O O O O O O
+[tvchannel, translation]	高清中央电视台电影频道。翻译今天出去玩	O O B-ORG I-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O
+[epg, cinemas]	电影频道今天放什么。电影搜索啊！	O O O O O O O O O O O O O O O O
+[health, website]	包皮包茎。打开浦发银行	O O O O O O O B-ORG I-ORG I-ORG I-ORG
+[cookbook, chat]	做红烧肉。。你是妹妹还是哥哥	O O O O O O O O O O O O O O
+[weather, website]	盘县今天的天气如何。请打开人人网	B-LOC I-LOC O O O O O O O O O O O B-ORG I-ORG I-ORG
+[health, stock]	破伤风该怎么处理。南京熊猫股票	O O O O O O O O O B-ORG I-ORG I-ORG I-ORG O O
+[chat, video]	真的吗。惊情四百年	O O O O O O O O O
+[poetry, datetime]	唐诗哦。。现在的日期	O O O O O O O O O O
+[epg, riddle]	中央六台的节目单。出一个谜语给我猜猜吧！	B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O O O O
+[stock, video]	科大讯飞的股票是多少a。体育赛事直播	O O O O O O O O O O O O O O O O O O
+[translation, chat]	小老虎用英语怎么讲。在干吗啊	O O O O O O O O O O O O O O
+[telephone, cookbook]	打给宋成钢。不懂饭的做法。	O O B-PER I-PER I-PER O O O O O O O O
+[translation, chat]	星期天早晨我们一起去打篮球英语怎么说。你是妹妹还是哥哥	O O O O O O O O O O O O O O O O O O O O O O O O O O O
+[cookbook, schedule]	鸡爪怎么炒？。晚上8:10的闹钟。	O O O O O O O O O O O O O O O O O
+[chat, weather]	你还会什么古诗。帮我查一下明日天气	O O O O O O O O O O O O O O O O O
+[translation, chat]	翻译芬兰。干啥呢	O O B-LOC I-LOC O O O O
+[message, train]	给爸爸发条短信，说“爸爸，我国庆节回来”。从广州到南昌的火车票时刻表	O O O O O O O O O O O O O O O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O
+[music, epg]	给我来一首，相见恨晚的音乐。。哪个台播放节目	O O O O O O O O O O O O O O O O O O O O O O
+[email, match]	我想要全部答复。武汉卓尔的赛程。	O O O O O O O O B-ORG I-ORG I-ORG I-ORG O O O O
+[stock, epg]	查询股票00230。明天安徽卫视演什么	O O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG O O O
+[chat, train]	你有兄弟么。查询广州到贵港的火车	O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O
+[website, chat]	打开网页猫扑。有答案了吗	O O O O O O O O O O O O
+[cookbook, schedule]	拔丝芋头怎么做。晚上8:10的闹钟。	O O O O O O O O O O O O O O O O O O
+[epg, stock]	你知道现在广东卫视在演什么吗？。查询中国石化的股价	O O O O O B-ORG I-ORG I-ORG I-ORG O O O O O O O O O B-ORG I-ORG I-ORG I-ORG O O O
+[chat, website]	你觉得我嫁的出去吗。帮我上下新浪网	O O O O O O O O O O O O O O O O O
+[poetry, app]	天王盖地虎的下一句是什么？。帮忙打开一下酷狗音乐播放音乐行不	O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+[chat, translation]	娃咋么杨你因为呵呵演完呀不到你。出口在哪里英文怎么说	O O O B-PER O O O O O O O O O O O O O O O O O O O O O O
+[train, cookbook]	查询湛江到广州的火车票。海虾的做法。	O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O
+[lottery, news]	最近几期的大乐透的开奖情况。盘锦新闻。	O O O O O O O O O O O O O O B-LOC I-LOC O O O
+[train, chat]	帮我查一下宁波到郑州的火车。不行么	O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O
+[map, cinemas]	河北在哪里。我要查找雷迪波尔电影院最新上映的大片	B-LOC I-LOC O O O O O O O O B-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG O O O O O O O
+[epg, cookbook]	动漫频道三天之后有开始播吸血鬼日记第四季呢。蛋黄焗薯条怎么做	O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+[bus, train]	南京到，黄山的汽车。。有没有徐州到洛阳的火车票	B-LOC I-LOC O O B-LOC I-LOC O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O
+[chat, bus]	有答案了吗。无锡到阜阳怎么坐汽车？	O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O
+[message, epg]	发送短信给老婆我在三号楼三零幺刚才那个教室关门了。回放昨晚的焦点访谈	O O O O O O O O O B-LOC I-LOC I-LOC I-LOC I-LOC I-LOC O O O O O O O O O O O O O O O O O O O
+[weather, message]	龙岩市天气。传简讯给家里	B-LOC I-LOC I-LOC O O O O O O O O O
+[telephone, news]	打电话给张帕楼。哦，听新闻。	O O O O B-PER I-PER I-PER O O O O O O O
+[train, chat]	查一下从广州到南宁的火车票。你咋不上天呢	O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O
+[chat, poetry]	问题是有些东西你听不懂怎么聊天。背首宋词。	O O O O O O O O O O O O O O O O O O O O O
+[app, train]	请帮我打开uc。开封到信阳的火车	O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O
+[news, video]	等，请播报新闻。黑猫截长	O O O O O O O O O O O O
+[chat, flight]	你是白痴吗。从广州到贵阳市的航班	O O O O O O O B-LOC I-LOC O B-LOC I-LOC I-LOC O O O
+[video]	放年代短片看。最近新上映的电视剧。	O O O O O O O O O O O O O O O O O
+[epg, music]	世界军事中央台世界军事。给我来一首，相见恨晚的音乐。	B-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O O O O O O O
+[message, news]	给潘开国发短信。我想知道今天的娱乐新闻。	O B-PER I-PER I-PER O O O O O O O O O O O O O O O O
+[email, message]	我要回复这个邮件。发短信给王勋连说我很好	O O O O O O O O O O O O O B-PER I-PER I-PER O O O O
+[chat, train]	这么神奇吗。从余姚到贵阳的火车票	O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O
+[message]	我要发信息给高鹤航。给石荣福发短信	O O O O O O B-PER I-PER I-PER O O B-PER I-PER I-PER O O O
+[chat]	我都不害羞你害羞什么。对呀+你咋这么笨呢	O O O O O O O O O O O O O O O O O O O O
+[map, cinemas]	导航到奉贤。最近热门的电影。	O O O B-LOC I-LOC O O O O O O O O O
+[poetry, message]	朗读一首李白的诗呗！。发短信给王曼希望你幸福	O O O O B-PER I-PER O O O O O O O O O B-PER I-PER O O O O O
+[epg, chat]	搜一下今天中午开始放郭的秀。怎么	O O O O O O O O O O B-PER O O O O O
+[poetry, music]	呦呦鹿鸣的下一句。。随便唱首歌。	O O O O O O O O O O O O O O O O
+[map, chat]	去金湖县城。我们去爬山怎么样啊	O B-LOC I-LOC O O O O O O O O O O O O
+[flight, video]	武汉到北京的飞机票。请帮我打开电影	B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O O
+[video, cookbook]	播放2005年励志动漫。鱼香肉丝，怎么炒？	O O O O O O O O O O O O O O O O O O O O O
+[health, contacts]	鼻息肉。把高建清的号码发给潘青华	O O O O O B-PER I-PER I-PER O O O O O B-PER I-PER I-PER
+[chat, email]	怎么写。帮我发邮件给婷婷	O O O O O O O O O O B-PER I-PER
+[health, cookbook]	糖尿病注意什么？。帮我找出红烧肉的做法。	O O O O O O O O O O O O O O O O O O O O
+[chat, tvchannel]	我就不是好孩子了怎么了。山东台高清	O O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG O
+[map, cookbook]	我想到科大讯飞走高速路线。用菜籽油做面包	O O O O O O O O O O O O O O O O O O O O
+[video, message]	发现之美。发短信给王曼希望你幸福	O O O O O O O O O B-PER I-PER O O O O O
+[website, contacts]	打开聚划算网站。老马的电话是多少	O O B-ORG I-ORG I-ORG O O O O B-PER O O O O O O
+[tvchannel, video]	湖北电视台。查雷神电影	B-ORG I-ORG I-ORG I-ORG I-ORG O B-PER B-PER I-PER O O
+[poetry, cookbook]	朗诵一首李白的诗词。。宫爆鸡丁的菜谱。	O O O O B-PER I-PER O O O O O O O O O O O O O
+[flight, cinemas]	明天去徐州的航班。我要查找雷迪波尔电影院最新上映的大片	O O O B-LOC I-LOC O O O O O O O O B-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG O O O O O O O
+[stock, chat]	罗顿发展的股票。喝哪种酒	B-PER I-PER O O O O O O O O O O
+[music, train]	我要听张雨生的歌。。查询广州到北京的火车	O O O B-PER I-PER I-PER O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O
+[map, stock]	帮我看一下到科大讯飞最快的是哪条路线。保利地产的股票	O O O O O O O O O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG O O O
+[cookbook, music]	做红烧肉怎么做？。来点歌听听	O O O O O O O O O O O O O O
+[chat]	你们你过生日吃蛋糕吗。做的还是不够好	O O O O O O O O O O O O O O O O O O
+[chat, website]	你好能看懂表情吗呲牙。上广州坐车网查一下从这里到大咋地怎么走	O O O O O O O O O O O O B-LOC I-LOC O O O O O O O O O O O O O O O O
+[riddle, chat]	猜脑筋急转弯二。。这么傲娇	O O O O O O O O O O O O O
+[chat, match]	其实我不跟你说话么办。宏大俱乐部赛程。	O O O O O O O O O O O O O O O O O O O
+[chat, match]	提示什么。武汉卓尔的赛程。	O O O O O B-ORG I-ORG I-ORG I-ORG O O O O
+[poetry, video]	来一首白居易的诗。第二梦	O O O B-PER I-PER I-PER O O O O O O
+[health, radio]	暴发性紫癜。我要听FM90.8	O O O O O O O O O O O O O O O
+[chat, cookbook]	摸啥。煲鸡汤。	O O O O O O O
+[cookbook, flight]	做糖醋排骨需要哪些材料呀？。阜阳到温州的航班	O O O O O O O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O
+[lottery, chat]	看一看七乐彩的信息。你怎么就知道我不会呢？	O O O B-ORG I-ORG I-ORG O O O O O O O O O O O O O O O
+[video, music]	大耳朵图图获。来一首有点舍不得	O O O B-PER I-PER O O O O O O O O O O
+[riddle, cookbook]	帮我出一个灯谜。。鱼香肉丝，怎么炒？	O O O O O O O O O O O O O O O O O O
+[cookbook, website]	银耳莲子粥怎么做。上广州坐车网查一下从这里到大咋地怎么走	O O O O O O O O O O B-LOC I-LOC O O O O O O O O O O O O O O O O
+[chat, video]	谁告诉你的。电影十二生肖	O O O O O O O O O O O O
+[chat, message]	做的还是不够好。发信息给瀌瀌	O O O O O O O O O O O O O O
+[video, train]	请搜电影画皮。烟台到齐齐哈尔的火车票	O O O O O O O B-LOC I-LOC O B-LOC I-LOC I-LOC I-LOC O O O O
+[video, poetry]	张艺谋的甄嬛传。说个李白的诗来听听。	B-PER I-PER I-PER O O O O O O O B-PER I-PER O O O O O O
+[cookbook, train]	我说吃飞蟹，怎么做？。查询广州到贵港的火车	O O O O O O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O
+[chat, schedule]	谁是小萌萌。下午的日程是什么	O O O O O O O O O O O O O O
+[stock, video]	查询一下南方航空的股票。智慧树我	O O O O B-ORG I-ORG I-ORG I-ORG O O O O O O O O
+[calc, epg]	4乘6然后再乘七再除以二。明晚真人秀频道有播放过百变大咖秀呢	O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+[music, chat]	给我放一首最炫民族风。。不行么	O O O O O O O O O O O O O O O
+[cookbook]	宫爆鸡丁的菜谱。。蛋黄焗薯条怎么做	O O O O O O O O O O O O O O O O O
+[contacts, poetry]	老马的电话是多少。若相惜不弃下一句是什么？	O B-PER O O O O O O O O O O O O O O O O O O O
+[music, message]	播放音乐喜帖街。。写短信给颖村	O O O O O O O O O O O O O B-PER I-PER
+[video, epg]	爱情片。搜一下今天中午开始放郭的秀	O O O O O O O O O O O O O O B-PER O O
+[epg, tvchannel]	贵州卫视今晚看什么电视剧？。搜索第10频道	B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O O O O O
+[stock, chat]	查询中国石化的股价。不行么	O O B-ORG I-ORG I-ORG I-ORG O O O O O O O
+[riddle, cinemas]	给我打个谜语，啊！。给我放一部最新的电影。	O O O O O O O O O O O O O O O O O O O O O
+[epg, stock]	今天晚上有没有中国好声音呢？。查询标准股份的股票	O O O O O O O B-LOC I-LOC O O O O O O O O O O O O O O O
+[poetry, chat]	朗读岳飞的满江红。。除了会说这些还会说哪行啊	O O B-PER I-PER O O O O O O O O O O O O O O O O O O
+[cookbook, lottery]	酸菜鱼怎样做。查询大乐透的开奖公告	O O O O O O O O O O O O O O O O O
+[contacts, cookbook]	把孟蕾的电话发给陈姬。好吧，我想知道稻香排骨是怎么做的？	O B-PER I-PER O O O O O B-PER I-PER O O O O O O O O O O O O O O O O O O
+[chat]	有汽车票吗。我都不害羞你害羞什么	O O O O O O O O O O O O O O O O
+[epg, stock]	金鹰卡通今天晚上放什么节目？。三安光电	B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG
+[chat, video]	你叫什么名字?。请帮我打开电影	O O O O O O O O O O O O O O O
+[epg, stock]	CCTV9明晚有转播仁心解码2呢。科大讯飞的股票是多少a	B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O O O O O O O O O O O O
+[match, chat]	广州恒大比赛谁赢了。。不行么	B-ORG I-ORG I-ORG I-ORG O O O O O O O O O O
+[chat, epg]	你在玩什么呀。帮我查查北京电视台-6上周六开始美味的想念呢	O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG I-ORG O O O O O O O O O O O O O
+[cookbook]	请问红烧肉的做法？你，你。。糖醋鲤鱼怎么做啊？你只负责吃，c则c。	O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+[chat, stock]	你能给我唱歌吗。查询标准股份的股票	O O O O O O O O O O O O O O O O O
+[flight, poetry]	东营到济南的航班。背唐诗李白侠客行	B-LOC I-LOC O B-LOC I-LOC O O O O O O O B-PER I-PER O O O
+[flight, music]	查下上海到太原的机票。我想听星月神话	O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O
+[flight, telephone]	查询后天广州到上海的航班。给爸爸打电话	O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O
+[chat, video]	什么一年多了。搜幕府风云	O O O O O O O O O O O O
+[website, map]	进银河网。新东站怎么走	O B-LOC I-LOC I-LOC O O O O O O O
+[radio, video]	帮我调频94.8兰溪人民广播电台可以不？。汽车总动员	O O O O O O O O B-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG O O O O O O O O O O
+[health, translation]	甲亢怎么治疗？。笑话用英语怎么说	O O O O O O O O O O O O O O O O
+[music, cookbook]	我想听期待这首歌。酸辣藕丁的做法。	O O O O O O O O O O O O O O O O O
+[stock, app]	三安光电。百度浏览器打开	B-ORG I-ORG I-ORG I-ORG O O O O O O O O
+[novel, app]	我要看唯美童话小说。打开汽车之家	O O O O O O O O O O O O O O O O
+[train, chat]	开封到信阳的火车。那你哈尔滨那边有什么好吃的呀你今天吃什么呀	B-LOC I-LOC O B-LOC I-LOC O O O O O O B-LOC I-LOC I-LOC O O O O O O O O O O O O O O O O
+[news, cookbook]	盘锦新闻。。怎么做？酸菜鱼？	B-LOC I-LOC O O O O O O O O O O O O
+[video, app]	武林风视频。百度浏览器打开	O O O O O O O O O O O O O
+[video, chat]	汽车总动员。车车美么	O O O O O O O O O O
+[news, riddle]	关注一下今天的欧洲杯新闻。猜脑筋急转弯二。	O O O O O O O B-LOC I-LOC O O O O O O O O O O O O
+[news, radio]	钓鱼岛新闻。帮我调频94.8兰溪人民广播电台可以不？	B-ORG I-ORG I-ORG I-ORG I-ORG O O O O O O O O O B-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG O O O O
+[poetry, video]	背一首李白的诗来听听。。80年代成龙演的电影	O O O B-PER I-PER O O O O O O O O O O O B-PER I-PER O O O O
+[riddle, chat]	帮忙讲几个谜语给我猜。。那你为什么要养家糊口	O O O O O O O O O O O O O O O O O O O O O O
+[chat, weather]	你怎么会不知道能。海南天气怎么样	O O O O O O O O O B-LOC I-LOC O O O O O
+[train, lottery]	帮我查一下从开封到郑州的火车几点发。帮我购买2注25选5的彩票	O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O O O O O O O O O O
+[telephone, match]	呼叫浦蒲。广州恒大比赛谁赢了。	O O B-ORG I-ORG O B-ORG I-ORG I-ORG I-ORG O O O O O O
+[novel, poetry]	我要看图文小说。背诵唐诗三百首静夜思。	O O O O O O O O O O O O O O O O O O O
+[video, app]	尼古拉斯凯奇。帮我打开人人	B-PER I-PER I-PER I-PER I-PER I-PER O O O O O O O
+[lottery, bus]	帮我查一下2013年2月8日开奖的七星彩中奖号码。去深圳怎么坐车？	O O O O O O O O O O O O O O O O O O O O O O O O O O B-LOC I-LOC O O O O O
+[stock, website]	保利地产的股票。打开浦发银行	B-ORG I-ORG I-ORG I-ORG O O O O O O B-ORG I-ORG I-ORG I-ORG
+[cookbook, stock]	猪大肠怎么炒？。查询下北京首创的股票	O O O O O O O O O O O B-LOC I-LOC O O O O O
+[telephone, radio]	幺八九幺八九二二五五五。帮我调频94.8兰溪人民广播电台可以不？	O O O O O O O O O O O O O O O O O O O O B-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG I-ORG O O O O
+[chat, flight]	你谁什么。查询今天上海到成都的航班	O O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O
+[chat, health]	你怎么知道～。内分泌失调了怎么调理？	O O O O O O O O O O O O O O O O O O
+[epg, app]	现在有什么好的电影呢？。凯立德	O O O O O O O O O O O O B-PER I-PER I-PER
+[message, stock]	发信息给瀌瀌。查询标准股份的股票	O O O O O O O O O O O O O O O O
+[calc, video]	根号三的倒数。美国电影破碎之城	O O O O O O O B-LOC I-LOC O O O O O O
+[video, stock]	最近好评的晚会。创元	O O O O O O O O B-ORG I-ORG
+[cookbook, app]	土豆粉怎么做好吃？。开微信	O O O O O O O O O O O O O
+[bus, video]	北京到成都的汽车时刻表。。最近有什么电影可以看一下。	B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O O O O O O O O O O O O O
+[map, chat]	从武汉到呼和浩特。那你为什么要养家糊口	O B-LOC I-LOC O B-LOC I-LOC I-LOC I-LOC O O O O O O O O O O O
+[train, translation]	烟台到齐齐哈尔的火车票。你吃过早饭了吗用英文怎么讲	B-LOC I-LOC O B-LOC I-LOC I-LOC I-LOC O O O O O O O O O O O O O O O O O O
+[weather]	天气预报广州。天气预报广州	O O O O B-LOC I-LOC O O O O O B-LOC I-LOC
+[train, poetry]	查寻上海到北京的火车票。唐诗哦。	O O B-LOC I-LOC O B-LOC I-LOC O O O O O O O O O
+[poetry, music]	背诵唐诗三百首静夜思。。我想听期待这首歌	O O O O O O O O O O O O O O O O O O O O
+[chat]	你是妹妹还是哥哥。能发点其他的吗	O O O O O O O O O O O O O O O O
+[health, video]	黄疸。最近好评的晚会	O O O O O O O O O O
+[chat, map]	你现在在做什么啊。上海到北京怎么走	O O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O
+[chat]	有房有车吗微笑。车车美么	O O O O O O O O O O O O
+[chat, flight]	你想吃什么呀。查询上海到丽江飞机票的价格	O O O O O O O O O B-LOC I-LOC O B-LOC I-LOC O O O O O O
+[poetry, cookbook]	若相惜不弃下一句是什么？。刘林面怎么做啊？	O O O O O O O O O O O O O B-PER I-PER I-PER O O O O O
+[cinemas, weather]	最近热门的电影。。我想知道北京的天气	O O O O O O O O O O O O O B-LOC I-LOC O O O
+[translation, chat]	你还没有结婚用英语怎么讲。谁是小萌萌	O O O O O O O O O O O O O O O O O O
+[chat, video]	我想去上海坐火车得几天。音乐视频	O O O B-LOC I-LOC O O O O O O O O O O O
+[cookbook, schedule]	干锅香辣虾。下午的日程是什么	O O O O O O O O O O O O O O
+[video, cookbook]	爱情工寓。用菜籽油做面包	O O O O O O O O O O O O
+[chat, novel]	这么傲娇。有什么好看的校园小说	O O O O O O O O O O O O O O O
+[translation, cookbook]	汽车英语怎么讲。拔丝芋头怎么做	O O O O O O O O O O O O O O O
+[message, chat]	发条短信给杨桑。你能听懂我说的是啥吗	O O O O O B-PER I-PER O O O O O O O O O O O
+[video, poetry]	惊情四百年。那给我背静夜思。	O O O O O O O O O O O O O O
+[video, chat]	帮我看下最近有什么好看的电影？。怎么这么热受不了了	O O O O O O O O O O O O O O O O O O O O O O O O O
+[cookbook, chat]	做苹果麦片粥需要哪写材料？。能发点其他的吗	O O O O O O O O O O O O O O O O O O O O O
+[cinemas, calc]	哦哦，最新的电影。。9的2次方根的3次方	O O O O O O O O O O O O O O O O O O O O
+[poetry, schedule]	搜索岳飞的诗满江红。。早晨8:10叫我。	O O B-PER I-PER O O O O O O O O O O O O O O O O
+[weather, music]	今日天气怎么样啊。来一首有点舍不得	O O O O O O O O O O O O O O O O O
+[chat, epg]	你生日是什么时候。湖南卫视现在演什么节目	O O O O O O O O O B-ORG I-ORG I-ORG I-ORG O O O O O O O
